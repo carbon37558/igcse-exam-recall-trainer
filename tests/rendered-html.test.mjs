@@ -37,3 +37,11 @@ test("question data is generated from the complete Excel bank", async () => {
   assert.deepEqual(new Set(data.map((item) => item.paper)), new Set(["4", "6"]));
   assert.ok(data.every((item) => item.topic && item.question && item.answers.length));
 });
+
+test("Cloudflare Pages output includes the app shell and refresh fallback", async () => {
+  const html = await readFile(new URL("../dist/client/index.html", import.meta.url), "utf8");
+  const redirects = await readFile(new URL("../dist/client/_redirects", import.meta.url), "utf8");
+  assert.match(html, /Exam Recall Trainer/);
+  assert.match(html, /183/);
+  assert.equal(redirects, "/* /index.html 200\n");
+});

@@ -24,3 +24,11 @@ This regenerates the app data from the Excel file. Question wording and each non
 ```bash
 npm test
 ```
+
+## Cloudflare Pages
+
+- Production branch: `main`
+- Build command: `npm run build:pages`
+- Output directory: `dist/client`
+
+Every push to `main` is deployed automatically by Cloudflare Pages.
