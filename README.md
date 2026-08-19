@@ -27,6 +27,7 @@ npm test
 
 ## Cloudflare Pages
 
+- Production URL: https://igcse-exam-recall-trainer.pages.dev
 - Production branch: `main`
 - Build command: `npm run build:pages`
 - Output directory: `dist/client`
