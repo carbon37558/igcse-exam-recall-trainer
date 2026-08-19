@@ -1,0 +1,1751 @@
+[
+  {
+    "id": "CIE001",
+    "paper": "4",
+    "topic": "1 States of matter",
+    "question": "State the differences between boiling and evaporation",
+    "answers": [
+      "Boiling happens at specific temperature, evaporation happens over a range of temperatures",
+      "Boiling happens throughout the liquid, evaporation happens at the surface"
+    ]
+  },
+  {
+    "id": "CIE002",
+    "paper": "4",
+    "topic": "1 States of matter",
+    "question": "Define and explain diffusion",
+    "answers": [
+      "Different fluids mix, because of random motion of particles",
+      "Particles move from higher concentration to lower concentration"
+    ]
+  },
+  {
+    "id": "CIE003",
+    "paper": "4",
+    "topic": "1 States of matter",
+    "question": "Suggest why … diffuses quicker",
+    "answers": [
+      "Has lower relative molecular mass"
+    ]
+  },
+  {
+    "id": "CIE004",
+    "paper": "4",
+    "topic": "2 Atoms bonding structure",
+    "question": "Define proton number / atomic number",
+    "answers": [
+      "Number of protons in nucleus of an atom"
+    ]
+  },
+  {
+    "id": "CIE005",
+    "paper": "4",
+    "topic": "2 Atoms bonding structure",
+    "question": "Define mass number / nucleon number",
+    "answers": [
+      "Total number of protons and neutrons in nucleus of an atom"
+    ]
+  },
+  {
+    "id": "CIE006",
+    "paper": "4",
+    "topic": "2 Atoms bonding structure",
+    "question": "Define isotopes",
+    "answers": [
+      "Atoms of the same element with same proton number but different neutron number"
+    ]
+  },
+  {
+    "id": "CIE007",
+    "paper": "4",
+    "topic": "2 Atoms bonding structure",
+    "question": "State why isotopes have identical chemical properties",
+    "answers": [
+      "Same electronic configurations"
+    ]
+  },
+  {
+    "id": "CIE008",
+    "paper": "4",
+    "topic": "2 Atoms bonding structure",
+    "question": "Define ionic bond",
+    "answers": [
+      "Electrostatic attraction between oppositely charged ions"
+    ]
+  },
+  {
+    "id": "CIE009",
+    "paper": "4",
+    "topic": "2 Atoms bonding structure",
+    "question": "Describe how positive / negative ions are formed",
+    "answers": [
+      "Electron loss / gain from outer shell"
+    ]
+  },
+  {
+    "id": "CIE010",
+    "paper": "4",
+    "topic": "2 Atoms bonding structure",
+    "question": "State the names given to positive and negative ions",
+    "answers": [
+      "Positive: cation",
+      "Negative: anion"
+    ]
+  },
+  {
+    "id": "CIE011",
+    "paper": "4",
+    "topic": "2 Atoms bonding structure",
+    "question": "State the properties of ionic compounds",
+    "answers": [
+      "Soluble in water",
+      "High melting point and boiling point",
+      "Poor conductor of electricity when solid, good conductor of electricity when molten / solution"
+    ]
+  },
+  {
+    "id": "CIE012",
+    "paper": "4",
+    "topic": "2 Atoms bonding structure",
+    "question": "Explain why ionic compounds have high melting points",
+    "answers": [
+      "Strong attraction between positive and negative ions"
+    ]
+  },
+  {
+    "id": "CIE013",
+    "paper": "4",
+    "topic": "2 Atoms bonding structure",
+    "question": "Explain why molten / aqueous ionic compounds conduct electricity",
+    "answers": [
+      "Mobile (free) ions"
+    ]
+  },
+  {
+    "id": "CIE014",
+    "paper": "4",
+    "topic": "2 Atoms bonding structure",
+    "question": "Define covalent bond",
+    "answers": [
+      "Pairs of electrons shared between two atoms"
+    ]
+  },
+  {
+    "id": "CIE015",
+    "paper": "4",
+    "topic": "2 Atoms bonding structure",
+    "question": "State the why (simple molecular) have low melting points",
+    "answers": [
+      "Intermolecular forces (attraction between molecules)",
+      "Attraction is weak"
+    ]
+  },
+  {
+    "id": "CIE016",
+    "paper": "4",
+    "topic": "2 Atoms bonding structure",
+    "question": "Explain why (simple molecular) can boil but cannot thermally decompose",
+    "answers": [
+      "Boiling breaks intermolecular forces",
+      "Thermal decomposition breaks covalent bonds",
+      "Weak intermolecular forces, strong covalent bonds"
+    ]
+  },
+  {
+    "id": "CIE017",
+    "paper": "4",
+    "topic": "2 Atoms bonding structure",
+    "question": "Explain why (simple molecular) is a poor conductor of electricity",
+    "answers": [
+      "No ions",
+      "No free electrons"
+    ]
+  },
+  {
+    "id": "CIE018",
+    "paper": "4",
+    "topic": "2 Atoms bonding structure",
+    "question": "State the properties of giant covalent structure",
+    "answers": [
+      "High melting point and boiling point",
+      "Poor conductor of electricity in both solid and molten"
+    ]
+  },
+  {
+    "id": "CIE019",
+    "paper": "4",
+    "topic": "2 Atoms bonding structure",
+    "question": "Explain why (giant covalent) has high melting point",
+    "answers": [
+      "Giant covalent structure",
+      "Strong covalent bonds"
+    ]
+  },
+  {
+    "id": "CIE020",
+    "paper": "4",
+    "topic": "2 Atoms bonding structure",
+    "question": "Explain why graphite conducts electricity when solid",
+    "answers": [
+      "Electrons are mobile (free to move)"
+    ]
+  },
+  {
+    "id": "CIE021",
+    "paper": "4",
+    "topic": "2 Atoms bonding structure",
+    "question": "Define metallic bond",
+    "answers": [
+      "Electrostatic attraction between positive metal ions and sea of delocalised electrons"
+    ]
+  },
+  {
+    "id": "CIE022",
+    "paper": "4",
+    "topic": "2 Atoms bonding structure",
+    "question": "Explain why metal conducts electricity when solid",
+    "answers": [
+      "Electrons are mobile (free to move)"
+    ]
+  },
+  {
+    "id": "CIE023",
+    "paper": "4",
+    "topic": "4 Electrolysis",
+    "question": "Define electrolysis",
+    "answers": [
+      "Decomposition of an ionic compound",
+      "When molten or in aqueous solution",
+      "By passage of an electric current"
+    ]
+  },
+  {
+    "id": "CIE024",
+    "paper": "4",
+    "topic": "4 Electrolysis",
+    "question": "State what is meant by the term electrolyte",
+    "answers": [
+      "Molten or aqueous ionic compounds"
+    ]
+  },
+  {
+    "id": "CIE025",
+    "paper": "4",
+    "topic": "4 Electrolysis",
+    "question": "Why graphite is suitable for use as electrode",
+    "answers": [
+      "Graphite is inert",
+      "Graphite conducts electricity"
+    ]
+  },
+  {
+    "id": "CIE026",
+    "paper": "4",
+    "topic": "4 Electrolysis",
+    "question": "Name the type of particles responsible for transfer of charge in wires",
+    "answers": [
+      "Electrons"
+    ]
+  },
+  {
+    "id": "CIE027",
+    "paper": "4",
+    "topic": "4 Electrolysis",
+    "question": "Name the type of particles responsible for transfer of charge in liquid / solutions",
+    "answers": [
+      "Ions"
+    ]
+  },
+  {
+    "id": "CIE028",
+    "paper": "4",
+    "topic": "4 Electrolysis",
+    "question": "State what happens to the colour of aqueous copper (II) sulfate of electrolysis of inert electrodes",
+    "answers": [
+      "Blue colour fades, become colourless"
+    ]
+  },
+  {
+    "id": "CIE029",
+    "paper": "4",
+    "topic": "4 Electrolysis",
+    "question": "State what happens to the colour of aqueous copper (II) sulfate of electrolysis of copper electrodes",
+    "answers": [
+      "Blue colour remains"
+    ]
+  },
+  {
+    "id": "CIE030",
+    "paper": "4",
+    "topic": "4 Electrolysis",
+    "question": "State what happens to the anode and the cathode of aqueous copper (II) sulfate of electrolysis of copper electrodes",
+    "answers": [
+      "Anode dissolves / become smaller",
+      "Cathode increases mass"
+    ]
+  },
+  {
+    "id": "CIE031",
+    "paper": "4",
+    "topic": "4 Electrolysis",
+    "question": "Explain why mass of anode decreases when using copper electrodes",
+    "answers": [
+      "Cu forms Cu2+, which goes into the solution"
+    ]
+  },
+  {
+    "id": "CIE032",
+    "paper": "4",
+    "topic": "4 Electrolysis",
+    "question": "State differences when copper electrodes are used instead of graphite electrodes",
+    "answers": [
+      "Colour remains constant",
+      "No bubbles at anode",
+      "Anode dissolves"
+    ]
+  },
+  {
+    "id": "CIE033",
+    "paper": "4",
+    "topic": "4 Electrolysis",
+    "question": "State the reasons why an object is electroplated",
+    "answers": [
+      "Prevent corrosion",
+      "Improve appearance"
+    ]
+  },
+  {
+    "id": "CIE034",
+    "paper": "4",
+    "topic": "4 Electrolysis",
+    "question": "State the advantages of using hydrogen-oxygen fuel cells instead of petrol",
+    "answers": [
+      "No carbon dioxide evolved",
+      "More efficient"
+    ]
+  },
+  {
+    "id": "CIE035",
+    "paper": "4",
+    "topic": "4 Electrolysis",
+    "question": "State the disadvantages of using hydrogen-oxygen fuel cells instead of petrol",
+    "answers": [
+      "Needs high pressure to store hydrogen",
+      "High cost"
+    ]
+  },
+  {
+    "id": "CIE036",
+    "paper": "4",
+    "topic": "5 Energetics",
+    "question": "Define exothermic reaction",
+    "answers": [
+      "Transfers thermal energy to the surroundings, increasing surrounding temperature"
+    ]
+  },
+  {
+    "id": "CIE037",
+    "paper": "4",
+    "topic": "5 Energetics",
+    "question": "Define endothermic reaction",
+    "answers": [
+      "Absorbs thermal energy from the surroundings, decreasing surrounding temperature"
+    ]
+  },
+  {
+    "id": "CIE038",
+    "paper": "4",
+    "topic": "5 Energetics",
+    "question": "What is the meaning of the symbol △H",
+    "answers": [
+      "Enthalpy change"
+    ]
+  },
+  {
+    "id": "CIE039",
+    "paper": "4",
+    "topic": "6 Chemical reactions",
+    "question": "Why the rate of reaction decreases as the reaction progresses",
+    "answers": [
+      "Number of reactant molecules (concentration) decrease over time"
+    ]
+  },
+  {
+    "id": "CIE040",
+    "paper": "4",
+    "topic": "6 Chemical reactions",
+    "question": "Explain why the rate of reaction eventually becomes zero",
+    "answers": [
+      "All reactants are used up"
+    ]
+  },
+  {
+    "id": "CIE041",
+    "paper": "4",
+    "topic": "6 Chemical reactions",
+    "question": "Define activation energy",
+    "answers": [
+      "Minimum energy that colliding particles must have to react"
+    ]
+  },
+  {
+    "id": "CIE042",
+    "paper": "4",
+    "topic": "6 Chemical reactions",
+    "question": "Define catalyst",
+    "answers": [
+      "Increases rate of reaction",
+      "Unchanged at end of reaction",
+      "Lowers activation energy"
+    ]
+  },
+  {
+    "id": "CIE043",
+    "paper": "4",
+    "topic": "6 Chemical reactions",
+    "question": "Why the rate of reaction increases when powders are used",
+    "answers": [
+      "Greater surface area",
+      "Frequency of collisions between particles increases"
+    ]
+  },
+  {
+    "id": "CIE044",
+    "paper": "4",
+    "topic": "6 Chemical reactions",
+    "question": "Why the rate of reaction increases when concentration increases",
+    "answers": [
+      "More particles per unit volume",
+      "Frequency of collisions between particles increases"
+    ]
+  },
+  {
+    "id": "CIE045",
+    "paper": "4",
+    "topic": "6 Chemical reactions",
+    "question": "Why the rate of reaction increases as temperature increases",
+    "answers": [
+      "Particles have more kinetic energy, move faster",
+      "More frequent collisions between particles",
+      "Greater percentage of particles have energy greater than activation energy"
+    ]
+  },
+  {
+    "id": "CIE046",
+    "paper": "4",
+    "topic": "6 Chemical reactions",
+    "question": "Define dynamic equilibrium",
+    "answers": [
+      "In a closed system",
+      "Rate of forward reaction equals to rate of reverse reaction",
+      "Concentration of reactants and products are no longer changing"
+    ]
+  },
+  {
+    "id": "CIE047",
+    "paper": "4",
+    "topic": "6 Chemical reactions",
+    "question": "State what is meant by closed system",
+    "answers": [
+      "Nothing can enter or leave"
+    ]
+  },
+  {
+    "id": "CIE048",
+    "paper": "4",
+    "topic": "6 Chemical reactions",
+    "question": "State and explain what happens to equilibrium yield when pressure changes",
+    "answers": [
+      "(state the change)",
+      "Greater / fewer moles of gas on left / right side"
+    ]
+  },
+  {
+    "id": "CIE049",
+    "paper": "4",
+    "topic": "6 Chemical reactions",
+    "question": "Explain why the position of equilibrium does not change when pressure changes",
+    "answers": [
+      "Same number of gas moles on both sides of equation"
+    ]
+  },
+  {
+    "id": "CIE050",
+    "paper": "4",
+    "topic": "6 Chemical reactions",
+    "question": "State and explain what happens to equilibrium yield when temperature changes",
+    "answers": [
+      "(state the change)",
+      "Forward reaction is endothermic / exothermic"
+    ]
+  },
+  {
+    "id": "CIE051",
+    "paper": "4",
+    "topic": "6 Chemical reactions",
+    "question": "State and explain what happens to equilibrium yield when catalyst is used",
+    "answers": [
+      "No change",
+      "Catalysts do not affect position of equilibrium",
+      "Increases rates of both forward and reverse reactions"
+    ]
+  },
+  {
+    "id": "CIE052",
+    "paper": "4",
+    "topic": "6 Chemical reactions",
+    "question": "State the sources of nitrogen and hydrogen in Haber process",
+    "answers": [
+      "Nitrogen: air",
+      "Hydrogen: methane"
+    ]
+  },
+  {
+    "id": "CIE053",
+    "paper": "4",
+    "topic": "6 Chemical reactions",
+    "question": "State the conditions of Haber process",
+    "answers": [
+      "Temperature 450℃",
+      "Pressure 200 atm",
+      "Iron catalyst"
+    ]
+  },
+  {
+    "id": "CIE054",
+    "paper": "4",
+    "topic": "6 Chemical reactions",
+    "question": "State the sources of sulfur dioxide and oxygen in Contact process",
+    "answers": [
+      "Sulfur dioxide: burning sulfur or roasting sulfur ore",
+      "Oxygen: air"
+    ]
+  },
+  {
+    "id": "CIE055",
+    "paper": "4",
+    "topic": "6 Chemical reactions",
+    "question": "State the conditions of Contact process",
+    "answers": [
+      "Temperature 450℃",
+      "Pressure 2 atm",
+      "Vanadium (V) oxide catalyst"
+    ]
+  },
+  {
+    "id": "CIE056",
+    "paper": "4",
+    "topic": "6 Chemical reactions",
+    "question": "(Haber / Contact) explain why temperature greater than 450℃ is not used",
+    "answers": [
+      "Yield is less"
+    ]
+  },
+  {
+    "id": "CIE057",
+    "paper": "4",
+    "topic": "6 Chemical reactions",
+    "question": "(Haber / Contact) explain why temperature lower than 450℃ is not used",
+    "answers": [
+      "Rate is less"
+    ]
+  },
+  {
+    "id": "CIE058",
+    "paper": "4",
+    "topic": "6 Chemical reactions",
+    "question": "(Haber / Contact) explain why pressure greater than 200 atm / 2 atm is not used",
+    "answers": [
+      "Cost reasons",
+      "Safety reasons"
+    ]
+  },
+  {
+    "id": "CIE059",
+    "paper": "4",
+    "topic": "6 Chemical reactions",
+    "question": "(Haber / Contact) explain why pressure lower than 200 atm / 2 atm is not used",
+    "answers": [
+      "Yield is less",
+      "Rate is less"
+    ]
+  },
+  {
+    "id": "CIE060",
+    "paper": "4",
+    "topic": "6 Chemical reactions",
+    "question": "Define oxidation",
+    "answers": [
+      "Loss of electrons, increase in oxidation state, gain of oxygen"
+    ]
+  },
+  {
+    "id": "CIE061",
+    "paper": "4",
+    "topic": "6 Chemical reactions",
+    "question": "Define reduction",
+    "answers": [
+      "Gain of electrons, decrease in oxidation state, loss of oxygen"
+    ]
+  },
+  {
+    "id": "CIE062",
+    "paper": "4",
+    "topic": "6 Chemical reactions",
+    "question": "Define redox reaction",
+    "answers": [
+      "Simultaneous reduction and oxidation"
+    ]
+  },
+  {
+    "id": "CIE063",
+    "paper": "4",
+    "topic": "6 Chemical reactions",
+    "question": "Define oxidising agent",
+    "answers": [
+      "Substance that oxidises another substance, itself reduced"
+    ]
+  },
+  {
+    "id": "CIE064",
+    "paper": "4",
+    "topic": "6 Chemical reactions",
+    "question": "Define reducing agent",
+    "answers": [
+      "Substance that reduces another substance, itself oxidised"
+    ]
+  },
+  {
+    "id": "CIE065",
+    "paper": "4",
+    "topic": "6 Chemical reactions",
+    "question": "State the term given to the Roman numeral",
+    "answers": [
+      "Oxidation number / oxidation state"
+    ]
+  },
+  {
+    "id": "CIE066",
+    "paper": "4",
+    "topic": "7 Acid base salt",
+    "question": "State what is observed when (acid) is added to (carbonate)",
+    "answers": [
+      "Solid dissolves",
+      "Fizzing / effervescence / bubbles"
+    ]
+  },
+  {
+    "id": "CIE067",
+    "paper": "4",
+    "topic": "7 Acid base salt",
+    "question": "Suggest why universal indicator is not used in titration",
+    "answers": [
+      "Too many colour changes"
+    ]
+  },
+  {
+    "id": "CIE068",
+    "paper": "4",
+    "topic": "7 Acid base salt",
+    "question": "Define acid / base",
+    "answers": [
+      "Acid: proton donor; Base: proton acceptor"
+    ]
+  },
+  {
+    "id": "CIE069",
+    "paper": "4",
+    "topic": "7 Acid base salt",
+    "question": "Define alkali",
+    "answers": [
+      "Soluble base"
+    ]
+  },
+  {
+    "id": "CIE070",
+    "paper": "4",
+    "topic": "7 Acid base salt",
+    "question": "Define strong (acid or base)",
+    "answers": [
+      "Completely dissociated in aqueous solution"
+    ]
+  },
+  {
+    "id": "CIE071",
+    "paper": "4",
+    "topic": "7 Acid base salt",
+    "question": "Define weak (acid or base)",
+    "answers": [
+      "Partially dissociated in aqueous solution"
+    ]
+  },
+  {
+    "id": "CIE072",
+    "paper": "4",
+    "topic": "7 Acid base salt",
+    "question": "Define amphoteric oxides",
+    "answers": [
+      "Oxides that react with both acid and base"
+    ]
+  },
+  {
+    "id": "CIE073",
+    "paper": "4",
+    "topic": "7 Acid base salt",
+    "question": "Define hydrated salt",
+    "answers": [
+      "Salt that is chemically combined with water"
+    ]
+  },
+  {
+    "id": "CIE074",
+    "paper": "4",
+    "topic": "7 Acid base salt",
+    "question": "Define anhydrous salt",
+    "answers": [
+      "Salt that contains no water"
+    ]
+  },
+  {
+    "id": "CIE075",
+    "paper": "4",
+    "topic": "7 Acid base salt",
+    "question": "Define water of crystallisation",
+    "answers": [
+      "Water molecules present in hydrated crystals"
+    ]
+  },
+  {
+    "id": "CIE076",
+    "paper": "4",
+    "topic": "7 Acid base salt",
+    "question": "How to ensure all water has given off (when finding x in hydrated salt)",
+    "answers": [
+      "Heat and reweigh until constant mass"
+    ]
+  },
+  {
+    "id": "CIE077",
+    "paper": "4",
+    "topic": "7 Acid base salt",
+    "question": "Describe how pure (soluble salt) can be obtained",
+    "answers": [
+      "Add excess amount of solid into acid",
+      "Filter",
+      "Heat the filtrate solution to saturation point",
+      "Leave to cool",
+      "Dry the crystals using filter paper"
+    ]
+  },
+  {
+    "id": "CIE078",
+    "paper": "4",
+    "topic": "7 Acid base salt",
+    "question": "State two observation to show the carbonate solid is in excess (making soluble salt)",
+    "answers": [
+      "Undissolved solid present",
+      "Effervescence stops on addition of more carbonate"
+    ]
+  },
+  {
+    "id": "CIE079",
+    "paper": "4",
+    "topic": "7 Acid base salt",
+    "question": "Explain why crystals form when saturated solution cools down",
+    "answers": [
+      "Solubility decreases as temperature decreases"
+    ]
+  },
+  {
+    "id": "CIE080",
+    "paper": "4",
+    "topic": "7 Acid base salt",
+    "question": "Describe how pure (insoluble salt) can be obtained",
+    "answers": [
+      "Filter",
+      "Wash the residue using deionised water",
+      "Dry using filter paper"
+    ]
+  },
+  {
+    "id": "CIE081",
+    "paper": "4",
+    "topic": "8 Periodic table",
+    "question": "State the similarity of electron configuration of elements in the same group",
+    "answers": [
+      "Same number of outer shell electrons"
+    ]
+  },
+  {
+    "id": "CIE082",
+    "paper": "4",
+    "topic": "8 Periodic table",
+    "question": "State the similarity of electron configuration of elements in the same period",
+    "answers": [
+      "Same number of shells of electrons"
+    ]
+  },
+  {
+    "id": "CIE083",
+    "paper": "4",
+    "topic": "8 Periodic table",
+    "question": "Explain why elements in the same group have similar chemical properties",
+    "answers": [
+      "Same number of outer shell electrons"
+    ]
+  },
+  {
+    "id": "CIE084",
+    "paper": "4",
+    "topic": "8 Periodic table",
+    "question": "State the name given to group I / group VII elements",
+    "answers": [
+      "Group I: alkali metals; Group VII: halogens"
+    ]
+  },
+  {
+    "id": "CIE085",
+    "paper": "4",
+    "topic": "8 Periodic table",
+    "question": "Give observations when lithium or sodium is added to water",
+    "answers": [
+      "Solid disappears",
+      "Effervescence or fizzing",
+      "Melts into a ball",
+      "Floats and moves on surface of water"
+    ]
+  },
+  {
+    "id": "CIE086",
+    "paper": "4",
+    "topic": "8 Periodic table",
+    "question": "Give the physical properties that make group I metals different from transition metals",
+    "answers": [
+      "Lower melting point and boiling point",
+      "Softer",
+      "Lower density"
+    ]
+  },
+  {
+    "id": "CIE087",
+    "paper": "4",
+    "topic": "8 Periodic table",
+    "question": "Give the colour and state of chlorine / bromine / iodine at room temperature and pressure",
+    "answers": [
+      "Chlorine: pale yellow-green gas",
+      "Bromine: red-brown liquid",
+      "Iodine: grey-black solid"
+    ]
+  },
+  {
+    "id": "CIE088",
+    "paper": "4",
+    "topic": "8 Periodic table",
+    "question": "State the name of negative ions formed by halogens",
+    "answers": [
+      "Halides"
+    ]
+  },
+  {
+    "id": "CIE089",
+    "paper": "4",
+    "topic": "8 Periodic table",
+    "question": "State why (halogen) can / cannot displace (halogen) from (halide)",
+    "answers": [
+      "(halogen) is more reactive / less reactive than (halogen)"
+    ]
+  },
+  {
+    "id": "CIE090",
+    "paper": "4",
+    "topic": "8 Periodic table",
+    "question": "State the properties of transition elements that make them different from other metals",
+    "answers": [
+      "Variable oxidation states",
+      "Forms coloured compounds",
+      "Act as catalysts",
+      "Higher melting point and density"
+    ]
+  },
+  {
+    "id": "CIE091",
+    "paper": "4",
+    "topic": "8 Periodic table",
+    "question": "Why … is a suitable catalyst",
+    "answers": [
+      "It is a transition element"
+    ]
+  },
+  {
+    "id": "CIE092",
+    "paper": "4",
+    "topic": "9 Metals",
+    "question": "State the physical properties that make aluminium suitable for overhead electrical cables",
+    "answers": [
+      "Good conductor of electricity",
+      "Low density"
+    ]
+  },
+  {
+    "id": "CIE093",
+    "paper": "4",
+    "topic": "9 Metals",
+    "question": "Explain the unreactivity of aluminium",
+    "answers": [
+      "Aluminium forms oxide layer",
+      "Oxide layer is unreactive"
+    ]
+  },
+  {
+    "id": "CIE094",
+    "paper": "4",
+    "topic": "9 Metals",
+    "question": "Explain why aluminium is used in food containers",
+    "answers": [
+      "Resistant to corrosion"
+    ]
+  },
+  {
+    "id": "CIE095",
+    "paper": "4",
+    "topic": "9 Metals",
+    "question": "Define alloy",
+    "answers": [
+      "Mixture of metal with another element"
+    ]
+  },
+  {
+    "id": "CIE096",
+    "paper": "4",
+    "topic": "9 Metals",
+    "question": "Explain why alloys are harder and stronger than pure metals",
+    "answers": [
+      "Atoms have different sizes",
+      "Layers cannot slide past each other"
+    ]
+  },
+  {
+    "id": "CIE097",
+    "paper": "4",
+    "topic": "9 Metals",
+    "question": "Name the substances that react with iron to form rust",
+    "answers": [
+      "Water and oxygen"
+    ]
+  },
+  {
+    "id": "CIE098",
+    "paper": "4",
+    "topic": "9 Metals",
+    "question": "Give examples of barrier methods to prevent rusting",
+    "answers": [
+      "Painting, greasing, coating with plastics"
+    ]
+  },
+  {
+    "id": "CIE099",
+    "paper": "4",
+    "topic": "9 Metals",
+    "question": "Explain why magnesium or zinc is used for sacrificial protection",
+    "answers": [
+      "More reactive than iron",
+      "Loses electrons more readily than iron"
+    ]
+  },
+  {
+    "id": "CIE100",
+    "paper": "4",
+    "topic": "9 Metals",
+    "question": "Name the process used to coat iron with zinc to prevent rusting",
+    "answers": [
+      "Galvanising"
+    ]
+  },
+  {
+    "id": "CIE101",
+    "paper": "4",
+    "topic": "9 Metals",
+    "question": "Explain why the iron does not rust when zinc layer is scratched",
+    "answers": [
+      "Zinc more reactive than iron",
+      "Zinc is oxidised (zinc loses electrons)"
+    ]
+  },
+  {
+    "id": "CIE102",
+    "paper": "4",
+    "topic": "9 Metals",
+    "question": "What are added at the top of blast furnace",
+    "answers": [
+      "Coke, hematite and limestone"
+    ]
+  },
+  {
+    "id": "CIE103",
+    "paper": "4",
+    "topic": "9 Metals",
+    "question": "What are added at the bottom of blast furnace",
+    "answers": [
+      "Air"
+    ]
+  },
+  {
+    "id": "CIE104",
+    "paper": "4",
+    "topic": "9 Metals",
+    "question": "Why coke is added into blast furnace",
+    "answers": [
+      "Releases heat",
+      "Reduces iron (III) oxide",
+      "Reacts with carbon dioxide to form carbon monoxide"
+    ]
+  },
+  {
+    "id": "CIE105",
+    "paper": "4",
+    "topic": "9 Metals",
+    "question": "Why the pure iron produced in blast furnace is molten",
+    "answers": [
+      "Temperature in the furnace is above melting point of iron"
+    ]
+  },
+  {
+    "id": "CIE106",
+    "paper": "4",
+    "topic": "9 Metals",
+    "question": "State the purpose of burning carbon in the blast furnace",
+    "answers": [
+      "Provide heat (exothermic reaction)"
+    ]
+  },
+  {
+    "id": "CIE107",
+    "paper": "4",
+    "topic": "9 Metals",
+    "question": "Describe how carbon monoxide is formed in blast furnace",
+    "answers": [
+      "Reduction of carbon dioxide"
+    ]
+  },
+  {
+    "id": "CIE108",
+    "paper": "4",
+    "topic": "9 Metals",
+    "question": "Name the impurity in iron ore that in converted to slag",
+    "answers": [
+      "Silicon (IV) oxide"
+    ]
+  },
+  {
+    "id": "CIE109",
+    "paper": "4",
+    "topic": "9 Metals",
+    "question": "Explain why limestone is added to blast furnace",
+    "answers": [
+      "Limestone thermally decomposes into calcium oxide and carbon dioxide",
+      "Calcium oxide reacts with silicon (IV) oxide",
+      "Producing slag"
+    ]
+  },
+  {
+    "id": "CIE110",
+    "paper": "4",
+    "topic": "9 Metals",
+    "question": "Name the waste gases that leaves the blast furnace",
+    "answers": [
+      "Carbon dioxide and Nitrogen"
+    ]
+  },
+  {
+    "id": "CIE111",
+    "paper": "4",
+    "topic": "9 Metals",
+    "question": "State why alunimium is not extracted using blast furnace",
+    "answers": [
+      "Aluminium is above carbon in the reactivity series"
+    ]
+  },
+  {
+    "id": "CIE112",
+    "paper": "4",
+    "topic": "9 Metals",
+    "question": "State the reasons why cryolite is used in aluminium electrolysis",
+    "answers": [
+      "Act as solvent",
+      "Lowers operating temperature",
+      "Increases conductivity"
+    ]
+  },
+  {
+    "id": "CIE113",
+    "paper": "4",
+    "topic": "9 Metals",
+    "question": "Why carbon anodes need to be replaced regularly in aluminium electrolysis",
+    "answers": [
+      "Carbon reacts with oxygen to form carbon dioxide"
+    ]
+  },
+  {
+    "id": "CIE114",
+    "paper": "4",
+    "topic": "10 Environment",
+    "question": "Name a compound that can be used to detect presence of water",
+    "answers": [
+      "Anhydrous copper (II) sulfate",
+      "Anhydrous cobalt (II) chloride"
+    ]
+  },
+  {
+    "id": "CIE115",
+    "paper": "4",
+    "topic": "10 Environment",
+    "question": "Why the solutions used in chemical tests are made using distilled water, not tap water?",
+    "answers": [
+      "Tap water contains dissolved ions / impurities"
+    ]
+  },
+  {
+    "id": "CIE116",
+    "paper": "4",
+    "topic": "10 Environment",
+    "question": "State one adverse effect of carbon dioxide / methane",
+    "answers": [
+      "Increased global warming"
+    ]
+  },
+  {
+    "id": "CIE117",
+    "paper": "4",
+    "topic": "10 Environment",
+    "question": "Explain how greenhouse gases cause global warming",
+    "answers": [
+      "Energy from the sun absorbed by surface of earth",
+      "Earth reflects and emits thermal energy",
+      "Greenhouse gas absorbs thermal energy from the earth",
+      "Reduces thermal energy loss into space"
+    ]
+  },
+  {
+    "id": "CIE118",
+    "paper": "4",
+    "topic": "10 Environment",
+    "question": "State one adverse effect of carbon monoxide",
+    "answers": [
+      "Toxic"
+    ]
+  },
+  {
+    "id": "CIE119",
+    "paper": "4",
+    "topic": "10 Environment",
+    "question": "State the adverse effect of sulfur dioxide",
+    "answers": [
+      "Acid rain"
+    ]
+  },
+  {
+    "id": "CIE120",
+    "paper": "4",
+    "topic": "10 Environment",
+    "question": "State the adverse effects of oxides of nitrogen",
+    "answers": [
+      "Acid rain",
+      "Photochemical smog",
+      "(photochemical smog can lead to respiratory problems and cancer)",
+      "Respiratory problems"
+    ]
+  },
+  {
+    "id": "CIE121",
+    "paper": "4",
+    "topic": "10 Environment",
+    "question": "State the conditions for photosynthesis",
+    "answers": [
+      "Energy from light",
+      "Presence of chlorophyll"
+    ]
+  },
+  {
+    "id": "CIE122",
+    "paper": "4",
+    "topic": "10 Environment",
+    "question": "Name the non-toxic gases produced from catalytic converter",
+    "answers": [
+      "Carbon dioxide and nitrogen"
+    ]
+  },
+  {
+    "id": "CIE123",
+    "paper": "4",
+    "topic": "11 Organic",
+    "question": "Define functional group",
+    "answers": [
+      "Atom or group of atoms that determine the chemical properties of a homologous series"
+    ]
+  },
+  {
+    "id": "CIE124",
+    "paper": "4",
+    "topic": "11 Organic",
+    "question": "Define homologous series",
+    "answers": [
+      "A family of similar compounds with similar chemical properties due to the same functional group"
+    ]
+  },
+  {
+    "id": "CIE125",
+    "paper": "4",
+    "topic": "11 Organic",
+    "question": "State the characteristics of homologous series",
+    "answers": [
+      "Same general formula",
+      "Same functional group",
+      "Differ from one member to the next by -CH2-",
+      "Similar chemical properties",
+      "Trend in physical properties"
+    ]
+  },
+  {
+    "id": "CIE126",
+    "paper": "4",
+    "topic": "11 Organic",
+    "question": "State the trend of boiling point of alkanes as length of carbon chain increases",
+    "answers": [
+      "Boiling point increases"
+    ]
+  },
+  {
+    "id": "CIE127",
+    "paper": "4",
+    "topic": "11 Organic",
+    "question": "Explain why … are hydrocarbons",
+    "answers": [
+      "Compounds made of C and H ONLY"
+    ]
+  },
+  {
+    "id": "CIE128",
+    "paper": "4",
+    "topic": "11 Organic",
+    "question": "Define structural isomers",
+    "answers": [
+      "Compounds with the same molecular formula",
+      "But different structural formula"
+    ]
+  },
+  {
+    "id": "CIE129",
+    "paper": "4",
+    "topic": "11 Organic",
+    "question": "Define saturated compounds",
+    "answers": [
+      "All carbon-carbon bonds are single bonds"
+    ]
+  },
+  {
+    "id": "CIE130",
+    "paper": "4",
+    "topic": "11 Organic",
+    "question": "Define unsaturated compounds",
+    "answers": [
+      "One or more carbon-carbon bonds are not single bonds"
+    ]
+  },
+  {
+    "id": "CIE131",
+    "paper": "4",
+    "topic": "11 Organic",
+    "question": "Define substitution reaction",
+    "answers": [
+      "One atom or group is replaced by another atom or group"
+    ]
+  },
+  {
+    "id": "CIE132",
+    "paper": "4",
+    "topic": "11 Organic",
+    "question": "State the meaning of the term photochemical",
+    "answers": [
+      "Needs ultraviolet light"
+    ]
+  },
+  {
+    "id": "CIE133",
+    "paper": "4",
+    "topic": "11 Organic",
+    "question": "State the purpose of ultraviolet light in substitution reaction",
+    "answers": [
+      "Provide activation energy"
+    ]
+  },
+  {
+    "id": "CIE134",
+    "paper": "4",
+    "topic": "11 Organic",
+    "question": "State the conditions used in cracking",
+    "answers": [
+      "High temperature",
+      "Al2O3 catalyst"
+    ]
+  },
+  {
+    "id": "CIE135",
+    "paper": "4",
+    "topic": "11 Organic",
+    "question": "Define addition reaction",
+    "answers": [
+      "Two or more reactants form one product"
+    ]
+  },
+  {
+    "id": "CIE136",
+    "paper": "4",
+    "topic": "11 Organic",
+    "question": "Describe test for unsaturation",
+    "answers": [
+      "Test: bromine water; Result: decolourises / changes from orange to colourless"
+    ]
+  },
+  {
+    "id": "CIE137",
+    "paper": "4",
+    "topic": "11 Organic",
+    "question": "State the condition converting ethene to ethanol",
+    "answers": [
+      "Temperature 300℃",
+      "Pressure 60 atm",
+      "Concentrated phosphoric acid catalyst"
+    ]
+  },
+  {
+    "id": "CIE138",
+    "paper": "4",
+    "topic": "11 Organic",
+    "question": "State the advantages of converting ethene to ethanol",
+    "answers": [
+      "Very fast",
+      "No carbon dioxide released"
+    ]
+  },
+  {
+    "id": "CIE139",
+    "paper": "4",
+    "topic": "11 Organic",
+    "question": "State the disadvantages of converting ethene to ethanol",
+    "answers": [
+      "Complex equipment",
+      "Non-renewable resources"
+    ]
+  },
+  {
+    "id": "CIE140",
+    "paper": "4",
+    "topic": "11 Organic",
+    "question": "State the condition converting glucose to ethanol (fermentation)",
+    "answers": [
+      "Temperature 25-35℃",
+      "Presence of yeast",
+      "No oxygen"
+    ]
+  },
+  {
+    "id": "CIE141",
+    "paper": "4",
+    "topic": "11 Organic",
+    "question": "State the advantages of fermentation",
+    "answers": [
+      "Simple equipment",
+      "Renewable resources"
+    ]
+  },
+  {
+    "id": "CIE142",
+    "paper": "4",
+    "topic": "11 Organic",
+    "question": "State the disadvantages of fermentation",
+    "answers": [
+      "Very slow",
+      "Carbon dioxide released"
+    ]
+  },
+  {
+    "id": "CIE143",
+    "paper": "4",
+    "topic": "11 Organic",
+    "question": "State the reagent used to convert ethanol to ethanoic acid",
+    "answers": [
+      "Acidified aqueous potassium manganate (VII)"
+    ]
+  },
+  {
+    "id": "CIE144",
+    "paper": "4",
+    "topic": "11 Organic",
+    "question": "Define polymers",
+    "answers": [
+      "Large molecules built up from many smaller molecules called monomers"
+    ]
+  },
+  {
+    "id": "CIE145",
+    "paper": "4",
+    "topic": "11 Organic",
+    "question": "Why it is not possible to write the molecular formula of polymer",
+    "answers": [
+      "Polymers are of indefinite length"
+    ]
+  },
+  {
+    "id": "CIE146",
+    "paper": "4",
+    "topic": "12 Experiment analysis",
+    "question": "Define solvent",
+    "answers": [
+      "Substance that dissolves a solute"
+    ]
+  },
+  {
+    "id": "CIE147",
+    "paper": "4",
+    "topic": "12 Experiment analysis",
+    "question": "Define solute",
+    "answers": [
+      "Substance that is dissolved in a solvent"
+    ]
+  },
+  {
+    "id": "CIE148",
+    "paper": "4",
+    "topic": "12 Experiment analysis",
+    "question": "Define solution",
+    "answers": [
+      "Mixture of one or more solutes dissolved in a solvent"
+    ]
+  },
+  {
+    "id": "CIE149",
+    "paper": "4",
+    "topic": "12 Experiment analysis",
+    "question": "Define saturated solution",
+    "answers": [
+      "Solution containing maximum concentration of solute in a solvent at a specific temperature"
+    ]
+  },
+  {
+    "id": "CIE150",
+    "paper": "4",
+    "topic": "12 Experiment analysis",
+    "question": "Define residue",
+    "answers": [
+      "Substance that remains after filtration"
+    ]
+  },
+  {
+    "id": "CIE151",
+    "paper": "4",
+    "topic": "12 Experiment analysis",
+    "question": "Define filtrate",
+    "answers": [
+      "Liquid or solution that passes through a filter"
+    ]
+  },
+  {
+    "id": "CIE152",
+    "paper": "4",
+    "topic": "12 Experiment analysis",
+    "question": "Describe how crystallisation is done",
+    "answers": [
+      "Heat until saturation point (evaporate some water)",
+      "Allow to cool",
+      "Dry the crystals using filter paper"
+    ]
+  },
+  {
+    "id": "CIE153",
+    "paper": "4",
+    "topic": "12 Experiment analysis",
+    "question": "State the equation for calculating Rf",
+    "answers": [
+      "Distance travelled by substance divided by distance travelled by solvent"
+    ]
+  },
+  {
+    "id": "CIE154",
+    "paper": "4",
+    "topic": "12 Experiment analysis",
+    "question": "Explain why chromatography baseline is drawn in pencil",
+    "answers": [
+      "Pencil is insoluble in solvent"
+    ]
+  },
+  {
+    "id": "CIE155",
+    "paper": "4",
+    "topic": "12 Experiment analysis",
+    "question": "What substance is used to make colourless substance visible on chromatogram",
+    "answers": [
+      "Locating agent"
+    ]
+  },
+  {
+    "id": "CIE156",
+    "paper": "4",
+    "topic": "12 Experiment analysis",
+    "question": "Explain why only two spots are seen from the mixture of three substances in chromatogram",
+    "answers": [
+      "Same Rf value"
+    ]
+  },
+  {
+    "id": "CIE157",
+    "paper": "4",
+    "topic": "12 Experiment analysis",
+    "question": "How chromatography experiment can be changed to see all substances clearly",
+    "answers": [
+      "Use a different solvent"
+    ]
+  },
+  {
+    "id": "CIE158",
+    "paper": "6",
+    "topic": "1 Measuring apparatus",
+    "question": "State the advantage of using a burette rather than a measuring cylinder",
+    "answers": [
+      "More accurate"
+    ]
+  },
+  {
+    "id": "CIE159",
+    "paper": "6",
+    "topic": "1 Measuring apparatus",
+    "question": "State the disadvantage of using a volumetric pipette rather than a measuring cylinder",
+    "answers": [
+      "Takes longer time"
+    ]
+  },
+  {
+    "id": "CIE160",
+    "paper": "6",
+    "topic": "1 Measuring apparatus",
+    "question": "State the advantage of using a burette rather than a volumetric pipette",
+    "answers": [
+      "Burettes can measure variable volumes",
+      "Volumetric pipette can only measure fixed volumes"
+    ]
+  },
+  {
+    "id": "CIE161",
+    "paper": "6",
+    "topic": "1 Measuring apparatus",
+    "question": "Explain why it is not possible to use volumetric pipette to measure…",
+    "answers": [
+      "Volume is not fixed in each experiment"
+    ]
+  },
+  {
+    "id": "CIE162",
+    "paper": "6",
+    "topic": "2 Titration",
+    "question": "Explain why a white tile is used in titration",
+    "answers": [
+      "Colour change is easy to see"
+    ]
+  },
+  {
+    "id": "CIE163",
+    "paper": "6",
+    "topic": "2 Titration",
+    "question": "Suggest why … is rinsed using distilled water",
+    "answers": [
+      "To clean / remove substance left from (previous step or experiment) / impurities"
+    ]
+  },
+  {
+    "id": "CIE164",
+    "paper": "6",
+    "topic": "2 Titration",
+    "question": "Explain why the burette is rinsed using solution",
+    "answers": [
+      "To remove water"
+    ]
+  },
+  {
+    "id": "CIE165",
+    "paper": "6",
+    "topic": "2 Titration",
+    "question": "Explain why there is no need to rinse the burette with water",
+    "answers": [
+      "Solution is not changed"
+    ]
+  },
+  {
+    "id": "CIE166",
+    "paper": "6",
+    "topic": "2 Titration",
+    "question": "Explain why universal indicator is not suitable for titration",
+    "answers": [
+      "No sharp colour change",
+      "So end-point difficult to determine"
+    ]
+  },
+  {
+    "id": "CIE167",
+    "paper": "6",
+    "topic": "2 Titration",
+    "question": "Explain why the student adds an indicator to the solution",
+    "answers": [
+      "So that it can change colour at the end point"
+    ]
+  },
+  {
+    "id": "CIE168",
+    "paper": "6",
+    "topic": "2 Titration",
+    "question": "Describe how the student can determine the volume of solution used in titration",
+    "answers": [
+      "Take initial and final burette readings",
+      "Final reading minus initial reading"
+    ]
+  },
+  {
+    "id": "CIE169",
+    "paper": "6",
+    "topic": "2 Titration",
+    "question": "State how drying the conical flask affects volume of solution needed to reach the end point",
+    "answers": [
+      "No change",
+      "Water does not change the amount of acid / alkali"
+    ]
+  },
+  {
+    "id": "CIE170",
+    "paper": "6",
+    "topic": "3 Heat temperature",
+    "question": "Suggest ways to reduce heat loss to the surroundings",
+    "answers": [
+      "Use a polystyrene cup (a better insulator) / insulate using cotton wool",
+      "Add a lid"
+    ]
+  },
+  {
+    "id": "CIE171",
+    "paper": "6",
+    "topic": "3 Heat temperature",
+    "question": "Explain why polystyrene cup is used instead of glass beaker",
+    "answers": [
+      "Better insulator, reduce heat loss to surrounding",
+      "Better accuracy of result"
+    ]
+  },
+  {
+    "id": "CIE172",
+    "paper": "6",
+    "topic": "3 Heat temperature",
+    "question": "Explain why the mixture is stirred before temperature is measured",
+    "answers": [
+      "So they can react",
+      "So temperature is the same throughout the mixture"
+    ]
+  },
+  {
+    "id": "CIE173",
+    "paper": "6",
+    "topic": "3 Heat temperature",
+    "question": "Explain what happens if the delivery tube is not removed as soon as the heating is stopped",
+    "answers": [
+      "Water will be sucked back",
+      "Breaking the test tube"
+    ]
+  },
+  {
+    "id": "CIE174",
+    "paper": "6",
+    "topic": "4 Improvements",
+    "question": "Suggest how the reliability of the experiment can be confirmed",
+    "answers": [
+      "Repeat and compare"
+    ]
+  },
+  {
+    "id": "CIE175",
+    "paper": "6",
+    "topic": "4 Improvements",
+    "question": "Explain why repeating each experiment is an improvement",
+    "answers": [
+      "To compare results and get concordant results"
+    ]
+  },
+  {
+    "id": "CIE176",
+    "paper": "6",
+    "topic": "4 Improvements",
+    "question": "Explain why hot water rather than cold water is used when dissolving",
+    "answers": [
+      "Dissolves faster"
+    ]
+  },
+  {
+    "id": "CIE177",
+    "paper": "6",
+    "topic": "4 Improvements",
+    "question": "Describe how a Bunsen burner is adjusted to make the flame as hot as possible",
+    "answers": [
+      "Air hole fully open"
+    ]
+  },
+  {
+    "id": "CIE178",
+    "paper": "6",
+    "topic": "4 Improvements",
+    "question": "Suggest why the mixture is stirred / flask is swirled",
+    "answers": [
+      "To mix well"
+    ]
+  },
+  {
+    "id": "CIE179",
+    "paper": "6",
+    "topic": "4 Improvements",
+    "question": "Describe how the impurities in the residue can be removed",
+    "answers": [
+      "Pour water over the residue in the funnel"
+    ]
+  },
+  {
+    "id": "CIE180",
+    "paper": "6",
+    "topic": "4 Improvements",
+    "question": "Describe how the apparatus could be altered to keep temperature constant",
+    "answers": [
+      "Stand in a water bath"
+    ]
+  },
+  {
+    "id": "CIE181",
+    "paper": "6",
+    "topic": "4 Improvements",
+    "question": "Describe how the apparatus could be altered so that no gas escapes",
+    "answers": [
+      "Place reagent in a tube inside the flask",
+      "Tip tube to start the reaction"
+    ]
+  },
+  {
+    "id": "CIE182",
+    "paper": "6",
+    "topic": "4 Improvements",
+    "question": "Suggest how the magnesium ribbon should be cleaned before use",
+    "answers": [
+      "Rub with sand paper"
+    ]
+  },
+  {
+    "id": "CIE183",
+    "paper": "6",
+    "topic": "4 Improvements",
+    "question": "Explain why this experiment needs to be carried out in fume cupboard",
+    "answers": [
+      "Gas is toxic"
+    ]
+  }
+]
