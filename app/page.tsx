@@ -7,6 +7,7 @@ type Question = (typeof questionBank)[number];
 type Mark = "perfect" | "missing" | "wrong";
 type Result = { question: Question; mark: Mark };
 type Screen = "setup" | "recall" | "summary";
+type QuestionCount = 5 | 10 | 20 | "all";
 
 const markDetails: Record<Mark, { label: string; hint: string }> = {
   perfect: { label: "Perfect", hint: "All marking points recalled" },
@@ -39,7 +40,7 @@ export default function Home() {
   const [screen, setScreen] = useState<Screen>("setup");
   const [paper, setPaper] = useState("all");
   const [topic, setTopic] = useState("all");
-  const [count, setCount] = useState(10);
+  const [count, setCount] = useState<QuestionCount>(10);
   const [session, setSession] = useState<Question[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [revealed, setRevealed] = useState(false);
@@ -58,7 +59,9 @@ export default function Home() {
   );
 
   const startSession = (questions: Question[], weakReview = false) => {
-    const chosen = weakReview ? shuffle(questions) : shuffle(questions).slice(0, Math.min(count, questions.length));
+    const chosen = weakReview || count === "all"
+      ? shuffle(questions)
+      : shuffle(questions).slice(0, Math.min(count, questions.length));
     setSession(chosen);
     setCurrentIndex(0);
     setRevealed(false);
@@ -91,6 +94,7 @@ export default function Home() {
 
   const current = session[currentIndex];
   const weakItems = results.filter((result) => result.mark !== "perfect").map((result) => result.question);
+  const selectedQuestionCount = count === "all" ? filteredQuestions.length : Math.min(count, filteredQuestions.length);
 
   return (
     <main className="shell">
@@ -125,15 +129,17 @@ export default function Home() {
             <fieldset>
               <legend>Questions this round</legend>
               <div className="count-options">
-                {[5, 10, 20].map((item) => (
-                  <button type="button" className={count === item ? "selected" : ""} onClick={() => setCount(item)} key={item}>{item}</button>
+                {([5, 10, 20, "all"] as const).map((item) => (
+                  <button type="button" className={count === item ? "selected" : ""} onClick={() => setCount(item)} key={item}>
+                    {item === "all" ? "ALL" : item}
+                  </button>
                 ))}
               </div>
             </fieldset>
             <button className="start-button" type="button" onClick={() => startSession(filteredQuestions)} disabled={filteredQuestions.length === 0}>
               Start recall <span aria-hidden="true">→</span>
             </button>
-            <p className="availability">{Math.min(count, filteredQuestions.length)} questions selected from {filteredQuestions.length} available</p>
+            <p className="availability">{selectedQuestionCount} questions selected from {filteredQuestions.length} available</p>
           </div>
         </section>
       )}

@@ -60,7 +60,7 @@ label + label, label + fieldset { margin-top: 20px; }
 select { width: 100%; margin-top: 9px; padding: 14px 42px 14px 14px; border: 1px solid #c9d1cd; border-radius: 10px; background: white; color: var(--ink); }
 select:focus-visible, button:focus-visible { outline: 3px solid rgba(40, 127, 121, .28); outline-offset: 2px; }
 fieldset { border: 0; margin: 22px 0 0; padding: 0; }
-.count-options { display: grid; grid-template-columns: repeat(3, 1fr); gap: 9px; }
+.count-options { display: grid; grid-template-columns: repeat(4, 1fr); gap: 9px; }
 .count-options button { padding: 12px; border-radius: 9px; border: 1px solid #c9d1cd; background: white; color: var(--ink); cursor: pointer; font-weight: 700; }
 .count-options button.selected { border-color: var(--teal); background: #eaf5f2; color: #176861; }
 .start-button { width: 100%; margin-top: 26px; border: 0; border-radius: 11px; padding: 16px 18px; display: flex; justify-content: space-between; background: var(--accent); color: white; font-weight: 700; cursor: pointer; }
