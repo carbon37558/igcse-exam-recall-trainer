@@ -20,6 +20,9 @@ test("server-renders the Exam Recall Trainer", async () => {
   assert.match(html, /<title>Exam Recall Trainer · CIE Chemistry<\/title>/i);
   assert.match(html, /Recall the words/);
   assert.match(html, /Set up your session/);
+  assert.match(html, /Select all/);
+  assert.match(html, /Clear all/);
+  assert.equal((html.match(/type="checkbox"/g) ?? []).length, 15);
   assert.match(html, />ALL</);
   assert.match(html, /10(?:<!-- -->)? questions selected from (?:<!-- -->)?183(?:<!-- -->)? available/);
   assert.match(html, /183/);

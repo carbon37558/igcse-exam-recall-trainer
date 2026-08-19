@@ -39,7 +39,9 @@ function BrandBar({ onHome }: { onHome: () => void }) {
 export default function Home() {
   const [screen, setScreen] = useState<Screen>("setup");
   const [paper, setPaper] = useState("all");
-  const [topic, setTopic] = useState("all");
+  const [selectedTopics, setSelectedTopics] = useState<string[]>(() =>
+    Array.from(new Set(questionBank.map((item) => item.topic))),
+  );
   const [count, setCount] = useState<QuestionCount>(10);
   const [session, setSession] = useState<Question[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -53,10 +55,23 @@ export default function Home() {
   );
   const filteredQuestions = useMemo(
     () => questionBank.filter(
-      (item) => (paper === "all" || item.paper === paper) && (topic === "all" || item.topic === topic),
+      (item) => (paper === "all" || item.paper === paper) && selectedTopics.includes(item.topic),
     ),
-    [paper, topic],
+    [paper, selectedTopics],
   );
+
+  const changePaper = (nextPaper: string) => {
+    setPaper(nextPaper);
+    setSelectedTopics(Array.from(new Set(
+      questionBank.filter((item) => nextPaper === "all" || item.paper === nextPaper).map((item) => item.topic),
+    )));
+  };
+
+  const toggleTopic = (topic: string) => {
+    setSelectedTopics((current) => current.includes(topic)
+      ? current.filter((item) => item !== topic)
+      : [...current, topic]);
+  };
 
   const startSession = (questions: Question[], weakReview = false) => {
     const chosen = weakReview || count === "all"
@@ -113,19 +128,30 @@ export default function Home() {
             <div className="step-label"><span>01</span> Set up your session</div>
             <label>
               Paper
-              <select value={paper} onChange={(event) => { setPaper(event.target.value); setTopic("all"); }}>
+              <select value={paper} onChange={(event) => changePaper(event.target.value)}>
                 <option value="all">All papers</option>
                 <option value="4">Paper 4 · Theory</option>
                 <option value="6">Paper 6 · Alternative to Practical</option>
               </select>
             </label>
-            <label>
-              Topic
-              <select value={topic} onChange={(event) => setTopic(event.target.value)}>
-                <option value="all">All topics</option>
-                {topics.map((item) => <option key={item} value={item}>{item}</option>)}
-              </select>
-            </label>
+            <fieldset className="topic-selector">
+              <div className="topic-heading">
+                <legend>Topic</legend>
+                <div className="topic-actions">
+                  <button type="button" onClick={() => setSelectedTopics(topics)}>Select all</button>
+                  <button type="button" onClick={() => setSelectedTopics([])}>Clear all</button>
+                </div>
+              </div>
+              <div className="topic-options">
+                {topics.map((item) => (
+                  <label className="topic-option" key={item}>
+                    <input type="checkbox" checked={selectedTopics.includes(item)} onChange={() => toggleTopic(item)} />
+                    <span>{item}</span>
+                  </label>
+                ))}
+              </div>
+              {selectedTopics.length === 0 && <p className="topic-warning" role="status">Select at least one topic</p>}
+            </fieldset>
             <fieldset>
               <legend>Questions this round</legend>
               <div className="count-options">
@@ -136,7 +162,7 @@ export default function Home() {
                 ))}
               </div>
             </fieldset>
-            <button className="start-button" type="button" onClick={() => startSession(filteredQuestions)} disabled={filteredQuestions.length === 0}>
+            <button className="start-button" type="button" onClick={() => startSession(filteredQuestions)} disabled={selectedTopics.length === 0 || filteredQuestions.length === 0}>
               Start recall <span aria-hidden="true">→</span>
             </button>
             <p className="availability">{selectedQuestionCount} questions selected from {filteredQuestions.length} available</p>
