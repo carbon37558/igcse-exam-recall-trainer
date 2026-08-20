@@ -340,8 +340,8 @@
     "topic": "4 Electrolysis",
     "question": "Write half equations for electrolysis of copper (II) sulfate solution using copper electrodes",
     "answers": [
-      "Anode: Cu → Cu2+ + 2e-",
-      "Cathode: Cu2+ + 2e- → Cu"
+      "Anode: Cu → Cu²⁺ + 2e⁻",
+      "Cathode: Cu²⁺ + 2e⁻ → Cu"
     ]
   },
   {
@@ -350,8 +350,8 @@
     "topic": "4 Electrolysis",
     "question": "Write half equations for electrolysis of copper (II) sulfate solution using inert electrodes",
     "answers": [
-      "Anode: 4OH- → O2 + 2H2O + 4e-",
-      "Cathode: Cu2+ + 2e- → Cu"
+      "Anode: 4OH⁻ → O₂ + 2H₂O + 4e⁻",
+      "Cathode: Cu²⁺ + 2e⁻ → Cu"
     ]
   },
   {
@@ -360,7 +360,7 @@
     "topic": "4 Electrolysis",
     "question": "Write balanced overall equation for hydrogen-oxygen fuel cell",
     "answers": [
-      "2H2 + O2 → 2H2O"
+      "2H₂ + O₂ → 2H₂O"
     ]
   },
   {
@@ -659,7 +659,7 @@
     "topic": "6 Chemical reactions",
     "question": "Write balanced equation for decomposition of hydrated copper (II) sulfate",
     "answers": [
-      "CuSO4·5H2O → CuSO4 + 5H2O"
+      "CuSO₄·5H₂O → CuSO₄ + 5H₂O"
     ]
   },
   {
@@ -668,7 +668,7 @@
     "topic": "6 Chemical reactions",
     "question": "Write balanced equation for decomposition of hydrated cobalt (II) chloride",
     "answers": [
-      "CoCl2·6H2O → CoCl2 + 6H2O"
+      "CoCl₂·6H₂O → CoCl₂ + 6H₂O"
     ]
   },
   {
@@ -677,7 +677,7 @@
     "topic": "6 Chemical reactions",
     "question": "Write balanced equation for Haber process",
     "answers": [
-      "N2 + 3H2 → 2NH3"
+      "N₂ + 3H₂ → 2NH₃"
     ]
   },
   {
@@ -686,7 +686,7 @@
     "topic": "6 Chemical reactions",
     "question": "Write balanced equation for making sulfur trioxide in Contact process",
     "answers": [
-      "2SO2 + O2 → 2SO3"
+      "2SO₂ + O₂ → 2SO₃"
     ]
   },
   {
@@ -838,7 +838,7 @@
     "topic": "7 Acid base salt",
     "question": "Write balanced equation for calcium carbonate reacting with hydrochloric acid",
     "answers": [
-      "CaCO3 + 2HCl → CaCl2 + H2O + CO2"
+      "CaCO₃ + 2HCl → CaCl₂ + H₂O + CO₂"
     ]
   },
   {
@@ -847,7 +847,7 @@
     "topic": "7 Acid base salt",
     "question": "Write balanced equation for ammonium chloride reacting with sodium hydroxide",
     "answers": [
-      "NH4Cl + NaOH → NaCl + H2O + NH3"
+      "NH₄Cl + NaOH → NaCl + H₂O + NH₃"
     ]
   },
   {
@@ -965,7 +965,7 @@
     "topic": "8 Periodic table",
     "question": "Write balanced equation for sodium reacting with water",
     "answers": [
-      "2Na + 2H2O → 2NaOH + H2"
+      "2Na + 2H₂O → 2NaOH + H₂"
     ]
   },
   {
@@ -974,7 +974,7 @@
     "topic": "8 Periodic table",
     "question": "Write balanced equation for sodium reacting with oxygen",
     "answers": [
-      "4Na + O2 → 2Na2O"
+      "4Na + O₂ → 2Na₂O"
     ]
   },
   {
@@ -983,7 +983,7 @@
     "topic": "8 Periodic table",
     "question": "Write ionic equation for chlorine displacing bromide ion from solution",
     "answers": [
-      "Cl2 + 2Br- → Br2 + 2Cl-"
+      "Cl₂ + 2Br⁻ → Br₂ + 2Cl⁻"
     ]
   },
   {
@@ -992,7 +992,7 @@
     "topic": "8 Periodic table",
     "question": "Write ionic equation for chlorine displacing iodide ion from solution",
     "answers": [
-      "Cl2 + 2I- → I2 + 2Cl-"
+      "Cl₂ + 2I⁻ → I₂ + 2Cl⁻"
     ]
   },
   {
@@ -1001,7 +1001,7 @@
     "topic": "8 Periodic table",
     "question": "Write ionic equation for bromine displacing iodide ion from solution",
     "answers": [
-      "Br2 + 2I- → I2 + 2Br-"
+      "Br₂ + 2I⁻ → I₂ + 2Br⁻"
     ]
   },
   {
@@ -1228,7 +1228,7 @@
     "topic": "9 Metals",
     "question": "Write balanced equation for magnesium reacting with cold water",
     "answers": [
-      "Mg + 2H2O(l) → Mg(OH)2 + H2"
+      "Mg + 2H₂O(l) → Mg(OH)₂ + H₂"
     ]
   },
   {
@@ -1237,7 +1237,7 @@
     "topic": "9 Metals",
     "question": "Write balanced equation for magnesium reacting with steam",
     "answers": [
-      "Mg + H2O(g) → MgO + H2"
+      "Mg + H₂O(g) → MgO + H₂"
     ]
   },
   {
@@ -1246,7 +1246,7 @@
     "topic": "9 Metals",
     "question": "Write balanced equation for zinc reacting with dilute hydrochloric acid",
     "answers": [
-      "Zn + 2HCl → ZnCl2 + H2"
+      "Zn + 2HCl → ZnCl₂ + H₂"
     ]
   },
   {
@@ -1255,11 +1255,11 @@
     "topic": "9 Metals",
     "question": "Write all balanced equations for extraction of iron from hematite",
     "answers": [
-      "C + O2 → CO2",
-      "C + CO2 → 2CO",
-      "Fe2O3 + 3CO → 2Fe + 3CO2",
-      "CaCO3 → CaO + CO2",
-      "CaO + SiO2 → CaSiO3"
+      "C + O₂ → CO₂",
+      "C + CO₂ → 2CO",
+      "Fe₂O₃ + 3CO → 2Fe + 3CO₂",
+      "CaCO₃ → CaO + CO₂",
+      "CaO + SiO₂ → CaSiO₃"
     ]
   },
   {
@@ -1268,8 +1268,8 @@
     "topic": "9 Metals",
     "question": "Write half equations for extraction of aluminium from bauxite",
     "answers": [
-      "Anode: 2O2- → O2 + 4e-",
-      "Cathode: Al3+ + 3e- → Al"
+      "Anode: 2O²⁻ → O₂ + 4e⁻",
+      "Cathode: Al³⁺ + 3e⁻ → Al"
     ]
   },
   {
@@ -1367,7 +1367,7 @@
     "topic": "10 Environment",
     "question": "Write balanced equation for catalytic converter",
     "answers": [
-      "2CO + 2NO → 2CO2 + N2"
+      "2CO + 2NO → 2CO₂ + N₂"
     ]
   },
   {
@@ -1376,7 +1376,7 @@
     "topic": "10 Environment",
     "question": "Write balanced equation for photosynthesis",
     "answers": [
-      "6CO2 + 6H2O → C6H12O6 + 6O2"
+      "6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂"
     ]
   },
   {
@@ -1691,7 +1691,7 @@
     "topic": "11 Organic",
     "question": "Write balanced equation for combustion of ethanol",
     "answers": [
-      "C2H5OH + 3O2 → 2CO2 + 3H2O"
+      "C₂H₅OH + 3O₂ → 2CO₂ + 3H₂O"
     ]
   },
   {

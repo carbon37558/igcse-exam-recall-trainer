@@ -36,6 +36,8 @@ test("question data is generated from the complete Excel bank", async () => {
   assert.equal(data.at(-1).id, "CIE231");
   assert.deepEqual(new Set(data.map((item) => item.paper)), new Set(["4", "6"]));
   assert.ok(data.every((item) => item.topic && item.question && item.answers.length));
+  assert.ok(data.some((item) => item.answers.includes("Anode: 4OH⁻ → O₂ + 2H₂O + 4e⁻")));
+  assert.ok(data.some((item) => item.answers.includes("Cathode: Al³⁺ + 3e⁻ → Al")));
 });
 
 test("Cloudflare Pages output includes the app shell and refresh fallback", async () => {
