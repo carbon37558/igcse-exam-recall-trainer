@@ -337,6 +337,35 @@
   {
     "id": "CIE036",
     "paper": "4",
+    "topic": "4 Electrolysis",
+    "question": "Write half equations for electrolysis of copper (II) sulfate solution using copper electrodes",
+    "answers": [
+      "Anode: Cu → Cu2+ + 2e-",
+      "Cathode: Cu2+ + 2e- → Cu"
+    ]
+  },
+  {
+    "id": "CIE037",
+    "paper": "4",
+    "topic": "4 Electrolysis",
+    "question": "Write half equations for electrolysis of copper (II) sulfate solution using inert electrodes",
+    "answers": [
+      "Anode: 4OH- → O2 + 2H2O + 4e-",
+      "Cathode: Cu2+ + 2e- → Cu"
+    ]
+  },
+  {
+    "id": "CIE038",
+    "paper": "4",
+    "topic": "4 Electrolysis",
+    "question": "Write balanced overall equation for hydrogen-oxygen fuel cell",
+    "answers": [
+      "2H2 + O2 → 2H2O"
+    ]
+  },
+  {
+    "id": "CIE039",
+    "paper": "4",
     "topic": "5 Energetics",
     "question": "Define exothermic reaction",
     "answers": [
@@ -344,7 +373,7 @@
     ]
   },
   {
-    "id": "CIE037",
+    "id": "CIE040",
     "paper": "4",
     "topic": "5 Energetics",
     "question": "Define endothermic reaction",
@@ -353,7 +382,7 @@
     ]
   },
   {
-    "id": "CIE038",
+    "id": "CIE041",
     "paper": "4",
     "topic": "5 Energetics",
     "question": "What is the meaning of the symbol △H",
@@ -362,7 +391,7 @@
     ]
   },
   {
-    "id": "CIE039",
+    "id": "CIE042",
     "paper": "4",
     "topic": "6 Chemical reactions",
     "question": "Why the rate of reaction decreases as the reaction progresses",
@@ -371,7 +400,7 @@
     ]
   },
   {
-    "id": "CIE040",
+    "id": "CIE043",
     "paper": "4",
     "topic": "6 Chemical reactions",
     "question": "Explain why the rate of reaction eventually becomes zero",
@@ -380,7 +409,7 @@
     ]
   },
   {
-    "id": "CIE041",
+    "id": "CIE044",
     "paper": "4",
     "topic": "6 Chemical reactions",
     "question": "Define activation energy",
@@ -389,7 +418,7 @@
     ]
   },
   {
-    "id": "CIE042",
+    "id": "CIE045",
     "paper": "4",
     "topic": "6 Chemical reactions",
     "question": "Define catalyst",
@@ -400,7 +429,7 @@
     ]
   },
   {
-    "id": "CIE043",
+    "id": "CIE046",
     "paper": "4",
     "topic": "6 Chemical reactions",
     "question": "Why the rate of reaction increases when powders are used",
@@ -410,7 +439,7 @@
     ]
   },
   {
-    "id": "CIE044",
+    "id": "CIE047",
     "paper": "4",
     "topic": "6 Chemical reactions",
     "question": "Why the rate of reaction increases when concentration increases",
@@ -420,7 +449,7 @@
     ]
   },
   {
-    "id": "CIE045",
+    "id": "CIE048",
     "paper": "4",
     "topic": "6 Chemical reactions",
     "question": "Why the rate of reaction increases as temperature increases",
@@ -431,7 +460,7 @@
     ]
   },
   {
-    "id": "CIE046",
+    "id": "CIE049",
     "paper": "4",
     "topic": "6 Chemical reactions",
     "question": "Define dynamic equilibrium",
@@ -442,7 +471,7 @@
     ]
   },
   {
-    "id": "CIE047",
+    "id": "CIE050",
     "paper": "4",
     "topic": "6 Chemical reactions",
     "question": "State what is meant by closed system",
@@ -451,7 +480,7 @@
     ]
   },
   {
-    "id": "CIE048",
+    "id": "CIE051",
     "paper": "4",
     "topic": "6 Chemical reactions",
     "question": "State and explain what happens to equilibrium yield when pressure changes",
@@ -461,7 +490,7 @@
     ]
   },
   {
-    "id": "CIE049",
+    "id": "CIE052",
     "paper": "4",
     "topic": "6 Chemical reactions",
     "question": "Explain why the position of equilibrium does not change when pressure changes",
@@ -470,7 +499,7 @@
     ]
   },
   {
-    "id": "CIE050",
+    "id": "CIE053",
     "paper": "4",
     "topic": "6 Chemical reactions",
     "question": "State and explain what happens to equilibrium yield when temperature changes",
@@ -480,7 +509,7 @@
     ]
   },
   {
-    "id": "CIE051",
+    "id": "CIE054",
     "paper": "4",
     "topic": "6 Chemical reactions",
     "question": "State and explain what happens to equilibrium yield when catalyst is used",
@@ -491,7 +520,7 @@
     ]
   },
   {
-    "id": "CIE052",
+    "id": "CIE055",
     "paper": "4",
     "topic": "6 Chemical reactions",
     "question": "State the sources of nitrogen and hydrogen in Haber process",
@@ -501,7 +530,7 @@
     ]
   },
   {
-    "id": "CIE053",
+    "id": "CIE056",
     "paper": "4",
     "topic": "6 Chemical reactions",
     "question": "State the conditions of Haber process",
@@ -512,7 +541,7 @@
     ]
   },
   {
-    "id": "CIE054",
+    "id": "CIE057",
     "paper": "4",
     "topic": "6 Chemical reactions",
     "question": "State the sources of sulfur dioxide and oxygen in Contact process",
@@ -522,7 +551,7 @@
     ]
   },
   {
-    "id": "CIE055",
+    "id": "CIE058",
     "paper": "4",
     "topic": "6 Chemical reactions",
     "question": "State the conditions of Contact process",
@@ -533,7 +562,7 @@
     ]
   },
   {
-    "id": "CIE056",
+    "id": "CIE059",
     "paper": "4",
     "topic": "6 Chemical reactions",
     "question": "(Haber / Contact) explain why temperature greater than 450℃ is not used",
@@ -542,7 +571,7 @@
     ]
   },
   {
-    "id": "CIE057",
+    "id": "CIE060",
     "paper": "4",
     "topic": "6 Chemical reactions",
     "question": "(Haber / Contact) explain why temperature lower than 450℃ is not used",
@@ -551,7 +580,7 @@
     ]
   },
   {
-    "id": "CIE058",
+    "id": "CIE061",
     "paper": "4",
     "topic": "6 Chemical reactions",
     "question": "(Haber / Contact) explain why pressure greater than 200 atm / 2 atm is not used",
@@ -561,7 +590,7 @@
     ]
   },
   {
-    "id": "CIE059",
+    "id": "CIE062",
     "paper": "4",
     "topic": "6 Chemical reactions",
     "question": "(Haber / Contact) explain why pressure lower than 200 atm / 2 atm is not used",
@@ -571,7 +600,7 @@
     ]
   },
   {
-    "id": "CIE060",
+    "id": "CIE063",
     "paper": "4",
     "topic": "6 Chemical reactions",
     "question": "Define oxidation",
@@ -580,7 +609,7 @@
     ]
   },
   {
-    "id": "CIE061",
+    "id": "CIE064",
     "paper": "4",
     "topic": "6 Chemical reactions",
     "question": "Define reduction",
@@ -589,7 +618,7 @@
     ]
   },
   {
-    "id": "CIE062",
+    "id": "CIE065",
     "paper": "4",
     "topic": "6 Chemical reactions",
     "question": "Define redox reaction",
@@ -598,7 +627,7 @@
     ]
   },
   {
-    "id": "CIE063",
+    "id": "CIE066",
     "paper": "4",
     "topic": "6 Chemical reactions",
     "question": "Define oxidising agent",
@@ -607,7 +636,7 @@
     ]
   },
   {
-    "id": "CIE064",
+    "id": "CIE067",
     "paper": "4",
     "topic": "6 Chemical reactions",
     "question": "Define reducing agent",
@@ -616,7 +645,7 @@
     ]
   },
   {
-    "id": "CIE065",
+    "id": "CIE068",
     "paper": "4",
     "topic": "6 Chemical reactions",
     "question": "State the term given to the Roman numeral",
@@ -625,7 +654,43 @@
     ]
   },
   {
-    "id": "CIE066",
+    "id": "CIE069",
+    "paper": "4",
+    "topic": "6 Chemical reactions",
+    "question": "Write balanced equation for decomposition of hydrated copper (II) sulfate",
+    "answers": [
+      "CuSO4·5H2O → CuSO4 + 5H2O"
+    ]
+  },
+  {
+    "id": "CIE070",
+    "paper": "4",
+    "topic": "6 Chemical reactions",
+    "question": "Write balanced equation for decomposition of hydrated cobalt (II) chloride",
+    "answers": [
+      "CoCl2·6H2O → CoCl2 + 6H2O"
+    ]
+  },
+  {
+    "id": "CIE071",
+    "paper": "4",
+    "topic": "6 Chemical reactions",
+    "question": "Write balanced equation for Haber process",
+    "answers": [
+      "N2 + 3H2 → 2NH3"
+    ]
+  },
+  {
+    "id": "CIE072",
+    "paper": "4",
+    "topic": "6 Chemical reactions",
+    "question": "Write balanced equation for making sulfur trioxide in Contact process",
+    "answers": [
+      "2SO2 + O2 → 2SO3"
+    ]
+  },
+  {
+    "id": "CIE073",
     "paper": "4",
     "topic": "7 Acid base salt",
     "question": "State what is observed when (acid) is added to (carbonate)",
@@ -635,7 +700,7 @@
     ]
   },
   {
-    "id": "CIE067",
+    "id": "CIE074",
     "paper": "4",
     "topic": "7 Acid base salt",
     "question": "Suggest why universal indicator is not used in titration",
@@ -644,7 +709,7 @@
     ]
   },
   {
-    "id": "CIE068",
+    "id": "CIE075",
     "paper": "4",
     "topic": "7 Acid base salt",
     "question": "Define acid / base",
@@ -653,7 +718,7 @@
     ]
   },
   {
-    "id": "CIE069",
+    "id": "CIE076",
     "paper": "4",
     "topic": "7 Acid base salt",
     "question": "Define alkali",
@@ -662,7 +727,7 @@
     ]
   },
   {
-    "id": "CIE070",
+    "id": "CIE077",
     "paper": "4",
     "topic": "7 Acid base salt",
     "question": "Define strong (acid or base)",
@@ -671,7 +736,7 @@
     ]
   },
   {
-    "id": "CIE071",
+    "id": "CIE078",
     "paper": "4",
     "topic": "7 Acid base salt",
     "question": "Define weak (acid or base)",
@@ -680,7 +745,7 @@
     ]
   },
   {
-    "id": "CIE072",
+    "id": "CIE079",
     "paper": "4",
     "topic": "7 Acid base salt",
     "question": "Define amphoteric oxides",
@@ -689,7 +754,7 @@
     ]
   },
   {
-    "id": "CIE073",
+    "id": "CIE080",
     "paper": "4",
     "topic": "7 Acid base salt",
     "question": "Define hydrated salt",
@@ -698,7 +763,7 @@
     ]
   },
   {
-    "id": "CIE074",
+    "id": "CIE081",
     "paper": "4",
     "topic": "7 Acid base salt",
     "question": "Define anhydrous salt",
@@ -707,7 +772,7 @@
     ]
   },
   {
-    "id": "CIE075",
+    "id": "CIE082",
     "paper": "4",
     "topic": "7 Acid base salt",
     "question": "Define water of crystallisation",
@@ -716,7 +781,7 @@
     ]
   },
   {
-    "id": "CIE076",
+    "id": "CIE083",
     "paper": "4",
     "topic": "7 Acid base salt",
     "question": "How to ensure all water has given off (when finding x in hydrated salt)",
@@ -725,7 +790,7 @@
     ]
   },
   {
-    "id": "CIE077",
+    "id": "CIE084",
     "paper": "4",
     "topic": "7 Acid base salt",
     "question": "Describe how pure (soluble salt) can be obtained",
@@ -738,7 +803,7 @@
     ]
   },
   {
-    "id": "CIE078",
+    "id": "CIE085",
     "paper": "4",
     "topic": "7 Acid base salt",
     "question": "State two observation to show the carbonate solid is in excess (making soluble salt)",
@@ -748,7 +813,7 @@
     ]
   },
   {
-    "id": "CIE079",
+    "id": "CIE086",
     "paper": "4",
     "topic": "7 Acid base salt",
     "question": "Explain why crystals form when saturated solution cools down",
@@ -757,7 +822,7 @@
     ]
   },
   {
-    "id": "CIE080",
+    "id": "CIE087",
     "paper": "4",
     "topic": "7 Acid base salt",
     "question": "Describe how pure (insoluble salt) can be obtained",
@@ -768,7 +833,25 @@
     ]
   },
   {
-    "id": "CIE081",
+    "id": "CIE088",
+    "paper": "4",
+    "topic": "7 Acid base salt",
+    "question": "Write balanced equation for calcium carbonate reacting with hydrochloric acid",
+    "answers": [
+      "CaCO3 + 2HCl → CaCl2 + H2O + CO2"
+    ]
+  },
+  {
+    "id": "CIE089",
+    "paper": "4",
+    "topic": "7 Acid base salt",
+    "question": "Write balanced equation for ammonium chloride reacting with sodium hydroxide",
+    "answers": [
+      "NH4Cl + NaOH → NaCl + H2O + NH3"
+    ]
+  },
+  {
+    "id": "CIE090",
     "paper": "4",
     "topic": "8 Periodic table",
     "question": "State the similarity of electron configuration of elements in the same group",
@@ -777,7 +860,7 @@
     ]
   },
   {
-    "id": "CIE082",
+    "id": "CIE091",
     "paper": "4",
     "topic": "8 Periodic table",
     "question": "State the similarity of electron configuration of elements in the same period",
@@ -786,7 +869,7 @@
     ]
   },
   {
-    "id": "CIE083",
+    "id": "CIE092",
     "paper": "4",
     "topic": "8 Periodic table",
     "question": "Explain why elements in the same group have similar chemical properties",
@@ -795,7 +878,7 @@
     ]
   },
   {
-    "id": "CIE084",
+    "id": "CIE093",
     "paper": "4",
     "topic": "8 Periodic table",
     "question": "State the name given to group I / group VII elements",
@@ -804,7 +887,7 @@
     ]
   },
   {
-    "id": "CIE085",
+    "id": "CIE094",
     "paper": "4",
     "topic": "8 Periodic table",
     "question": "Give observations when lithium or sodium is added to water",
@@ -816,7 +899,7 @@
     ]
   },
   {
-    "id": "CIE086",
+    "id": "CIE095",
     "paper": "4",
     "topic": "8 Periodic table",
     "question": "Give the physical properties that make group I metals different from transition metals",
@@ -827,7 +910,7 @@
     ]
   },
   {
-    "id": "CIE087",
+    "id": "CIE096",
     "paper": "4",
     "topic": "8 Periodic table",
     "question": "Give the colour and state of chlorine / bromine / iodine at room temperature and pressure",
@@ -838,7 +921,7 @@
     ]
   },
   {
-    "id": "CIE088",
+    "id": "CIE097",
     "paper": "4",
     "topic": "8 Periodic table",
     "question": "State the name of negative ions formed by halogens",
@@ -847,7 +930,7 @@
     ]
   },
   {
-    "id": "CIE089",
+    "id": "CIE098",
     "paper": "4",
     "topic": "8 Periodic table",
     "question": "State why (halogen) can / cannot displace (halogen) from (halide)",
@@ -856,7 +939,7 @@
     ]
   },
   {
-    "id": "CIE090",
+    "id": "CIE099",
     "paper": "4",
     "topic": "8 Periodic table",
     "question": "State the properties of transition elements that make them different from other metals",
@@ -868,7 +951,7 @@
     ]
   },
   {
-    "id": "CIE091",
+    "id": "CIE100",
     "paper": "4",
     "topic": "8 Periodic table",
     "question": "Why … is a suitable catalyst",
@@ -877,7 +960,52 @@
     ]
   },
   {
-    "id": "CIE092",
+    "id": "CIE101",
+    "paper": "4",
+    "topic": "8 Periodic table",
+    "question": "Write balanced equation for sodium reacting with water",
+    "answers": [
+      "2Na + 2H2O → 2NaOH + H2"
+    ]
+  },
+  {
+    "id": "CIE102",
+    "paper": "4",
+    "topic": "8 Periodic table",
+    "question": "Write balanced equation for sodium reacting with oxygen",
+    "answers": [
+      "4Na + O2 → 2Na2O"
+    ]
+  },
+  {
+    "id": "CIE103",
+    "paper": "4",
+    "topic": "8 Periodic table",
+    "question": "Write ionic equation for chlorine displacing bromide ion from solution",
+    "answers": [
+      "Cl2 + 2Br- → Br2 + 2Cl-"
+    ]
+  },
+  {
+    "id": "CIE104",
+    "paper": "4",
+    "topic": "8 Periodic table",
+    "question": "Write ionic equation for chlorine displacing iodide ion from solution",
+    "answers": [
+      "Cl2 + 2I- → I2 + 2Cl-"
+    ]
+  },
+  {
+    "id": "CIE105",
+    "paper": "4",
+    "topic": "8 Periodic table",
+    "question": "Write ionic equation for bromine displacing iodide ion from solution",
+    "answers": [
+      "Br2 + 2I- → I2 + 2Br-"
+    ]
+  },
+  {
+    "id": "CIE106",
     "paper": "4",
     "topic": "9 Metals",
     "question": "State the physical properties that make aluminium suitable for overhead electrical cables",
@@ -887,7 +1015,7 @@
     ]
   },
   {
-    "id": "CIE093",
+    "id": "CIE107",
     "paper": "4",
     "topic": "9 Metals",
     "question": "Explain the unreactivity of aluminium",
@@ -897,7 +1025,7 @@
     ]
   },
   {
-    "id": "CIE094",
+    "id": "CIE108",
     "paper": "4",
     "topic": "9 Metals",
     "question": "Explain why aluminium is used in food containers",
@@ -906,7 +1034,7 @@
     ]
   },
   {
-    "id": "CIE095",
+    "id": "CIE109",
     "paper": "4",
     "topic": "9 Metals",
     "question": "Define alloy",
@@ -915,7 +1043,7 @@
     ]
   },
   {
-    "id": "CIE096",
+    "id": "CIE110",
     "paper": "4",
     "topic": "9 Metals",
     "question": "Explain why alloys are harder and stronger than pure metals",
@@ -925,7 +1053,7 @@
     ]
   },
   {
-    "id": "CIE097",
+    "id": "CIE111",
     "paper": "4",
     "topic": "9 Metals",
     "question": "Name the substances that react with iron to form rust",
@@ -934,7 +1062,7 @@
     ]
   },
   {
-    "id": "CIE098",
+    "id": "CIE112",
     "paper": "4",
     "topic": "9 Metals",
     "question": "Give examples of barrier methods to prevent rusting",
@@ -943,7 +1071,7 @@
     ]
   },
   {
-    "id": "CIE099",
+    "id": "CIE113",
     "paper": "4",
     "topic": "9 Metals",
     "question": "Explain why magnesium or zinc is used for sacrificial protection",
@@ -953,7 +1081,7 @@
     ]
   },
   {
-    "id": "CIE100",
+    "id": "CIE114",
     "paper": "4",
     "topic": "9 Metals",
     "question": "Name the process used to coat iron with zinc to prevent rusting",
@@ -962,7 +1090,7 @@
     ]
   },
   {
-    "id": "CIE101",
+    "id": "CIE115",
     "paper": "4",
     "topic": "9 Metals",
     "question": "Explain why the iron does not rust when zinc layer is scratched",
@@ -972,7 +1100,7 @@
     ]
   },
   {
-    "id": "CIE102",
+    "id": "CIE116",
     "paper": "4",
     "topic": "9 Metals",
     "question": "What are added at the top of blast furnace",
@@ -981,7 +1109,7 @@
     ]
   },
   {
-    "id": "CIE103",
+    "id": "CIE117",
     "paper": "4",
     "topic": "9 Metals",
     "question": "What are added at the bottom of blast furnace",
@@ -990,7 +1118,7 @@
     ]
   },
   {
-    "id": "CIE104",
+    "id": "CIE118",
     "paper": "4",
     "topic": "9 Metals",
     "question": "Why coke is added into blast furnace",
@@ -1001,7 +1129,7 @@
     ]
   },
   {
-    "id": "CIE105",
+    "id": "CIE119",
     "paper": "4",
     "topic": "9 Metals",
     "question": "Why the pure iron produced in blast furnace is molten",
@@ -1010,7 +1138,7 @@
     ]
   },
   {
-    "id": "CIE106",
+    "id": "CIE120",
     "paper": "4",
     "topic": "9 Metals",
     "question": "State the purpose of burning carbon in the blast furnace",
@@ -1019,7 +1147,7 @@
     ]
   },
   {
-    "id": "CIE107",
+    "id": "CIE121",
     "paper": "4",
     "topic": "9 Metals",
     "question": "Describe how carbon monoxide is formed in blast furnace",
@@ -1028,7 +1156,7 @@
     ]
   },
   {
-    "id": "CIE108",
+    "id": "CIE122",
     "paper": "4",
     "topic": "9 Metals",
     "question": "Name the impurity in iron ore that in converted to slag",
@@ -1037,7 +1165,7 @@
     ]
   },
   {
-    "id": "CIE109",
+    "id": "CIE123",
     "paper": "4",
     "topic": "9 Metals",
     "question": "Explain why limestone is added to blast furnace",
@@ -1048,7 +1176,7 @@
     ]
   },
   {
-    "id": "CIE110",
+    "id": "CIE124",
     "paper": "4",
     "topic": "9 Metals",
     "question": "Name the waste gases that leaves the blast furnace",
@@ -1057,7 +1185,7 @@
     ]
   },
   {
-    "id": "CIE111",
+    "id": "CIE125",
     "paper": "4",
     "topic": "9 Metals",
     "question": "State why alunimium is not extracted using blast furnace",
@@ -1066,7 +1194,7 @@
     ]
   },
   {
-    "id": "CIE112",
+    "id": "CIE126",
     "paper": "4",
     "topic": "9 Metals",
     "question": "State the reasons why cryolite is used in aluminium electrolysis",
@@ -1077,7 +1205,7 @@
     ]
   },
   {
-    "id": "CIE113",
+    "id": "CIE127",
     "paper": "4",
     "topic": "9 Metals",
     "question": "Why carbon anodes need to be replaced regularly in aluminium electrolysis",
@@ -1086,7 +1214,66 @@
     ]
   },
   {
-    "id": "CIE114",
+    "id": "CIE128",
+    "paper": "4",
+    "topic": "9 Metals",
+    "question": "Give reactivity series of metals",
+    "answers": [
+      "potassium, sodium, lithium, calcium, magnesium, aluminium, (carbon), zinc, iron, (hydrogen), copper, silver, gold"
+    ]
+  },
+  {
+    "id": "CIE129",
+    "paper": "4",
+    "topic": "9 Metals",
+    "question": "Write balanced equation for magnesium reacting with cold water",
+    "answers": [
+      "Mg + 2H2O(l) → Mg(OH)2 + H2"
+    ]
+  },
+  {
+    "id": "CIE130",
+    "paper": "4",
+    "topic": "9 Metals",
+    "question": "Write balanced equation for magnesium reacting with steam",
+    "answers": [
+      "Mg + H2O(g) → MgO + H2"
+    ]
+  },
+  {
+    "id": "CIE131",
+    "paper": "4",
+    "topic": "9 Metals",
+    "question": "Write balanced equation for zinc reacting with dilute hydrochloric acid",
+    "answers": [
+      "Zn + 2HCl → ZnCl2 + H2"
+    ]
+  },
+  {
+    "id": "CIE132",
+    "paper": "4",
+    "topic": "9 Metals",
+    "question": "Write all balanced equations for extraction of iron from hematite",
+    "answers": [
+      "C + O2 → CO2",
+      "C + CO2 → 2CO",
+      "Fe2O3 + 3CO → 2Fe + 3CO2",
+      "CaCO3 → CaO + CO2",
+      "CaO + SiO2 → CaSiO3"
+    ]
+  },
+  {
+    "id": "CIE133",
+    "paper": "4",
+    "topic": "9 Metals",
+    "question": "Write half equations for extraction of aluminium from bauxite",
+    "answers": [
+      "Anode: 2O2- → O2 + 4e-",
+      "Cathode: Al3+ + 3e- → Al"
+    ]
+  },
+  {
+    "id": "CIE134",
     "paper": "4",
     "topic": "10 Environment",
     "question": "Name a compound that can be used to detect presence of water",
@@ -1096,7 +1283,7 @@
     ]
   },
   {
-    "id": "CIE115",
+    "id": "CIE135",
     "paper": "4",
     "topic": "10 Environment",
     "question": "Why the solutions used in chemical tests are made using distilled water, not tap water?",
@@ -1105,7 +1292,7 @@
     ]
   },
   {
-    "id": "CIE116",
+    "id": "CIE136",
     "paper": "4",
     "topic": "10 Environment",
     "question": "State one adverse effect of carbon dioxide / methane",
@@ -1114,7 +1301,7 @@
     ]
   },
   {
-    "id": "CIE117",
+    "id": "CIE137",
     "paper": "4",
     "topic": "10 Environment",
     "question": "Explain how greenhouse gases cause global warming",
@@ -1126,7 +1313,7 @@
     ]
   },
   {
-    "id": "CIE118",
+    "id": "CIE138",
     "paper": "4",
     "topic": "10 Environment",
     "question": "State one adverse effect of carbon monoxide",
@@ -1135,7 +1322,7 @@
     ]
   },
   {
-    "id": "CIE119",
+    "id": "CIE139",
     "paper": "4",
     "topic": "10 Environment",
     "question": "State the adverse effect of sulfur dioxide",
@@ -1144,7 +1331,7 @@
     ]
   },
   {
-    "id": "CIE120",
+    "id": "CIE140",
     "paper": "4",
     "topic": "10 Environment",
     "question": "State the adverse effects of oxides of nitrogen",
@@ -1156,7 +1343,7 @@
     ]
   },
   {
-    "id": "CIE121",
+    "id": "CIE141",
     "paper": "4",
     "topic": "10 Environment",
     "question": "State the conditions for photosynthesis",
@@ -1166,7 +1353,7 @@
     ]
   },
   {
-    "id": "CIE122",
+    "id": "CIE142",
     "paper": "4",
     "topic": "10 Environment",
     "question": "Name the non-toxic gases produced from catalytic converter",
@@ -1175,7 +1362,25 @@
     ]
   },
   {
-    "id": "CIE123",
+    "id": "CIE143",
+    "paper": "4",
+    "topic": "10 Environment",
+    "question": "Write balanced equation for catalytic converter",
+    "answers": [
+      "2CO + 2NO → 2CO2 + N2"
+    ]
+  },
+  {
+    "id": "CIE144",
+    "paper": "4",
+    "topic": "10 Environment",
+    "question": "Write balanced equation for photosynthesis",
+    "answers": [
+      "6CO2 + 6H2O → C6H12O6 + 6O2"
+    ]
+  },
+  {
+    "id": "CIE145",
     "paper": "4",
     "topic": "11 Organic",
     "question": "Define functional group",
@@ -1184,7 +1389,7 @@
     ]
   },
   {
-    "id": "CIE124",
+    "id": "CIE146",
     "paper": "4",
     "topic": "11 Organic",
     "question": "Define homologous series",
@@ -1193,7 +1398,7 @@
     ]
   },
   {
-    "id": "CIE125",
+    "id": "CIE147",
     "paper": "4",
     "topic": "11 Organic",
     "question": "State the characteristics of homologous series",
@@ -1206,7 +1411,7 @@
     ]
   },
   {
-    "id": "CIE126",
+    "id": "CIE148",
     "paper": "4",
     "topic": "11 Organic",
     "question": "State the trend of boiling point of alkanes as length of carbon chain increases",
@@ -1215,7 +1420,7 @@
     ]
   },
   {
-    "id": "CIE127",
+    "id": "CIE149",
     "paper": "4",
     "topic": "11 Organic",
     "question": "Explain why … are hydrocarbons",
@@ -1224,7 +1429,7 @@
     ]
   },
   {
-    "id": "CIE128",
+    "id": "CIE150",
     "paper": "4",
     "topic": "11 Organic",
     "question": "Define structural isomers",
@@ -1234,7 +1439,7 @@
     ]
   },
   {
-    "id": "CIE129",
+    "id": "CIE151",
     "paper": "4",
     "topic": "11 Organic",
     "question": "Define saturated compounds",
@@ -1243,7 +1448,7 @@
     ]
   },
   {
-    "id": "CIE130",
+    "id": "CIE152",
     "paper": "4",
     "topic": "11 Organic",
     "question": "Define unsaturated compounds",
@@ -1252,7 +1457,92 @@
     ]
   },
   {
-    "id": "CIE131",
+    "id": "CIE153",
+    "paper": "4",
+    "topic": "11 Organic",
+    "question": "Describe how fractional distillation for crude oil is done",
+    "answers": [
+      "Crude oil is heated and vapourises",
+      "Vapours rise up in the column",
+      "Column is hotter at the bottom than the top",
+      "Vapours with certain boiling points condense at their boiling points",
+      "Wanted fraction is then removed"
+    ]
+  },
+  {
+    "id": "CIE154",
+    "paper": "4",
+    "topic": "11 Organic",
+    "question": "Describe use of refinery gas",
+    "answers": [
+      "Home heating and cooking"
+    ]
+  },
+  {
+    "id": "CIE155",
+    "paper": "4",
+    "topic": "11 Organic",
+    "question": "Describe use of gasoline",
+    "answers": [
+      "Fuel for cars"
+    ]
+  },
+  {
+    "id": "CIE156",
+    "paper": "4",
+    "topic": "11 Organic",
+    "question": "Describe use of naphtha",
+    "answers": [
+      "Chemical feedstock"
+    ]
+  },
+  {
+    "id": "CIE157",
+    "paper": "4",
+    "topic": "11 Organic",
+    "question": "Describe use of kerosene",
+    "answers": [
+      "Fuel for jets"
+    ]
+  },
+  {
+    "id": "CIE158",
+    "paper": "4",
+    "topic": "11 Organic",
+    "question": "Describe use of diesel",
+    "answers": [
+      "Fuel for diesel engines"
+    ]
+  },
+  {
+    "id": "CIE159",
+    "paper": "4",
+    "topic": "11 Organic",
+    "question": "Describe use of fuel oil",
+    "answers": [
+      "Fuel for ships"
+    ]
+  },
+  {
+    "id": "CIE160",
+    "paper": "4",
+    "topic": "11 Organic",
+    "question": "Describe use of lubricating oil",
+    "answers": [
+      "Use as lubricant or waxes"
+    ]
+  },
+  {
+    "id": "CIE161",
+    "paper": "4",
+    "topic": "11 Organic",
+    "question": "Describe use of bitumen",
+    "answers": [
+      "Surfacing of road"
+    ]
+  },
+  {
+    "id": "CIE162",
     "paper": "4",
     "topic": "11 Organic",
     "question": "Define substitution reaction",
@@ -1261,7 +1551,7 @@
     ]
   },
   {
-    "id": "CIE132",
+    "id": "CIE163",
     "paper": "4",
     "topic": "11 Organic",
     "question": "State the meaning of the term photochemical",
@@ -1270,7 +1560,7 @@
     ]
   },
   {
-    "id": "CIE133",
+    "id": "CIE164",
     "paper": "4",
     "topic": "11 Organic",
     "question": "State the purpose of ultraviolet light in substitution reaction",
@@ -1279,7 +1569,7 @@
     ]
   },
   {
-    "id": "CIE134",
+    "id": "CIE165",
     "paper": "4",
     "topic": "11 Organic",
     "question": "State the conditions used in cracking",
@@ -1289,7 +1579,7 @@
     ]
   },
   {
-    "id": "CIE135",
+    "id": "CIE166",
     "paper": "4",
     "topic": "11 Organic",
     "question": "Define addition reaction",
@@ -1298,7 +1588,7 @@
     ]
   },
   {
-    "id": "CIE136",
+    "id": "CIE167",
     "paper": "4",
     "topic": "11 Organic",
     "question": "Describe test for unsaturation",
@@ -1307,7 +1597,7 @@
     ]
   },
   {
-    "id": "CIE137",
+    "id": "CIE168",
     "paper": "4",
     "topic": "11 Organic",
     "question": "State the condition converting ethene to ethanol",
@@ -1318,7 +1608,7 @@
     ]
   },
   {
-    "id": "CIE138",
+    "id": "CIE169",
     "paper": "4",
     "topic": "11 Organic",
     "question": "State the advantages of converting ethene to ethanol",
@@ -1328,7 +1618,7 @@
     ]
   },
   {
-    "id": "CIE139",
+    "id": "CIE170",
     "paper": "4",
     "topic": "11 Organic",
     "question": "State the disadvantages of converting ethene to ethanol",
@@ -1338,7 +1628,7 @@
     ]
   },
   {
-    "id": "CIE140",
+    "id": "CIE171",
     "paper": "4",
     "topic": "11 Organic",
     "question": "State the condition converting glucose to ethanol (fermentation)",
@@ -1349,7 +1639,7 @@
     ]
   },
   {
-    "id": "CIE141",
+    "id": "CIE172",
     "paper": "4",
     "topic": "11 Organic",
     "question": "State the advantages of fermentation",
@@ -1359,7 +1649,7 @@
     ]
   },
   {
-    "id": "CIE142",
+    "id": "CIE173",
     "paper": "4",
     "topic": "11 Organic",
     "question": "State the disadvantages of fermentation",
@@ -1369,7 +1659,7 @@
     ]
   },
   {
-    "id": "CIE143",
+    "id": "CIE174",
     "paper": "4",
     "topic": "11 Organic",
     "question": "State the reagent used to convert ethanol to ethanoic acid",
@@ -1378,7 +1668,7 @@
     ]
   },
   {
-    "id": "CIE144",
+    "id": "CIE175",
     "paper": "4",
     "topic": "11 Organic",
     "question": "Define polymers",
@@ -1387,7 +1677,7 @@
     ]
   },
   {
-    "id": "CIE145",
+    "id": "CIE176",
     "paper": "4",
     "topic": "11 Organic",
     "question": "Why it is not possible to write the molecular formula of polymer",
@@ -1396,7 +1686,16 @@
     ]
   },
   {
-    "id": "CIE146",
+    "id": "CIE177",
+    "paper": "4",
+    "topic": "11 Organic",
+    "question": "Write balanced equation for combustion of ethanol",
+    "answers": [
+      "C2H5OH + 3O2 → 2CO2 + 3H2O"
+    ]
+  },
+  {
+    "id": "CIE178",
     "paper": "4",
     "topic": "12 Experiment analysis",
     "question": "Define solvent",
@@ -1405,7 +1704,7 @@
     ]
   },
   {
-    "id": "CIE147",
+    "id": "CIE179",
     "paper": "4",
     "topic": "12 Experiment analysis",
     "question": "Define solute",
@@ -1414,7 +1713,7 @@
     ]
   },
   {
-    "id": "CIE148",
+    "id": "CIE180",
     "paper": "4",
     "topic": "12 Experiment analysis",
     "question": "Define solution",
@@ -1423,7 +1722,7 @@
     ]
   },
   {
-    "id": "CIE149",
+    "id": "CIE181",
     "paper": "4",
     "topic": "12 Experiment analysis",
     "question": "Define saturated solution",
@@ -1432,7 +1731,7 @@
     ]
   },
   {
-    "id": "CIE150",
+    "id": "CIE182",
     "paper": "4",
     "topic": "12 Experiment analysis",
     "question": "Define residue",
@@ -1441,7 +1740,7 @@
     ]
   },
   {
-    "id": "CIE151",
+    "id": "CIE183",
     "paper": "4",
     "topic": "12 Experiment analysis",
     "question": "Define filtrate",
@@ -1450,7 +1749,7 @@
     ]
   },
   {
-    "id": "CIE152",
+    "id": "CIE184",
     "paper": "4",
     "topic": "12 Experiment analysis",
     "question": "Describe how crystallisation is done",
@@ -1461,7 +1760,7 @@
     ]
   },
   {
-    "id": "CIE153",
+    "id": "CIE185",
     "paper": "4",
     "topic": "12 Experiment analysis",
     "question": "State the equation for calculating Rf",
@@ -1470,7 +1769,7 @@
     ]
   },
   {
-    "id": "CIE154",
+    "id": "CIE186",
     "paper": "4",
     "topic": "12 Experiment analysis",
     "question": "Explain why chromatography baseline is drawn in pencil",
@@ -1479,7 +1778,7 @@
     ]
   },
   {
-    "id": "CIE155",
+    "id": "CIE187",
     "paper": "4",
     "topic": "12 Experiment analysis",
     "question": "What substance is used to make colourless substance visible on chromatogram",
@@ -1488,7 +1787,7 @@
     ]
   },
   {
-    "id": "CIE156",
+    "id": "CIE188",
     "paper": "4",
     "topic": "12 Experiment analysis",
     "question": "Explain why only two spots are seen from the mixture of three substances in chromatogram",
@@ -1497,7 +1796,7 @@
     ]
   },
   {
-    "id": "CIE157",
+    "id": "CIE189",
     "paper": "4",
     "topic": "12 Experiment analysis",
     "question": "How chromatography experiment can be changed to see all substances clearly",
@@ -1506,7 +1805,7 @@
     ]
   },
   {
-    "id": "CIE158",
+    "id": "CIE190",
     "paper": "6",
     "topic": "1 Measuring apparatus",
     "question": "State the advantage of using a burette rather than a measuring cylinder",
@@ -1515,7 +1814,7 @@
     ]
   },
   {
-    "id": "CIE159",
+    "id": "CIE191",
     "paper": "6",
     "topic": "1 Measuring apparatus",
     "question": "State the disadvantage of using a volumetric pipette rather than a measuring cylinder",
@@ -1524,7 +1823,7 @@
     ]
   },
   {
-    "id": "CIE160",
+    "id": "CIE192",
     "paper": "6",
     "topic": "1 Measuring apparatus",
     "question": "State the advantage of using a burette rather than a volumetric pipette",
@@ -1534,7 +1833,7 @@
     ]
   },
   {
-    "id": "CIE161",
+    "id": "CIE193",
     "paper": "6",
     "topic": "1 Measuring apparatus",
     "question": "Explain why it is not possible to use volumetric pipette to measure…",
@@ -1543,7 +1842,7 @@
     ]
   },
   {
-    "id": "CIE162",
+    "id": "CIE194",
     "paper": "6",
     "topic": "2 Titration",
     "question": "Explain why a white tile is used in titration",
@@ -1552,7 +1851,7 @@
     ]
   },
   {
-    "id": "CIE163",
+    "id": "CIE195",
     "paper": "6",
     "topic": "2 Titration",
     "question": "Suggest why … is rinsed using distilled water",
@@ -1561,7 +1860,7 @@
     ]
   },
   {
-    "id": "CIE164",
+    "id": "CIE196",
     "paper": "6",
     "topic": "2 Titration",
     "question": "Explain why the burette is rinsed using solution",
@@ -1570,7 +1869,7 @@
     ]
   },
   {
-    "id": "CIE165",
+    "id": "CIE197",
     "paper": "6",
     "topic": "2 Titration",
     "question": "Explain why there is no need to rinse the burette with water",
@@ -1579,7 +1878,7 @@
     ]
   },
   {
-    "id": "CIE166",
+    "id": "CIE198",
     "paper": "6",
     "topic": "2 Titration",
     "question": "Explain why universal indicator is not suitable for titration",
@@ -1589,7 +1888,7 @@
     ]
   },
   {
-    "id": "CIE167",
+    "id": "CIE199",
     "paper": "6",
     "topic": "2 Titration",
     "question": "Explain why the student adds an indicator to the solution",
@@ -1598,7 +1897,7 @@
     ]
   },
   {
-    "id": "CIE168",
+    "id": "CIE200",
     "paper": "6",
     "topic": "2 Titration",
     "question": "Describe how the student can determine the volume of solution used in titration",
@@ -1608,7 +1907,7 @@
     ]
   },
   {
-    "id": "CIE169",
+    "id": "CIE201",
     "paper": "6",
     "topic": "2 Titration",
     "question": "State how drying the conical flask affects volume of solution needed to reach the end point",
@@ -1618,7 +1917,7 @@
     ]
   },
   {
-    "id": "CIE170",
+    "id": "CIE202",
     "paper": "6",
     "topic": "3 Heat temperature",
     "question": "Suggest ways to reduce heat loss to the surroundings",
@@ -1628,7 +1927,7 @@
     ]
   },
   {
-    "id": "CIE171",
+    "id": "CIE203",
     "paper": "6",
     "topic": "3 Heat temperature",
     "question": "Explain why polystyrene cup is used instead of glass beaker",
@@ -1638,7 +1937,7 @@
     ]
   },
   {
-    "id": "CIE172",
+    "id": "CIE204",
     "paper": "6",
     "topic": "3 Heat temperature",
     "question": "Explain why the mixture is stirred before temperature is measured",
@@ -1648,7 +1947,7 @@
     ]
   },
   {
-    "id": "CIE173",
+    "id": "CIE205",
     "paper": "6",
     "topic": "3 Heat temperature",
     "question": "Explain what happens if the delivery tube is not removed as soon as the heating is stopped",
@@ -1658,7 +1957,7 @@
     ]
   },
   {
-    "id": "CIE174",
+    "id": "CIE206",
     "paper": "6",
     "topic": "4 Improvements",
     "question": "Suggest how the reliability of the experiment can be confirmed",
@@ -1667,7 +1966,7 @@
     ]
   },
   {
-    "id": "CIE175",
+    "id": "CIE207",
     "paper": "6",
     "topic": "4 Improvements",
     "question": "Explain why repeating each experiment is an improvement",
@@ -1676,7 +1975,7 @@
     ]
   },
   {
-    "id": "CIE176",
+    "id": "CIE208",
     "paper": "6",
     "topic": "4 Improvements",
     "question": "Explain why hot water rather than cold water is used when dissolving",
@@ -1685,7 +1984,7 @@
     ]
   },
   {
-    "id": "CIE177",
+    "id": "CIE209",
     "paper": "6",
     "topic": "4 Improvements",
     "question": "Describe how a Bunsen burner is adjusted to make the flame as hot as possible",
@@ -1694,7 +1993,7 @@
     ]
   },
   {
-    "id": "CIE178",
+    "id": "CIE210",
     "paper": "6",
     "topic": "4 Improvements",
     "question": "Suggest why the mixture is stirred / flask is swirled",
@@ -1703,7 +2002,7 @@
     ]
   },
   {
-    "id": "CIE179",
+    "id": "CIE211",
     "paper": "6",
     "topic": "4 Improvements",
     "question": "Describe how the impurities in the residue can be removed",
@@ -1712,7 +2011,7 @@
     ]
   },
   {
-    "id": "CIE180",
+    "id": "CIE212",
     "paper": "6",
     "topic": "4 Improvements",
     "question": "Describe how the apparatus could be altered to keep temperature constant",
@@ -1721,7 +2020,7 @@
     ]
   },
   {
-    "id": "CIE181",
+    "id": "CIE213",
     "paper": "6",
     "topic": "4 Improvements",
     "question": "Describe how the apparatus could be altered so that no gas escapes",
@@ -1731,7 +2030,7 @@
     ]
   },
   {
-    "id": "CIE182",
+    "id": "CIE214",
     "paper": "6",
     "topic": "4 Improvements",
     "question": "Suggest how the magnesium ribbon should be cleaned before use",
@@ -1740,7 +2039,7 @@
     ]
   },
   {
-    "id": "CIE183",
+    "id": "CIE215",
     "paper": "6",
     "topic": "4 Improvements",
     "question": "Explain why this experiment needs to be carried out in fume cupboard",
@@ -1749,7 +2048,7 @@
     ]
   },
   {
-    "id": "CIE184",
+    "id": "CIE216",
     "paper": "6",
     "topic": "5 Lab apparatus",
     "question": "Translate: conical flask",
@@ -1758,7 +2057,7 @@
     ]
   },
   {
-    "id": "CIE185",
+    "id": "CIE217",
     "paper": "6",
     "topic": "5 Lab apparatus",
     "question": "Translate: measuring cylinder",
@@ -1768,7 +2067,7 @@
     ]
   },
   {
-    "id": "CIE186",
+    "id": "CIE218",
     "paper": "6",
     "topic": "5 Lab apparatus",
     "question": "Translate: volumetric pipette",
@@ -1778,7 +2077,7 @@
     ]
   },
   {
-    "id": "CIE187",
+    "id": "CIE219",
     "paper": "6",
     "topic": "5 Lab apparatus",
     "question": "Translate: burette",
@@ -1788,7 +2087,7 @@
     ]
   },
   {
-    "id": "CIE188",
+    "id": "CIE220",
     "paper": "6",
     "topic": "5 Lab apparatus",
     "question": "Translate: beaker",
@@ -1797,7 +2096,7 @@
     ]
   },
   {
-    "id": "CIE189",
+    "id": "CIE221",
     "paper": "6",
     "topic": "5 Lab apparatus",
     "question": "Translate: test tube",
@@ -1806,7 +2105,7 @@
     ]
   },
   {
-    "id": "CIE190",
+    "id": "CIE222",
     "paper": "6",
     "topic": "5 Lab apparatus",
     "question": "Translate: boiling tube",
@@ -1816,7 +2115,7 @@
     ]
   },
   {
-    "id": "CIE191",
+    "id": "CIE223",
     "paper": "6",
     "topic": "5 Lab apparatus",
     "question": "Translate: water bath",
@@ -1826,7 +2125,7 @@
     ]
   },
   {
-    "id": "CIE192",
+    "id": "CIE224",
     "paper": "6",
     "topic": "5 Lab apparatus",
     "question": "Translate: glass rod",
@@ -1836,7 +2135,7 @@
     ]
   },
   {
-    "id": "CIE193",
+    "id": "CIE225",
     "paper": "6",
     "topic": "5 Lab apparatus",
     "question": "Translate: condenser",
@@ -1845,7 +2144,7 @@
     ]
   },
   {
-    "id": "CIE194",
+    "id": "CIE226",
     "paper": "6",
     "topic": "5 Lab apparatus",
     "question": "Translate: funnel",
@@ -1855,7 +2154,7 @@
     ]
   },
   {
-    "id": "CIE195",
+    "id": "CIE227",
     "paper": "6",
     "topic": "5 Lab apparatus",
     "question": "Translate: gas syringe",
@@ -1865,7 +2164,7 @@
     ]
   },
   {
-    "id": "CIE196",
+    "id": "CIE228",
     "paper": "6",
     "topic": "5 Lab apparatus",
     "question": "Translate: pestle and mortar",
@@ -1875,7 +2174,7 @@
     ]
   },
   {
-    "id": "CIE197",
+    "id": "CIE229",
     "paper": "6",
     "topic": "5 Lab apparatus",
     "question": "Translate: Bunsen burner",
@@ -1885,7 +2184,7 @@
     ]
   },
   {
-    "id": "CIE198",
+    "id": "CIE230",
     "paper": "6",
     "topic": "5 Lab apparatus",
     "question": "Translate: crucible",
@@ -1895,7 +2194,7 @@
     ]
   },
   {
-    "id": "CIE199",
+    "id": "CIE231",
     "paper": "6",
     "topic": "5 Lab apparatus",
     "question": "Translate: delivery tube",

@@ -24,16 +24,16 @@ test("server-renders the Exam Recall Trainer", async () => {
   assert.match(html, /Clear all/);
   assert.equal((html.match(/type="checkbox"/g) ?? []).length, 16);
   assert.match(html, />ALL</);
-  assert.match(html, /10(?:<!-- -->)? questions selected from (?:<!-- -->)?199(?:<!-- -->)? available/);
-  assert.match(html, /199/);
+  assert.match(html, /10(?:<!-- -->)? questions selected from (?:<!-- -->)?231(?:<!-- -->)? available/);
+  assert.match(html, /231/);
   assert.doesNotMatch(html, /codex-preview|SkeletonPreview|react-loading-skeleton/);
 });
 
 test("question data is generated from the complete Excel bank", async () => {
   const data = JSON.parse(await readFile(new URL("../app/data/question-bank.json", import.meta.url), "utf8"));
-  assert.equal(data.length, 199);
+  assert.equal(data.length, 231);
   assert.equal(data[0].id, "CIE001");
-  assert.equal(data.at(-1).id, "CIE199");
+  assert.equal(data.at(-1).id, "CIE231");
   assert.deepEqual(new Set(data.map((item) => item.paper)), new Set(["4", "6"]));
   assert.ok(data.every((item) => item.topic && item.question && item.answers.length));
 });
@@ -42,6 +42,6 @@ test("Cloudflare Pages output includes the app shell and refresh fallback", asyn
   const html = await readFile(new URL("../dist/client/index.html", import.meta.url), "utf8");
   const redirects = await readFile(new URL("../dist/client/_redirects", import.meta.url), "utf8");
   assert.match(html, /Exam Recall Trainer/);
-  assert.match(html, /199/);
+  assert.match(html, /231/);
   assert.equal(redirects, "/* /index.html 200\n");
 });
