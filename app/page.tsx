@@ -36,6 +36,25 @@ function BrandBar({ onHome }: { onHome: () => void }) {
   );
 }
 
+function SiteFooter() {
+  return (
+    <footer className="site-footer">
+      <div className="footer-inner">
+        <p className="footer-copyright">© 2026 Adam SUN</p>
+        <div className="footer-product">
+          <strong>IGCSE Exam Recall Trainer</strong>
+          <span>Created by Adam SUN</span>
+        </div>
+        <address className="footer-contact">
+          <strong>Contact:</strong>
+          <span>WeChat: carbon37558</span>
+          <a href="mailto:adam51538@hotmail.com">Email: adam51538@hotmail.com</a>
+        </address>
+      </div>
+    </footer>
+  );
+}
+
 export default function Home() {
   const [screen, setScreen] = useState<Screen>("setup");
   const [paper, setPaper] = useState("all");
@@ -244,6 +263,8 @@ export default function Home() {
           </div>
         </section>
       )}
+
+      <SiteFooter />
     </main>
   );
 }

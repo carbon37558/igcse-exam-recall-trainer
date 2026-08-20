@@ -26,6 +26,9 @@ test("server-renders the Exam Recall Trainer", async () => {
   assert.match(html, />ALL</);
   assert.match(html, /10(?:<!-- -->)? questions selected from (?:<!-- -->)?231(?:<!-- -->)? available/);
   assert.match(html, /231/);
+  assert.match(html, /© 2026 Adam SUN/);
+  assert.match(html, /Created by Adam SUN/);
+  assert.match(html, /adam51538@hotmail\.com/);
   assert.doesNotMatch(html, /codex-preview|SkeletonPreview|react-loading-skeleton/);
 });
 
@@ -38,6 +41,7 @@ test("question data is generated from the complete Excel bank", async () => {
   assert.ok(data.every((item) => item.topic && item.question && item.answers.length));
   assert.ok(data.some((item) => item.answers.includes("Anode: 4OH⁻ → O₂ + 2H₂O + 4e⁻")));
   assert.ok(data.some((item) => item.answers.includes("Cathode: Al³⁺ + 3e⁻ → Al")));
+  assert.deepEqual(data.find((item) => item.id === "CIE031")?.answers, ["Cu forms Cu²⁺, which goes into the solution"]);
 });
 
 test("Cloudflare Pages output includes the app shell and refresh fallback", async () => {

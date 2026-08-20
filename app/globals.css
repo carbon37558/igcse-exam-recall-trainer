@@ -23,7 +23,7 @@ body {
 button, select, input { font: inherit; }
 button, select, input, a { -webkit-tap-highlight-color: transparent; }
 
-.shell { min-height: 100vh; }
+.shell { min-height: 100vh; display: flex; flex-direction: column; }
 .brandbar {
   min-height: 72px;
   padding: 16px clamp(20px, 5vw, 72px);
@@ -128,6 +128,14 @@ fieldset { border: 0; margin: 22px 0 0; padding: 0; }
 .review-button span { min-width: 28px; padding: 3px 7px; border-radius: 99px; background: rgba(255,255,255,.17); }
 .secondary-button { padding: 14px 18px; border: 1px solid #b8c1bd; border-radius: 11px; background: transparent; color: var(--ink); font-weight: 700; cursor: pointer; }
 
+.site-footer { margin-top: auto; border-top: 1px solid var(--line); color: var(--muted); }
+.footer-inner { width: min(1080px, calc(100% - 40px)); margin: 0 auto; padding: 26px 0 30px; display: grid; grid-template-columns: 1fr 1.25fr 1.25fr; gap: 24px; font-size: 12px; line-height: 1.6; }
+.footer-inner p { margin: 0; }
+.footer-product, .footer-contact { display: flex; flex-direction: column; }
+.footer-product strong, .footer-contact strong { color: var(--ink); font-style: normal; }
+.footer-contact { margin: 0; font-style: normal; }
+.footer-contact a { width: fit-content; color: inherit; text-decoration-color: #a9b3ae; text-underline-offset: 3px; overflow-wrap: anywhere; }
+
 @media (max-width: 760px) {
   .brandbar { min-height: 64px; padding: 13px 18px; }
   .brand { font-size: 14px; }
@@ -148,6 +156,7 @@ fieldset { border: 0; margin: 22px 0 0; padding: 0; }
   .score-grid { grid-template-columns: 1fr; }
   .score-card { min-height: 118px; display: grid; grid-template-columns: 1fr auto; align-items: center; }
   .score-card strong { margin: 0; grid-row: 1 / span 2; grid-column: 2; }
+  .footer-inner { width: min(100% - 36px, 560px); padding: 24px 0 28px; grid-template-columns: 1fr; gap: 14px; }
 }
 
 @media (prefers-reduced-motion: reduce) {
