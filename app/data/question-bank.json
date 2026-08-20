@@ -1200,7 +1200,7 @@
     "answers": [
       "Same general formula",
       "Same functional group",
-      "Differ from one member to the next by -CH2-",
+      "Differ from one member to the next by -CH₂-",
       "Similar chemical properties",
       "Trend in physical properties"
     ]
@@ -1285,7 +1285,7 @@
     "question": "State the conditions used in cracking",
     "answers": [
       "High temperature",
-      "Al2O3 catalyst"
+      "Al₂O₃ catalyst"
     ]
   },
   {
@@ -1746,6 +1746,162 @@
     "question": "Explain why this experiment needs to be carried out in fume cupboard",
     "answers": [
       "Gas is toxic"
+    ]
+  },
+  {
+    "id": "CIE184",
+    "paper": "6",
+    "topic": "5 Lab apparatus",
+    "question": "Translate: conical flask",
+    "answers": [
+      "锥形瓶"
+    ]
+  },
+  {
+    "id": "CIE185",
+    "paper": "6",
+    "topic": "5 Lab apparatus",
+    "question": "Translate: measuring cylinder",
+    "answers": [
+      "量筒",
+      "Not accurate, but fast"
+    ]
+  },
+  {
+    "id": "CIE186",
+    "paper": "6",
+    "topic": "5 Lab apparatus",
+    "question": "Translate: volumetric pipette",
+    "answers": [
+      "容量移液管",
+      "Very accurate, only fixed volume"
+    ]
+  },
+  {
+    "id": "CIE187",
+    "paper": "6",
+    "topic": "5 Lab apparatus",
+    "question": "Translate: burette",
+    "answers": [
+      "滴定管",
+      "Very accurate, variable volumes"
+    ]
+  },
+  {
+    "id": "CIE188",
+    "paper": "6",
+    "topic": "5 Lab apparatus",
+    "question": "Translate: beaker",
+    "answers": [
+      "烧杯"
+    ]
+  },
+  {
+    "id": "CIE189",
+    "paper": "6",
+    "topic": "5 Lab apparatus",
+    "question": "Translate: test tube",
+    "answers": [
+      "试管"
+    ]
+  },
+  {
+    "id": "CIE190",
+    "paper": "6",
+    "topic": "5 Lab apparatus",
+    "question": "Translate: boiling tube",
+    "answers": [
+      "沸腾试管",
+      "More suitable for heating"
+    ]
+  },
+  {
+    "id": "CIE191",
+    "paper": "6",
+    "topic": "5 Lab apparatus",
+    "question": "Translate: water bath",
+    "answers": [
+      "水浴盆",
+      "To keep temperature constant"
+    ]
+  },
+  {
+    "id": "CIE192",
+    "paper": "6",
+    "topic": "5 Lab apparatus",
+    "question": "Translate: glass rod",
+    "answers": [
+      "玻璃棒",
+      "To stir, evenly mix"
+    ]
+  },
+  {
+    "id": "CIE193",
+    "paper": "6",
+    "topic": "5 Lab apparatus",
+    "question": "Translate: condenser",
+    "answers": [
+      "冷凝器"
+    ]
+  },
+  {
+    "id": "CIE194",
+    "paper": "6",
+    "topic": "5 Lab apparatus",
+    "question": "Translate: funnel",
+    "answers": [
+      "漏斗",
+      "Used for filtration"
+    ]
+  },
+  {
+    "id": "CIE195",
+    "paper": "6",
+    "topic": "5 Lab apparatus",
+    "question": "Translate: gas syringe",
+    "answers": [
+      "气体注射器",
+      "Used for gas collection"
+    ]
+  },
+  {
+    "id": "CIE196",
+    "paper": "6",
+    "topic": "5 Lab apparatus",
+    "question": "Translate: pestle and mortar",
+    "answers": [
+      "研钵和研杵",
+      "To grind into small pieces or powder"
+    ]
+  },
+  {
+    "id": "CIE197",
+    "paper": "6",
+    "topic": "5 Lab apparatus",
+    "question": "Translate: Bunsen burner",
+    "answers": [
+      "本生燃烧器",
+      "Used for heating"
+    ]
+  },
+  {
+    "id": "CIE198",
+    "paper": "6",
+    "topic": "5 Lab apparatus",
+    "question": "Translate: crucible",
+    "answers": [
+      "坩埚",
+      "Used for heating"
+    ]
+  },
+  {
+    "id": "CIE199",
+    "paper": "6",
+    "topic": "5 Lab apparatus",
+    "question": "Translate: delivery tube",
+    "answers": [
+      "输送管",
+      "To deliver gas"
     ]
   }
 ]
