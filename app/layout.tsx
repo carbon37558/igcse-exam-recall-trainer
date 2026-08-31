@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
-const title = "Exam Recall Trainer · CIE Chemistry";
-const description = "Practise Cambridge IGCSE Chemistry definitions and short-answer marking points.";
+const title = "Exam Recall Trainer";
+const description = "Practise chemistry definitions and short-answer questions against exact marking points.";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://igcse-exam-recall-trainer.pages.dev"),

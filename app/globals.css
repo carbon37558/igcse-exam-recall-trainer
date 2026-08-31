@@ -35,7 +35,9 @@ button, select, input, a { -webkit-tap-highlight-color: transparent; }
 }
 .brand { border: 0; padding: 0; background: transparent; color: inherit; display: flex; align-items: center; gap: 11px; font-weight: 700; cursor: pointer; }
 .brand-mark { width: 35px; height: 35px; display: grid; place-items: center; background: var(--ink); color: white; border-radius: 9px; font-size: 12px; letter-spacing: .08em; }
-.course-chip { color: var(--teal); border: 1px solid #9cc4bf; border-radius: 999px; padding: 7px 11px; font-size: 12px; font-weight: 700; }
+.course-selector { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 8px; }
+.course-chip { color: var(--muted); border: 1px solid #c9d1cd; border-radius: 999px; padding: 8px 12px; background: transparent; font-size: 12px; font-weight: 700; cursor: pointer; }
+.course-chip.selected { color: #176861; border-color: #79aaa4; background: #eaf5f2; }
 
 .home-grid {
   width: min(1080px, calc(100% - 40px));
@@ -137,9 +139,10 @@ fieldset { border: 0; margin: 22px 0 0; padding: 0; }
 .footer-contact a { width: fit-content; color: inherit; text-decoration-color: #a9b3ae; text-underline-offset: 3px; overflow-wrap: anywhere; }
 
 @media (max-width: 760px) {
-  .brandbar { min-height: 64px; padding: 13px 18px; }
+  .brandbar { min-height: 64px; padding: 13px 18px; align-items: flex-start; flex-direction: column; }
   .brand { font-size: 14px; }
-  .course-chip { display: none; }
+  .course-selector { width: 100%; justify-content: flex-start; }
+  .course-chip { min-height: 38px; }
   .home-grid { width: min(100% - 28px, 560px); padding: 42px 0 36px; display: block; }
   h1 { font-size: clamp(43px, 13vw, 60px); }
   .lede { margin-top: 20px; font-size: 16px; }

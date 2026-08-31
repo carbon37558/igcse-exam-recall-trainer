@@ -8,6 +8,30 @@ type Mark = "perfect" | "missing" | "wrong";
 type Result = { question: Question; mark: Mark };
 type Screen = "setup" | "recall" | "summary";
 type QuestionCount = 5 | 10 | 20 | "all";
+type CourseConfig = {
+  id: string;
+  label: string;
+  hero: string;
+  papers: string[];
+  paperLabels: Record<string, string>;
+};
+
+const courseConfigs: CourseConfig[] = [
+  {
+    id: "CIE_IGCSE_CHEM",
+    label: "CIE IGCSE CHEM",
+    hero: "Cambridge IGCSE Chemistry",
+    papers: ["4", "6"],
+    paperLabels: { "4": "Paper 4 · Theory", "6": "Paper 6 · Alternative to Practical" },
+  },
+  {
+    id: "IB_CHEM_HL",
+    label: "IB CHEM HL",
+    hero: "IB Chemistry HL",
+    papers: ["1B", "2"],
+    paperLabels: { "1B": "Paper 1B", "2": "Paper 2" },
+  },
+];
 
 const markDetails: Record<Mark, { label: string; hint: string }> = {
   perfect: { label: "Perfect", hint: "All marking points recalled" },
@@ -24,14 +48,31 @@ function shuffle<T>(items: T[]): T[] {
   return copy;
 }
 
-function BrandBar({ onHome }: { onHome: () => void }) {
+function BrandBar({ courseId, courses, onCourseChange, onHome }: {
+  courseId: string;
+  courses: CourseConfig[];
+  onCourseChange: (courseId: string) => void;
+  onHome: () => void;
+}) {
   return (
     <header className="brandbar">
       <button className="brand" type="button" onClick={onHome} aria-label="Exam Recall Trainer home">
         <span className="brand-mark">ER</span>
         <span>Exam Recall Trainer</span>
       </button>
-      <span className="course-chip">CIE Chemistry</span>
+      <nav className="course-selector" aria-label="Course">
+        {courses.map((course) => (
+          <button
+            className={`course-chip${course.id === courseId ? " selected" : ""}`}
+            type="button"
+            aria-pressed={course.id === courseId}
+            onClick={() => onCourseChange(course.id)}
+            key={course.id}
+          >
+            {course.label}
+          </button>
+        ))}
+      </nav>
     </header>
   );
 }
@@ -42,7 +83,7 @@ function SiteFooter() {
       <div className="footer-inner">
         <p className="footer-copyright">© 2026 Adam SUN</p>
         <div className="footer-product">
-          <strong>IGCSE Exam Recall Trainer</strong>
+          <strong>Exam Recall Trainer</strong>
           <span>Created by Adam SUN</span>
         </div>
         <address className="footer-contact">
@@ -56,10 +97,24 @@ function SiteFooter() {
 }
 
 export default function Home() {
+  const courses = useMemo(() => Array.from(new Set(questionBank.map((question) => question.course_id))).map((id) =>
+    courseConfigs.find((course) => course.id === id) ?? {
+      id,
+      label: id.replaceAll("_", " "),
+      hero: id.replaceAll("_", " "),
+      papers: [],
+      paperLabels: {},
+    }), []);
+  const [courseId, setCourseId] = useState(courses[0]?.id ?? "");
+  const course = courses.find((item) => item.id === courseId) ?? courses[0];
+  const courseQuestions = useMemo(
+    () => questionBank.filter((item) => item.course_id === courseId),
+    [courseId],
+  );
   const [screen, setScreen] = useState<Screen>("setup");
   const [paper, setPaper] = useState("all");
   const [selectedTopics, setSelectedTopics] = useState<string[]>(() =>
-    Array.from(new Set(questionBank.map((item) => item.topic))),
+    Array.from(new Set(questionBank.filter((item) => item.course_id === (courses[0]?.id ?? "")).map((item) => item.topic))),
   );
   const [count, setCount] = useState<QuestionCount>(10);
   const [session, setSession] = useState<Question[]>([]);
@@ -69,21 +124,41 @@ export default function Home() {
   const [isWeakReview, setIsWeakReview] = useState(false);
 
   const topics = useMemo(
-    () => Array.from(new Set(questionBank.filter((item) => paper === "all" || item.paper === paper).map((item) => item.topic))),
-    [paper],
+    () => Array.from(new Set(courseQuestions.filter((item) => paper === "all" || item.paper === paper).map((item) => item.topic))),
+    [courseQuestions, paper],
   );
   const filteredQuestions = useMemo(
-    () => questionBank.filter(
+    () => courseQuestions.filter(
       (item) => (paper === "all" || item.paper === paper) && selectedTopics.includes(item.topic),
     ),
-    [paper, selectedTopics],
+    [courseQuestions, paper, selectedTopics],
   );
+  const papers = useMemo(() => {
+    const available = Array.from(new Set(courseQuestions.map((item) => item.paper)));
+    const configured = (course?.papers ?? []).filter((item) => available.includes(item));
+    return [...configured, ...available.filter((item) => !configured.includes(item))];
+  }, [course, courseQuestions]);
 
   const changePaper = (nextPaper: string) => {
     setPaper(nextPaper);
     setSelectedTopics(Array.from(new Set(
-      questionBank.filter((item) => nextPaper === "all" || item.paper === nextPaper).map((item) => item.topic),
+      courseQuestions.filter((item) => nextPaper === "all" || item.paper === nextPaper).map((item) => item.topic),
     )));
+  };
+
+  const changeCourse = (nextCourseId: string) => {
+    const nextQuestions = questionBank.filter((item) => item.course_id === nextCourseId);
+    setCourseId(nextCourseId);
+    setPaper("all");
+    setSelectedTopics(Array.from(new Set(nextQuestions.map((item) => item.topic))));
+    setCount(10);
+    setSession([]);
+    setCurrentIndex(0);
+    setRevealed(false);
+    setResults([]);
+    setIsWeakReview(false);
+    setScreen("setup");
+    window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
   const toggleTopic = (topic: string) => {
@@ -132,15 +207,15 @@ export default function Home() {
 
   return (
     <main className="shell">
-      <BrandBar onHome={returnHome} />
+      <BrandBar courseId={courseId} courses={courses} onCourseChange={changeCourse} onHome={returnHome} />
 
       {screen === "setup" && (
         <section className="home-grid">
           <div className="intro">
-            <p className="eyebrow">Cambridge IGCSE Chemistry</p>
+            <p className="eyebrow">{course?.hero}</p>
             <h1>Recall the words<br />that earn the marks.</h1>
             <p className="lede">Practise definitions and short-answer questions against the exact marking points.</p>
-            <div className="bank-note"><strong>{questionBank.length}</strong> exam questions ready</div>
+            <div className="bank-note"><strong>{courseQuestions.length}</strong> exam questions ready</div>
           </div>
 
           <div className="setup-card">
@@ -149,8 +224,7 @@ export default function Home() {
               Paper
               <select value={paper} onChange={(event) => changePaper(event.target.value)}>
                 <option value="all">All papers</option>
-                <option value="4">Paper 4 · Theory</option>
-                <option value="6">Paper 6 · Alternative to Practical</option>
+                {papers.map((item) => <option value={item} key={item}>{course?.paperLabels[item] ?? `Paper ${item}`}</option>)}
               </select>
             </label>
             <fieldset className="topic-selector">
