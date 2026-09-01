@@ -5,7 +5,6 @@ import json
 import re
 import zipfile
 from pathlib import Path
-from typing import Optional
 from xml.etree import ElementTree as ET
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -14,43 +13,79 @@ OUTPUT = ROOT / "app" / "data" / "question-bank.json"
 NS = {"m": "http://schemas.openxmlformats.org/spreadsheetml/2006/main"}
 REL_NS = {"r": "http://schemas.openxmlformats.org/package/2006/relationships"}
 RELATIONSHIP_ID = "{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id"
-SUBSCRIPT = str.maketrans("0123456789+-", "₀₁₂₃₄₅₆₇₈₉₊₋")
-SUPERSCRIPT = str.maketrans("0123456789+-", "⁰¹²³⁴⁵⁶⁷⁸⁹⁺⁻")
-SUBSCRIPT.update(str.maketrans("aehijklmnoprstuvx", "ₐₑₕᵢⱼₖₗₘₙₒₚᵣₛₜᵤᵥₓ"))
+SCRIPT_NAMES = {"subscript": "sub", "superscript": "sup"}
 
 
-def scripted_text(text: str, script: Optional[str]) -> str:
-    if script == "subscript":
-        return text.translate(SUBSCRIPT)
-    if script == "superscript":
-        return text.translate(SUPERSCRIPT)
-    return text
+def merge_segments(segments: list[dict[str, str]]) -> list[dict[str, str]]:
+    merged = []
+    for segment in segments:
+        if not segment["text"]:
+            continue
+        if merged and merged[-1].get("script") == segment.get("script"):
+            merged[-1]["text"] += segment["text"]
+        else:
+            merged.append(segment)
+    return merged
 
 
-def rich_text(element: ET.Element) -> str:
+def rich_text(element: ET.Element) -> object:
     runs = element.findall("m:r", NS)
     if not runs:
         return "".join(node.text or "" for node in element.iterfind(".//m:t", NS))
 
-    parts = []
+    segments = []
     for run in runs:
         alignment = run.find("m:rPr/m:vertAlign", NS)
-        script = alignment.attrib.get("val") if alignment is not None else None
+        script = SCRIPT_NAMES.get(alignment.attrib.get("val")) if alignment is not None else None
         text = "".join(node.text or "" for node in run.iterfind("m:t", NS))
-        parts.append(scripted_text(text, script))
-    return "".join(parts)
+        segment = {"text": text}
+        if script:
+            segment["script"] = script
+        segments.append(segment)
+    segments = merge_segments(segments)
+    plain_text = "".join(segment["text"] for segment in segments)
+    if not any(segment.get("script") for segment in segments):
+        return plain_text
+    return {"text": plain_text, "segments": segments}
 
 
-def convert_script_markup(text: str) -> str:
-    """Convert explicit plain-text notation such as H_2O and SO_4^2-."""
+def convert_script_markup(text: str) -> object:
+    """Preserve explicit plain-text notation such as H_2O and SO_4^2-."""
 
-    def replace(match: re.Match[str]) -> str:
-        value = match.group(2) or match.group(3)
-        table = SUBSCRIPT if match.group(1) == "_" else SUPERSCRIPT
-        converted = value.translate(table)
-        return converted if all(character in "0123456789+-" for character in value) else match.group(0)
+    pattern = re.compile(r"([_^])(?:\{([^{}]+)\}|([0-9+-]+))")
+    segments = []
+    position = 0
+    for match in pattern.finditer(text):
+        if match.start() > position:
+            segments.append({"text": text[position:match.start()]})
+        segments.append({
+            "text": match.group(2) or match.group(3),
+            "script": "sub" if match.group(1) == "_" else "sup",
+        })
+        position = match.end()
+    if not segments:
+        return text
+    if position < len(text):
+        segments.append({"text": text[position:]})
+    segments = merge_segments(segments)
+    return {"text": "".join(segment["text"] for segment in segments), "segments": segments}
 
-    return re.sub(r"([_^])(?:\{([^{}]+)\}|([0-9+-]+))", replace, text)
+
+def plain_text(value: object) -> str:
+    if isinstance(value, dict):
+        return str(value["text"])
+    return str(value or "")
+
+
+def display_text(value: object) -> object:
+    if isinstance(value, dict):
+        segments = [dict(segment) for segment in value["segments"]]
+        if segments:
+            segments[0]["text"] = segments[0]["text"].lstrip()
+            segments[-1]["text"] = segments[-1]["text"].rstrip()
+        segments = merge_segments(segments)
+        return {"text": "".join(segment["text"] for segment in segments), "segments": segments}
+    return convert_script_markup(str(value or "").strip())
 
 
 def column_index(reference: str) -> int:
@@ -113,29 +148,54 @@ def build_question_bank(path: Path) -> list[dict[str, object]]:
     for course_id, rows in load_sheets(path):
         if not rows:
             continue
-        headers = [str(value or "").strip() for value in rows[0]]
+        headers = [plain_text(value).strip() for value in rows[0]]
         if not required.issubset(headers):
             raise SystemExit(f"{course_id}: Missing required columns: {sorted(required - set(headers))}")
         answer_columns = [header for header in headers if re.fullmatch(r"answer_\d+", header)]
         for values in rows[1:]:
             values += [None] * (len(headers) - len(values))
             record = dict(zip(headers, values))
-            if not any(str(value or "").strip() for value in record.values()):
+            if not any(plain_text(value).strip() for value in record.values()):
                 continue
             question = {
                 "course_id": course_id,
-                "id": str(record["id"] or "").strip(),
-                "paper": str(record["paper"] or "").strip(),
-                "topic": str(record["topic"] or "").strip(),
-                "question": convert_script_markup(str(record["question"] or "").strip()),
-                "answers": [convert_script_markup(str(record[column]).strip()) for column in answer_columns if record.get(column)],
+                "id": plain_text(record["id"]).strip(),
+                "paper": plain_text(record["paper"]).strip(),
+                "topic": plain_text(record["topic"]).strip(),
+                "question": display_text(record["question"]),
+                "answers": [display_text(record[column]) for column in answer_columns if plain_text(record.get(column)).strip()],
             }
-            if not question["id"] or not question["paper"] or not question["topic"] or not question["question"] or not question["answers"]:
+            if not question["id"] or not question["paper"] or not question["topic"] or not plain_text(question["question"]) or not question["answers"]:
                 raise SystemExit(f"{course_id}: Incomplete question row: {question['id'] or '(missing id)'}")
             questions.append(question)
     if len({question["id"] for question in questions}) != len(questions):
         raise SystemExit("Question IDs must be unique across all courses")
     return questions
+
+
+def audit_rich_text(path: Path) -> list[dict[str, object]]:
+    audit = []
+    for course_id, rows in load_sheets(path):
+        if not rows:
+            continue
+        headers = [plain_text(value).strip() for value in rows[0]]
+        for row_number, values in enumerate(rows[1:], start=2):
+            values += [None] * (len(headers) - len(values))
+            record = dict(zip(headers, values))
+            question_id = plain_text(record.get("id")).strip()
+            for field, value in record.items():
+                if isinstance(value, dict):
+                    scripted = [segment for segment in value["segments"] if segment.get("script")]
+                    if scripted:
+                        audit.append({
+                            "course_id": course_id,
+                            "row": row_number,
+                            "id": question_id,
+                            "field": field,
+                            "text": value["text"],
+                            "scripted_segments": scripted,
+                        })
+    return audit
 
 
 if __name__ == "__main__":

@@ -8,6 +8,10 @@ type Mark = "perfect" | "missing" | "wrong";
 type Result = { question: Question; mark: Mark };
 type Screen = "setup" | "recall" | "summary";
 type QuestionCount = 5 | 10 | 20 | "all";
+type ScientificValue = string | {
+  text: string;
+  segments: Array<{ text: string; script?: "sub" | "sup" }>;
+};
 type CourseConfig = {
   id: string;
   label: string;
@@ -46,6 +50,15 @@ function shuffle<T>(items: T[]): T[] {
     [copy[index], copy[swapIndex]] = [copy[swapIndex], copy[index]];
   }
   return copy;
+}
+
+function ScientificText({ value }: { value: ScientificValue }) {
+  if (typeof value === "string") return value;
+  return value.segments.map((segment, index) => {
+    if (segment.script === "sub") return <sub key={index}>{segment.text}</sub>;
+    if (segment.script === "sup") return <sup key={index}>{segment.text}</sup>;
+    return segment.text;
+  });
 }
 
 function BrandBar({ courseId, courses, onCourseChange, onHome }: {
@@ -279,7 +292,7 @@ export default function Home() {
           <article className="question-card" aria-live="polite">
             <div className="question-meta"><span>Paper {current.paper}</span><span>{current.topic}</span></div>
             <p className="question-label">Question</p>
-            <h2>{current.question}</h2>
+            <h2><ScientificText value={current.question as ScientificValue} /></h2>
 
             {!revealed ? (
               <div className="recall-prompt">
@@ -289,7 +302,7 @@ export default function Home() {
             ) : (
               <div className="answer-panel">
                 <p className="answer-heading">Marking points</p>
-                <ol>{current.answers.map((answer, index) => <li key={`${current.id}-${index}`}><span>{answer}</span></li>)}</ol>
+                <ol>{current.answers.map((answer, index) => <li key={`${current.id}-${index}`}><span><ScientificText value={answer as ScientificValue} /></span></li>)}</ol>
               </div>
             )}
           </article>

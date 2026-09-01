@@ -22,6 +22,7 @@ body {
 
 button, select, input { font: inherit; }
 button, select, input, a { -webkit-tap-highlight-color: transparent; }
+sub, sup { font-size: .72em; line-height: 0; }
 
 .shell { min-height: 100vh; display: flex; flex-direction: column; }
 .brandbar {

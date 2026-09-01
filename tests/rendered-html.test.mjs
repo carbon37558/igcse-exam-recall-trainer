@@ -2,6 +2,9 @@ import assert from "node:assert/strict";
 import { readFile } from "node:fs/promises";
 import test from "node:test";
 
+const valueText = (value) => typeof value === "string" ? value : value.text;
+const scriptedSegments = (value) => typeof value === "string" ? [] : value.segments.filter((segment) => segment.script);
+
 async function render() {
   const workerUrl = new URL("../dist/server/index.js", import.meta.url);
   workerUrl.searchParams.set("test", `${process.pid}-${Date.now()}`);
@@ -46,11 +49,29 @@ test("question data is generated from the complete Excel bank", async () => {
   assert.deepEqual(new Set(data.filter((item) => item.course_id === "IB_CHEM_HL").map((item) => item.paper)), new Set(["1B", "2"]));
   assert.equal(data.filter((item) => item.course_id === "CIE_IGCSE_CHEM").length, 231);
   assert.equal(data.filter((item) => item.course_id === "IB_CHEM_HL").length, 88);
-  assert.ok(data.every((item) => item.topic && item.question && item.answers.length));
-  assert.ok(data.some((item) => item.answers.includes("Anode: 4OH⁻ → O₂ + 2H₂O + 4e⁻")));
-  assert.ok(data.some((item) => item.answers.includes("Cathode: Al³⁺ + 3e⁻ → Al")));
-  assert.deepEqual(data.find((item) => item.id === "CIE031")?.answers, ["Cu forms Cu²⁺, which goes into the solution"]);
-  assert.ok(data.some((item) => item.course_id === "IB_CHEM_HL" && item.answers.some((answer) => answer.includes("Eₐ"))));
+  assert.ok(data.every((item) => item.topic && valueText(item.question) && item.answers.length));
+
+  const waterEquation = data.find((item) => item.id === "CIE037").answers[0];
+  assert.equal(valueText(waterEquation), "Anode: 4OH- → O2 + 2H2O + 4e-");
+  assert.deepEqual(scriptedSegments(waterEquation), [
+    { text: "-", script: "sup" },
+    { text: "2", script: "sub" },
+    { text: "2", script: "sub" },
+    { text: "-", script: "sup" },
+  ]);
+
+  const aluminiumEquation = data.find((item) => item.id === "CIE133").answers[1];
+  assert.equal(valueText(aluminiumEquation), "Cathode: Al3+ + 3e- → Al");
+  assert.deepEqual(scriptedSegments(aluminiumEquation), [
+    { text: "3+", script: "sup" },
+    { text: "-", script: "sup" },
+  ]);
+
+  assert.deepEqual(scriptedSegments(data.find((item) => item.id === "IBHL053").question), [{ text: "N", script: "sub" }]);
+  assert.deepEqual(scriptedSegments(data.find((item) => item.id === "IBHL030").question), [{ text: "f", script: "sub" }]);
+  assert.deepEqual(scriptedSegments(data.find((item) => item.id === "IBHL055").answers[1]), [{ text: "N", script: "sub" }]);
+  assert.deepEqual(scriptedSegments(data.find((item) => item.id === "IBHL045").answers[1]), [{ text: "−", script: "sup" }]);
+  assert.equal(valueText(data.find((item) => item.id === "CIE038").answers[0]), "2H2 + O2 → 2H2O");
 });
 
 test("Cloudflare Pages output includes the app shell and refresh fallback", async () => {

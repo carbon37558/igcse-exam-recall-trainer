@@ -321,7 +321,21 @@
     "topic": "4 Electrolysis",
     "question": "Explain why mass of anode decreases when using copper electrodes",
     "answers": [
-      "Cu forms Cu²⁺, which goes into the solution"
+      {
+        "text": "Cu forms Cu2+, which goes into the solution",
+        "segments": [
+          {
+            "text": "Cu forms Cu"
+          },
+          {
+            "text": "2+",
+            "script": "sup"
+          },
+          {
+            "text": ", which goes into the solution"
+          }
+        ]
+      }
     ]
   },
   {
@@ -376,8 +390,47 @@
     "topic": "4 Electrolysis",
     "question": "Write half equations for electrolysis of copper (II) sulfate solution using copper electrodes",
     "answers": [
-      "Anode: Cu → Cu²⁺ + 2e⁻",
-      "Cathode: Cu²⁺ + 2e⁻ → Cu"
+      {
+        "text": "Anode: Cu → Cu2+ + 2e-",
+        "segments": [
+          {
+            "text": "Anode: Cu → Cu"
+          },
+          {
+            "text": "2+",
+            "script": "sup"
+          },
+          {
+            "text": " + 2e"
+          },
+          {
+            "text": "-",
+            "script": "sup"
+          }
+        ]
+      },
+      {
+        "text": "Cathode: Cu2+ + 2e- → Cu",
+        "segments": [
+          {
+            "text": "Cathode: Cu"
+          },
+          {
+            "text": "2+",
+            "script": "sup"
+          },
+          {
+            "text": " + 2e"
+          },
+          {
+            "text": "-",
+            "script": "sup"
+          },
+          {
+            "text": " → Cu"
+          }
+        ]
+      }
     ]
   },
   {
@@ -387,8 +440,61 @@
     "topic": "4 Electrolysis",
     "question": "Write half equations for electrolysis of copper (II) sulfate solution using inert electrodes",
     "answers": [
-      "Anode: 4OH⁻ → O₂ + 2H₂O + 4e⁻",
-      "Cathode: Cu²⁺ + 2e⁻ → Cu"
+      {
+        "text": "Anode: 4OH- → O2 + 2H2O + 4e-",
+        "segments": [
+          {
+            "text": "Anode: 4OH"
+          },
+          {
+            "text": "-",
+            "script": "sup"
+          },
+          {
+            "text": " → O"
+          },
+          {
+            "text": "2",
+            "script": "sub"
+          },
+          {
+            "text": " + 2H"
+          },
+          {
+            "text": "2",
+            "script": "sub"
+          },
+          {
+            "text": "O + 4e"
+          },
+          {
+            "text": "-",
+            "script": "sup"
+          }
+        ]
+      },
+      {
+        "text": "Cathode: Cu2+ + 2e- → Cu",
+        "segments": [
+          {
+            "text": "Cathode: Cu"
+          },
+          {
+            "text": "2+",
+            "script": "sup"
+          },
+          {
+            "text": " + 2e"
+          },
+          {
+            "text": "-",
+            "script": "sup"
+          },
+          {
+            "text": " → Cu"
+          }
+        ]
+      }
     ]
   },
   {
@@ -398,7 +504,35 @@
     "topic": "4 Electrolysis",
     "question": "Write balanced overall equation for hydrogen-oxygen fuel cell",
     "answers": [
-      "2H₂ + O₂ → 2H₂O"
+      {
+        "text": "2H2 + O2 → 2H2O",
+        "segments": [
+          {
+            "text": "2H"
+          },
+          {
+            "text": "2",
+            "script": "sub"
+          },
+          {
+            "text": " + O"
+          },
+          {
+            "text": "2",
+            "script": "sub"
+          },
+          {
+            "text": " → 2H"
+          },
+          {
+            "text": "2",
+            "script": "sub"
+          },
+          {
+            "text": "O"
+          }
+        ]
+      }
     ]
   },
   {
@@ -728,7 +862,42 @@
     "topic": "6 Chemical reactions",
     "question": "Write balanced equation for decomposition of hydrated copper (II) sulfate",
     "answers": [
-      "CuSO₄·5H₂O → CuSO₄ + 5H₂O"
+      {
+        "text": "CuSO4·5H2O → CuSO4 + 5H2O",
+        "segments": [
+          {
+            "text": "CuSO"
+          },
+          {
+            "text": "4",
+            "script": "sub"
+          },
+          {
+            "text": "·5H"
+          },
+          {
+            "text": "2",
+            "script": "sub"
+          },
+          {
+            "text": "O → CuSO"
+          },
+          {
+            "text": "4",
+            "script": "sub"
+          },
+          {
+            "text": " + 5H"
+          },
+          {
+            "text": "2",
+            "script": "sub"
+          },
+          {
+            "text": "O"
+          }
+        ]
+      }
     ]
   },
   {
@@ -738,7 +907,42 @@
     "topic": "6 Chemical reactions",
     "question": "Write balanced equation for decomposition of hydrated cobalt (II) chloride",
     "answers": [
-      "CoCl₂·6H₂O → CoCl₂ + 6H₂O"
+      {
+        "text": "CoCl2·6H2O → CoCl2 + 6H2O",
+        "segments": [
+          {
+            "text": "CoCl"
+          },
+          {
+            "text": "2",
+            "script": "sub"
+          },
+          {
+            "text": "·6H"
+          },
+          {
+            "text": "2",
+            "script": "sub"
+          },
+          {
+            "text": "O → CoCl"
+          },
+          {
+            "text": "2",
+            "script": "sub"
+          },
+          {
+            "text": " + 6H"
+          },
+          {
+            "text": "2",
+            "script": "sub"
+          },
+          {
+            "text": "O"
+          }
+        ]
+      }
     ]
   },
   {
@@ -748,7 +952,32 @@
     "topic": "6 Chemical reactions",
     "question": "Write balanced equation for Haber process",
     "answers": [
-      "N₂ + 3H₂ → 2NH₃"
+      {
+        "text": "N2 + 3H2 → 2NH3",
+        "segments": [
+          {
+            "text": "N"
+          },
+          {
+            "text": "2",
+            "script": "sub"
+          },
+          {
+            "text": " + 3H"
+          },
+          {
+            "text": "2",
+            "script": "sub"
+          },
+          {
+            "text": " → 2NH"
+          },
+          {
+            "text": "3",
+            "script": "sub"
+          }
+        ]
+      }
     ]
   },
   {
@@ -758,7 +987,32 @@
     "topic": "6 Chemical reactions",
     "question": "Write balanced equation for making sulfur trioxide in Contact process",
     "answers": [
-      "2SO₂ + O₂ → 2SO₃"
+      {
+        "text": "2SO2 + O2 → 2SO3",
+        "segments": [
+          {
+            "text": "2SO"
+          },
+          {
+            "text": "2",
+            "script": "sub"
+          },
+          {
+            "text": " + O"
+          },
+          {
+            "text": "2",
+            "script": "sub"
+          },
+          {
+            "text": " → 2SO"
+          },
+          {
+            "text": "3",
+            "script": "sub"
+          }
+        ]
+      }
     ]
   },
   {
@@ -926,7 +1180,39 @@
     "topic": "7 Acid base salt",
     "question": "Write balanced equation for calcium carbonate reacting with hydrochloric acid",
     "answers": [
-      "CaCO₃ + 2HCl → CaCl₂ + H₂O + CO₂"
+      {
+        "text": "CaCO3 + 2HCl → CaCl2 + H2O + CO2",
+        "segments": [
+          {
+            "text": "CaCO"
+          },
+          {
+            "text": "3",
+            "script": "sub"
+          },
+          {
+            "text": " + 2HCl → CaCl"
+          },
+          {
+            "text": "2",
+            "script": "sub"
+          },
+          {
+            "text": " + H"
+          },
+          {
+            "text": "2",
+            "script": "sub"
+          },
+          {
+            "text": "O + CO"
+          },
+          {
+            "text": "2",
+            "script": "sub"
+          }
+        ]
+      }
     ]
   },
   {
@@ -936,7 +1222,32 @@
     "topic": "7 Acid base salt",
     "question": "Write balanced equation for ammonium chloride reacting with sodium hydroxide",
     "answers": [
-      "NH₄Cl + NaOH → NaCl + H₂O + NH₃"
+      {
+        "text": "NH4Cl + NaOH → NaCl + H2O + NH3",
+        "segments": [
+          {
+            "text": "NH"
+          },
+          {
+            "text": "4",
+            "script": "sub"
+          },
+          {
+            "text": "Cl + NaOH → NaCl + H"
+          },
+          {
+            "text": "2",
+            "script": "sub"
+          },
+          {
+            "text": "O + NH"
+          },
+          {
+            "text": "3",
+            "script": "sub"
+          }
+        ]
+      }
     ]
   },
   {
@@ -1066,7 +1377,25 @@
     "topic": "8 Periodic table",
     "question": "Write balanced equation for sodium reacting with water",
     "answers": [
-      "2Na + 2H₂O → 2NaOH + H₂"
+      {
+        "text": "2Na + 2H2O → 2NaOH + H2",
+        "segments": [
+          {
+            "text": "2Na + 2H"
+          },
+          {
+            "text": "2",
+            "script": "sub"
+          },
+          {
+            "text": "O → 2NaOH + H"
+          },
+          {
+            "text": "2",
+            "script": "sub"
+          }
+        ]
+      }
     ]
   },
   {
@@ -1076,7 +1405,28 @@
     "topic": "8 Periodic table",
     "question": "Write balanced equation for sodium reacting with oxygen",
     "answers": [
-      "4Na + O₂ → 2Na₂O"
+      {
+        "text": "4Na + O2 → 2Na2O",
+        "segments": [
+          {
+            "text": "4Na + O"
+          },
+          {
+            "text": "2",
+            "script": "sub"
+          },
+          {
+            "text": " → 2Na"
+          },
+          {
+            "text": "2",
+            "script": "sub"
+          },
+          {
+            "text": "O"
+          }
+        ]
+      }
     ]
   },
   {
@@ -1086,7 +1436,39 @@
     "topic": "8 Periodic table",
     "question": "Write ionic equation for chlorine displacing bromide ion from solution",
     "answers": [
-      "Cl₂ + 2Br⁻ → Br₂ + 2Cl⁻"
+      {
+        "text": "Cl2 + 2Br- → Br2 + 2Cl-",
+        "segments": [
+          {
+            "text": "Cl"
+          },
+          {
+            "text": "2",
+            "script": "sub"
+          },
+          {
+            "text": " + 2Br"
+          },
+          {
+            "text": "-",
+            "script": "sup"
+          },
+          {
+            "text": " → Br"
+          },
+          {
+            "text": "2",
+            "script": "sub"
+          },
+          {
+            "text": " + 2Cl"
+          },
+          {
+            "text": "-",
+            "script": "sup"
+          }
+        ]
+      }
     ]
   },
   {
@@ -1096,7 +1478,39 @@
     "topic": "8 Periodic table",
     "question": "Write ionic equation for chlorine displacing iodide ion from solution",
     "answers": [
-      "Cl₂ + 2I⁻ → I₂ + 2Cl⁻"
+      {
+        "text": "Cl2 + 2I- → I2 + 2Cl-",
+        "segments": [
+          {
+            "text": "Cl"
+          },
+          {
+            "text": "2",
+            "script": "sub"
+          },
+          {
+            "text": " + 2I"
+          },
+          {
+            "text": "-",
+            "script": "sup"
+          },
+          {
+            "text": " → I"
+          },
+          {
+            "text": "2",
+            "script": "sub"
+          },
+          {
+            "text": " + 2Cl"
+          },
+          {
+            "text": "-",
+            "script": "sup"
+          }
+        ]
+      }
     ]
   },
   {
@@ -1106,7 +1520,39 @@
     "topic": "8 Periodic table",
     "question": "Write ionic equation for bromine displacing iodide ion from solution",
     "answers": [
-      "Br₂ + 2I⁻ → I₂ + 2Br⁻"
+      {
+        "text": "Br2 + 2I- → I2 + 2Br-",
+        "segments": [
+          {
+            "text": "Br"
+          },
+          {
+            "text": "2",
+            "script": "sub"
+          },
+          {
+            "text": " + 2I"
+          },
+          {
+            "text": "-",
+            "script": "sup"
+          },
+          {
+            "text": " → I"
+          },
+          {
+            "text": "2",
+            "script": "sub"
+          },
+          {
+            "text": " + 2Br"
+          },
+          {
+            "text": "-",
+            "script": "sup"
+          }
+        ]
+      }
     ]
   },
   {
@@ -1357,7 +1803,32 @@
     "topic": "9 Metals",
     "question": "Write balanced equation for magnesium reacting with cold water",
     "answers": [
-      "Mg + 2H₂O(l) → Mg(OH)₂ + H₂"
+      {
+        "text": "Mg + 2H2O(l) → Mg(OH)2 + H2",
+        "segments": [
+          {
+            "text": "Mg + 2H"
+          },
+          {
+            "text": "2",
+            "script": "sub"
+          },
+          {
+            "text": "O(l) → Mg(OH)"
+          },
+          {
+            "text": "2",
+            "script": "sub"
+          },
+          {
+            "text": " + H"
+          },
+          {
+            "text": "2",
+            "script": "sub"
+          }
+        ]
+      }
     ]
   },
   {
@@ -1367,7 +1838,25 @@
     "topic": "9 Metals",
     "question": "Write balanced equation for magnesium reacting with steam",
     "answers": [
-      "Mg + H₂O(g) → MgO + H₂"
+      {
+        "text": "Mg + H2O(g) → MgO + H2",
+        "segments": [
+          {
+            "text": "Mg + H"
+          },
+          {
+            "text": "2",
+            "script": "sub"
+          },
+          {
+            "text": "O(g) → MgO + H"
+          },
+          {
+            "text": "2",
+            "script": "sub"
+          }
+        ]
+      }
     ]
   },
   {
@@ -1377,7 +1866,25 @@
     "topic": "9 Metals",
     "question": "Write balanced equation for zinc reacting with dilute hydrochloric acid",
     "answers": [
-      "Zn + 2HCl → ZnCl₂ + H₂"
+      {
+        "text": "Zn + 2HCl → ZnCl2 + H2",
+        "segments": [
+          {
+            "text": "Zn + 2HCl → ZnCl"
+          },
+          {
+            "text": "2",
+            "script": "sub"
+          },
+          {
+            "text": " + H"
+          },
+          {
+            "text": "2",
+            "script": "sub"
+          }
+        ]
+      }
     ]
   },
   {
@@ -1387,11 +1894,104 @@
     "topic": "9 Metals",
     "question": "Write all balanced equations for extraction of iron from hematite",
     "answers": [
-      "C + O₂ → CO₂",
-      "C + CO₂ → 2CO",
-      "Fe₂O₃ + 3CO → 2Fe + 3CO₂",
-      "CaCO₃ → CaO + CO₂",
-      "CaO + SiO₂ → CaSiO₃"
+      {
+        "text": "C + O2 → CO2",
+        "segments": [
+          {
+            "text": "C + O"
+          },
+          {
+            "text": "2",
+            "script": "sub"
+          },
+          {
+            "text": " → CO"
+          },
+          {
+            "text": "2",
+            "script": "sub"
+          }
+        ]
+      },
+      {
+        "text": "C + CO2 → 2CO",
+        "segments": [
+          {
+            "text": "C + CO"
+          },
+          {
+            "text": "2",
+            "script": "sub"
+          },
+          {
+            "text": " → 2CO"
+          }
+        ]
+      },
+      {
+        "text": "Fe2O3 + 3CO → 2Fe + 3CO2",
+        "segments": [
+          {
+            "text": "Fe"
+          },
+          {
+            "text": "2",
+            "script": "sub"
+          },
+          {
+            "text": "O"
+          },
+          {
+            "text": "3",
+            "script": "sub"
+          },
+          {
+            "text": " + 3CO → 2Fe + 3CO"
+          },
+          {
+            "text": "2",
+            "script": "sub"
+          }
+        ]
+      },
+      {
+        "text": "CaCO3 → CaO + CO2",
+        "segments": [
+          {
+            "text": "CaCO"
+          },
+          {
+            "text": "3",
+            "script": "sub"
+          },
+          {
+            "text": " → CaO + CO"
+          },
+          {
+            "text": "2",
+            "script": "sub"
+          }
+        ]
+      },
+      {
+        "text": "CaO + SiO2 → CaSiO3",
+        "segments": [
+          {
+            "text": "CaO + SiO"
+          },
+          {
+            "text": "2",
+            "script": "sub"
+          },
+          {
+            "text": " → CaSiO"
+          },
+          {
+            "text": "3",
+            "script": "sub"
+          }
+        ]
+      }
     ]
   },
   {
@@ -1401,8 +2001,54 @@
     "topic": "9 Metals",
     "question": "Write half equations for extraction of aluminium from bauxite",
     "answers": [
-      "Anode: 2O²⁻ → O₂ + 4e⁻",
-      "Cathode: Al³⁺ + 3e⁻ → Al"
+      {
+        "text": "Anode: 2O2- → O2 + 4e-",
+        "segments": [
+          {
+            "text": "Anode: 2O"
+          },
+          {
+            "text": "2-",
+            "script": "sup"
+          },
+          {
+            "text": " → O"
+          },
+          {
+            "text": "2",
+            "script": "sub"
+          },
+          {
+            "text": " + 4e"
+          },
+          {
+            "text": "-",
+            "script": "sup"
+          }
+        ]
+      },
+      {
+        "text": "Cathode: Al3+ + 3e- → Al",
+        "segments": [
+          {
+            "text": "Cathode: Al"
+          },
+          {
+            "text": "3+",
+            "script": "sup"
+          },
+          {
+            "text": " + 3e"
+          },
+          {
+            "text": "-",
+            "script": "sup"
+          },
+          {
+            "text": " → Al"
+          }
+        ]
+      }
     ]
   },
   {
@@ -1510,7 +2156,25 @@
     "topic": "10 Environment",
     "question": "Write balanced equation for catalytic converter",
     "answers": [
-      "2CO + 2NO → 2CO₂ + N₂"
+      {
+        "text": "2CO + 2NO → 2CO2 + N2",
+        "segments": [
+          {
+            "text": "2CO + 2NO → 2CO"
+          },
+          {
+            "text": "2",
+            "script": "sub"
+          },
+          {
+            "text": " + N"
+          },
+          {
+            "text": "2",
+            "script": "sub"
+          }
+        ]
+      }
     ]
   },
   {
@@ -1520,7 +2184,53 @@
     "topic": "10 Environment",
     "question": "Write balanced equation for photosynthesis",
     "answers": [
-      "6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂"
+      {
+        "text": "6CO2 + 6H2O → C6H12O6 + 6O2",
+        "segments": [
+          {
+            "text": "6CO"
+          },
+          {
+            "text": "2",
+            "script": "sub"
+          },
+          {
+            "text": " + 6H"
+          },
+          {
+            "text": "2",
+            "script": "sub"
+          },
+          {
+            "text": "O → C"
+          },
+          {
+            "text": "6",
+            "script": "sub"
+          },
+          {
+            "text": "H"
+          },
+          {
+            "text": "12",
+            "script": "sub"
+          },
+          {
+            "text": "O"
+          },
+          {
+            "text": "6",
+            "script": "sub"
+          },
+          {
+            "text": " + 6O"
+          },
+          {
+            "text": "2",
+            "script": "sub"
+          }
+        ]
+      }
     ]
   },
   {
@@ -1868,7 +2578,49 @@
     "topic": "11 Organic",
     "question": "Write balanced equation for combustion of ethanol",
     "answers": [
-      "C₂H₅OH + 3O₂ → 2CO₂ + 3H₂O"
+      {
+        "text": "C2H5OH + 3O2 → 2CO2 + 3H2O",
+        "segments": [
+          {
+            "text": "C"
+          },
+          {
+            "text": "2",
+            "script": "sub"
+          },
+          {
+            "text": "H"
+          },
+          {
+            "text": "5",
+            "script": "sub"
+          },
+          {
+            "text": "OH + 3O"
+          },
+          {
+            "text": "2",
+            "script": "sub"
+          },
+          {
+            "text": " → 2CO"
+          },
+          {
+            "text": "2",
+            "script": "sub"
+          },
+          {
+            "text": " + 3H"
+          },
+          {
+            "text": "2",
+            "script": "sub"
+          },
+          {
+            "text": "O"
+          }
+        ]
+      }
     ]
   },
   {
@@ -2751,7 +3503,21 @@
     "id": "IBHL030",
     "paper": "2",
     "topic": "4 What Drives Chemical Reactions",
-    "question": "Explain how ΔH calculation based on bond enthalpy data can have different result from calculation based on ΔHf data",
+    "question": {
+      "text": "Explain how ΔH calculation based on bond enthalpy data can have different result from calculation based on ΔHf data",
+      "segments": [
+        {
+          "text": "Explain how ΔH calculation based on bond enthalpy data can have different result from calculation based on ΔH"
+        },
+        {
+          "text": "f",
+          "script": "sub"
+        },
+        {
+          "text": " data"
+        }
+      ]
+    },
     "answers": [
       "Bond enthalpy values are averages, not specific to this reaction",
       "Bond enthalpies apply to gases but this reaction involves liquids (only apply when there is ACTUAL non-gas species)"
@@ -2833,8 +3599,33 @@
     "topic": "5 How Much, How Fast, and How Far",
     "question": "Explain why the rate of reaction increases as the temperature is increased",
     "answers": [
-      "Greater proportion of particles with E>Eₐ",
-      "Area under curve when E>Eₐ increases at higher temperature",
+      {
+        "text": "Greater proportion of particles with E>Ea",
+        "segments": [
+          {
+            "text": "Greater proportion of particles with E>E"
+          },
+          {
+            "text": "a",
+            "script": "sub"
+          }
+        ]
+      },
+      {
+        "text": "Area under curve when E>Ea increases at higher temperature",
+        "segments": [
+          {
+            "text": "Area under curve when E>E"
+          },
+          {
+            "text": "a",
+            "script": "sub"
+          },
+          {
+            "text": " increases at higher temperature"
+          }
+        ]
+      },
       "Greater frequency of collision",
       "Greater kinetic energy of particles"
     ]
@@ -2924,7 +3715,21 @@
     "question": "Predict how adding a small quantity of water would affect the pH of the buffer",
     "answers": [
       "Remains constant",
-      "As [A−] : [HA] ratio is unchanged"
+      {
+        "text": "As [A−] : [HA] ratio is unchanged",
+        "segments": [
+          {
+            "text": "As [A"
+          },
+          {
+            "text": "−",
+            "script": "sup"
+          },
+          {
+            "text": "] : [HA] ratio is unchanged"
+          }
+        ]
+      }
     ]
   },
   {
@@ -2934,9 +3739,58 @@
     "topic": "6 What Are the Mechanisms of Chemical Change",
     "question": "Explain how the indicator HInd, that is a weak acid, shows changes in pH using an equation",
     "answers": [
-      "HInd (aq) ⇌ H⁺ (aq) + Ind⁻ (aq)",
-      "HInd and Ind⁻ have different colors",
-      "HInd color in low pH, Ind⁻ color in high pH"
+      {
+        "text": "HInd (aq) ⇌ H+ (aq) + Ind- (aq)",
+        "segments": [
+          {
+            "text": "HInd (aq) ⇌ H"
+          },
+          {
+            "text": "+",
+            "script": "sup"
+          },
+          {
+            "text": " (aq) + Ind"
+          },
+          {
+            "text": "-",
+            "script": "sup"
+          },
+          {
+            "text": " (aq)"
+          }
+        ]
+      },
+      {
+        "text": "HInd and Ind- have different colors",
+        "segments": [
+          {
+            "text": "HInd and Ind"
+          },
+          {
+            "text": "-",
+            "script": "sup"
+          },
+          {
+            "text": " have different colors"
+          }
+        ]
+      },
+      {
+        "text": "HInd color in low pH, Ind- color in high pH",
+        "segments": [
+          {
+            "text": "HInd color in low pH, Ind"
+          },
+          {
+            "text": "-",
+            "script": "sup"
+          },
+          {
+            "text": " color in high pH"
+          }
+        ]
+      }
     ]
   },
   {
@@ -2944,7 +3798,39 @@
     "id": "IBHL047",
     "paper": "2",
     "topic": "6 What Are the Mechanisms of Chemical Change",
-    "question": "Suggest the role of KMnO₄ / K₂Cr₂O₇",
+    "question": {
+      "text": "Suggest the role of KMnO4 / K2Cr2O7",
+      "segments": [
+        {
+          "text": "Suggest the role of KMnO"
+        },
+        {
+          "text": "4",
+          "script": "sub"
+        },
+        {
+          "text": " / K"
+        },
+        {
+          "text": "2",
+          "script": "sub"
+        },
+        {
+          "text": "Cr"
+        },
+        {
+          "text": "2",
+          "script": "sub"
+        },
+        {
+          "text": "O"
+        },
+        {
+          "text": "7",
+          "script": "sub"
+        }
+      ]
+    },
     "answers": [
       "Oxidizing agent"
     ]
@@ -3006,7 +3892,21 @@
     "id": "IBHL053",
     "paper": "2",
     "topic": "6 What Are the Mechanisms of Chemical Change",
-    "question": "Outline why the reaction takes place by SN1 mechanism",
+    "question": {
+      "text": "Outline why the reaction takes place by SN1 mechanism",
+      "segments": [
+        {
+          "text": "Outline why the reaction takes place by S"
+        },
+        {
+          "text": "N",
+          "script": "sub"
+        },
+        {
+          "text": "1 mechanism"
+        }
+      ]
+    },
     "answers": [
       "Tertiary halogenoalkane"
     ]
@@ -3016,7 +3916,21 @@
     "id": "IBHL054",
     "paper": "2",
     "topic": "6 What Are the Mechanisms of Chemical Change",
-    "question": "Outline why the reaction takes place by SN2 mechanism",
+    "question": {
+      "text": "Outline why the reaction takes place by SN2 mechanism",
+      "segments": [
+        {
+          "text": "Outline why the reaction takes place by S"
+        },
+        {
+          "text": "N",
+          "script": "sub"
+        },
+        {
+          "text": "2 mechanism"
+        }
+      ]
+    },
     "answers": [
       "Primary halogenoalkane"
     ]
@@ -3026,11 +3940,60 @@
     "id": "IBHL055",
     "paper": "2",
     "topic": "6 What Are the Mechanisms of Chemical Change",
-    "question": "Explain how you might experimentally conclude whether the mechanism of a reaction is SN1 or SN2",
+    "question": {
+      "text": "Explain how you might experimentally conclude whether the mechanism of a reaction is SN1 or SN2",
+      "segments": [
+        {
+          "text": "Explain how you might experimentally conclude whether the mechanism of a reaction is S"
+        },
+        {
+          "text": "N",
+          "script": "sub"
+        },
+        {
+          "text": "1 or S"
+        },
+        {
+          "text": "N",
+          "script": "sub"
+        },
+        {
+          "text": "2"
+        }
+      ]
+    },
     "answers": [
       "Carry out the reaction with different concentrations of the nucleophile with all other conditions unchanged",
-      "Rate varies with [nucleophile] then SN2",
-      "Rate does not vary with [nucleophile] then SN1"
+      {
+        "text": "Rate varies with [nucleophile] then SN2",
+        "segments": [
+          {
+            "text": "Rate varies with [nucleophile] then S"
+          },
+          {
+            "text": "N",
+            "script": "sub"
+          },
+          {
+            "text": "2"
+          }
+        ]
+      },
+      {
+        "text": "Rate does not vary with [nucleophile] then SN1",
+        "segments": [
+          {
+            "text": "Rate does not vary with [nucleophile] then S"
+          },
+          {
+            "text": "N",
+            "script": "sub"
+          },
+          {
+            "text": "1"
+          }
+        ]
+      }
     ]
   },
   {
@@ -3381,7 +4344,28 @@
     "question": "Suggest how to make a (known c & v solution) from the original (known c & v solution)",
     "answers": [
       "Carry out calculation to find out volume required",
-      "Use ... cm³ volumetric pipette / burette to transfer to ... cm³ volumetric flask",
+      {
+        "text": "Use ... cm3 volumetric pipette / burette to transfer to ... cm3 volumetric flask",
+        "segments": [
+          {
+            "text": "Use ... cm"
+          },
+          {
+            "text": "3",
+            "script": "sup"
+          },
+          {
+            "text": " volumetric pipette / burette to transfer to ... cm"
+          },
+          {
+            "text": "3",
+            "script": "sup"
+          },
+          {
+            "text": " volumetric flask"
+          }
+        ]
+      },
       "Fill up to line with deionized water",
       "Stopper the flask and turn over several times to homogenize the solution"
     ]
