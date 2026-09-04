@@ -69,10 +69,13 @@ function BrandBar({ courseId, courses, onCourseChange, onHome }: {
 }) {
   return (
     <header className="brandbar">
-      <button className="brand" type="button" onClick={onHome} aria-label="Exam Recall Trainer home">
-        <span className="brand-mark">ER</span>
-        <span>Exam Recall Trainer</span>
-      </button>
+      <div className="brand-area">
+        <button className="brand" type="button" onClick={onHome} aria-label="Exam Recall Trainer home">
+          <span className="brand-mark">ER</span>
+          <span>Exam Recall Trainer</span>
+        </button>
+        <a className="lab-return" href="https://adams-lab.pages.dev/">← Adam&apos;s Lab</a>
+      </div>
       <nav className="course-selector" aria-label="Course">
         {courses.map((course) => (
           <button
@@ -94,10 +97,10 @@ function SiteFooter() {
   return (
     <footer className="site-footer">
       <div className="footer-inner">
-        <p className="footer-copyright">© 2026 Adam SUN</p>
+        <p className="footer-copyright">© 2026</p>
         <div className="footer-product">
           <strong>Exam Recall Trainer</strong>
-          <span>Created by Adam SUN</span>
+          <span>Made by Adam Sun · <a href="https://adams-lab.pages.dev/">Adam&apos;s Lab</a></span>
         </div>
         <address className="footer-contact">
           <strong>Contact:</strong>

@@ -31,8 +31,11 @@ test("server-renders the Exam Recall Trainer", async () => {
   assert.match(html, /231/);
   assert.match(html, /CIE IGCSE CHEM/);
   assert.match(html, /IB CHEM HL/);
-  assert.match(html, /© 2026 Adam SUN/);
-  assert.match(html, /Created by Adam SUN/);
+  assert.match(html, /© 2026/);
+  assert.match(html, /Made by Adam Sun · /);
+  assert.equal((html.match(/href="https:\/\/adams-lab\.pages\.dev\/"/g) ?? []).length, 2);
+  assert.match(html, /← Adam(?:&#x27;|&#39;|&apos;|')s Lab/);
+  assert.doesNotMatch(html, /Created by Adam|© 2026 Adam|target="_blank"/);
   assert.match(html, /adam51538@hotmail\.com/);
   assert.doesNotMatch(html, /codex-preview|SkeletonPreview|react-loading-skeleton/);
 });
