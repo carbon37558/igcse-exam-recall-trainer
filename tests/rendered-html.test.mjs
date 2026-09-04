@@ -42,16 +42,16 @@ test("server-renders the Exam Recall Trainer", async () => {
 
 test("question data is generated from the complete Excel bank", async () => {
   const data = JSON.parse(await readFile(new URL("../app/data/question-bank.json", import.meta.url), "utf8"));
-  assert.equal(data.length, 319);
+  assert.equal(data.length, 392);
   assert.equal(data[0].id, "CIE001");
   assert.equal(data[230].id, "CIE231");
   assert.equal(data[231].id, "IBHL001");
-  assert.equal(data.at(-1).id, "IBHL088");
+  assert.equal(data.at(-1).id, "IBHL161");
   assert.deepEqual(new Set(data.map((item) => item.course_id)), new Set(["CIE_IGCSE_CHEM", "IB_CHEM_HL"]));
   assert.deepEqual(new Set(data.filter((item) => item.course_id === "CIE_IGCSE_CHEM").map((item) => item.paper)), new Set(["4", "6"]));
   assert.deepEqual(new Set(data.filter((item) => item.course_id === "IB_CHEM_HL").map((item) => item.paper)), new Set(["1B", "2"]));
   assert.equal(data.filter((item) => item.course_id === "CIE_IGCSE_CHEM").length, 231);
-  assert.equal(data.filter((item) => item.course_id === "IB_CHEM_HL").length, 88);
+  assert.equal(data.filter((item) => item.course_id === "IB_CHEM_HL").length, 161);
   assert.ok(data.every((item) => item.topic && valueText(item.question) && item.answers.length));
 
   const waterEquation = data.find((item) => item.id === "CIE037").answers[0];
@@ -70,10 +70,10 @@ test("question data is generated from the complete Excel bank", async () => {
     { text: "-", script: "sup" },
   ]);
 
-  assert.deepEqual(scriptedSegments(data.find((item) => item.id === "IBHL053").question), [{ text: "N", script: "sub" }]);
-  assert.deepEqual(scriptedSegments(data.find((item) => item.id === "IBHL030").question), [{ text: "f", script: "sub" }]);
-  assert.deepEqual(scriptedSegments(data.find((item) => item.id === "IBHL055").answers[1]), [{ text: "N", script: "sub" }]);
-  assert.deepEqual(scriptedSegments(data.find((item) => item.id === "IBHL045").answers[1]), [{ text: "−", script: "sup" }]);
+  assert.deepEqual(scriptedSegments(data.find((item) => item.id === "IBHL124").question), [{ text: "N", script: "sub" }]);
+  assert.deepEqual(scriptedSegments(data.find((item) => item.id === "IBHL070").question), [{ text: "f", script: "sub" }]);
+  assert.deepEqual(scriptedSegments(data.find((item) => item.id === "IBHL126").answers[1]), [{ text: "N", script: "sub" }]);
+  assert.deepEqual(scriptedSegments(data.find((item) => item.id === "IBHL104").answers[1]), [{ text: "−", script: "sup" }]);
   assert.equal(valueText(data.find((item) => item.id === "CIE038").answers[0]), "2H2 + O2 → 2H2O");
 });
 

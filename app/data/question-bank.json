@@ -3235,6 +3235,52 @@
     "id": "IBHL005",
     "paper": "2",
     "topic": "1 Models of the Particulate Nature of Matter",
+    "question": "Explain why the volume of sample increases when boiling point is reached",
+    "answers": [
+      "Molecules have sufficient energy to overcome intermolecular forces",
+      "Gaseous molecules are further apart than in liquid"
+    ]
+  },
+  {
+    "course_id": "IB_CHEM_HL",
+    "id": "IBHL006",
+    "paper": "2",
+    "topic": "1 Models of the Particulate Nature of Matter",
+    "question": "Suggest reasons why atoms are no longer regarded as the indivisible units of matter",
+    "answers": [
+      "Subatomic particles (particles smaller than atoms) are discovered",
+      "Atoms can gain or lose electrons and become charged",
+      "Atoms can be split by nuclear fission"
+    ]
+  },
+  {
+    "course_id": "IB_CHEM_HL",
+    "id": "IBHL007",
+    "paper": "2",
+    "topic": "1 Models of the Particulate Nature of Matter",
+    "question": "Identify the technique used to determine the relative proportions of the isotopes",
+    "answers": [
+      "Mass spectrometry"
+    ]
+  },
+  {
+    "course_id": "IB_CHEM_HL",
+    "id": "IBHL008",
+    "paper": "2",
+    "topic": "1 Models of the Particulate Nature of Matter",
+    "question": "Suggest limitations to the model of the electron energy levels (n=...)",
+    "answers": [
+      "Does not represent subshells",
+      "Only applies to hydrogen atom",
+      "Does not take into account interaction between atoms",
+      "Does not consider probability of finding electron at different positions"
+    ]
+  },
+  {
+    "course_id": "IB_CHEM_HL",
+    "id": "IBHL009",
+    "paper": "2",
+    "topic": "1 Models of the Particulate Nature of Matter",
     "question": "State the feature of the atomic emission spectrum that may be used to find the ionization energy of the element",
     "answers": [
       "Convergence limit"
@@ -3242,7 +3288,61 @@
   },
   {
     "course_id": "IB_CHEM_HL",
-    "id": "IBHL006",
+    "id": "IBHL010",
+    "paper": "2",
+    "topic": "1 Models of the Particulate Nature of Matter",
+    "question": "Outline how the first ionization energy could be found from atomic emission spectrum",
+    "answers": [
+      "Frequency / wavelength of convergence limit is proportional to the ionization energy"
+    ]
+  },
+  {
+    "course_id": "IB_CHEM_HL",
+    "id": "IBHL011",
+    "paper": "2",
+    "topic": "1 Models of the Particulate Nature of Matter",
+    "question": "Explain why there is a large increase from the ..th to the ..th ionization energy of ...",
+    "answers": [
+      "Less shielding, electron closer to nucleus, in a lower energy level"
+    ]
+  },
+  {
+    "course_id": "IB_CHEM_HL",
+    "id": "IBHL012",
+    "paper": "2",
+    "topic": "1 Models of the Particulate Nature of Matter",
+    "question": "Outline the evidence that the electrons in a ... atom occupy ... main energy levels",
+    "answers": [
+      "Successive ionization energies",
+      "... large increases in ionization energy"
+    ]
+  },
+  {
+    "course_id": "IB_CHEM_HL",
+    "id": "IBHL013",
+    "paper": "2",
+    "topic": "1 Models of the Particulate Nature of Matter",
+    "question": "Outline why the volume occupied by sample at very high pressure is higher than the value calculated using PV = nRT",
+    "answers": [
+      "Not behaving as an ideal gas at very high pressure",
+      "Ideal gas molecules have no volume",
+      "Volume of molecules is not negligible"
+    ]
+  },
+  {
+    "course_id": "IB_CHEM_HL",
+    "id": "IBHL014",
+    "paper": "2",
+    "topic": "1 Models of the Particulate Nature of Matter",
+    "question": "State why gases become less ideal at higher pressures",
+    "answers": [
+      "Intermolecular forces no longer negligible",
+      "Volume of molecules no longer negligible"
+    ]
+  },
+  {
+    "course_id": "IB_CHEM_HL",
+    "id": "IBHL015",
     "paper": "2",
     "topic": "2 Models of Bonding and Structure",
     "question": "Describe ionic bonding",
@@ -3252,7 +3352,7 @@
   },
   {
     "course_id": "IB_CHEM_HL",
-    "id": "IBHL007",
+    "id": "IBHL016",
     "paper": "2",
     "topic": "2 Models of Bonding and Structure",
     "question": "Describe covalent bonding",
@@ -3262,7 +3362,60 @@
   },
   {
     "course_id": "IB_CHEM_HL",
-    "id": "IBHL008",
+    "id": "IBHL017",
+    "paper": "2",
+    "topic": "2 Models of Bonding and Structure",
+    "question": "Describe metallic bonding",
+    "answers": [
+      "Electrostatic attraction between positive metal ions and delocalized electrons"
+    ]
+  },
+  {
+    "course_id": "IB_CHEM_HL",
+    "id": "IBHL018",
+    "paper": "2",
+    "topic": "2 Models of Bonding and Structure",
+    "question": "Predict, with a reason, the electrical conductivity of metallic solid",
+    "answers": [
+      "High electrical conductivity",
+      "Electrons are free to move"
+    ]
+  },
+  {
+    "course_id": "IB_CHEM_HL",
+    "id": "IBHL019",
+    "paper": "2",
+    "topic": "2 Models of Bonding and Structure",
+    "question": "Predict, with a reason, the electrical conductivity of ionic solid",
+    "answers": [
+      "Low electrical conductivity",
+      "Ions are fixed in position, cannot move freely"
+    ]
+  },
+  {
+    "course_id": "IB_CHEM_HL",
+    "id": "IBHL020",
+    "paper": "2",
+    "topic": "2 Models of Bonding and Structure",
+    "question": "Outline why molten ionic compound is considered an electrolyte",
+    "answers": [
+      "Contains free ions"
+    ]
+  },
+  {
+    "course_id": "IB_CHEM_HL",
+    "id": "IBHL021",
+    "paper": "2",
+    "topic": "2 Models of Bonding and Structure",
+    "question": "Outline why metal is malleable",
+    "answers": [
+      "Layers of cations slide over each other without disrupting bonding",
+      "Metallic bonds are non-directional"
+    ]
+  },
+  {
+    "course_id": "IB_CHEM_HL",
+    "id": "IBHL022",
     "paper": "2",
     "topic": "2 Models of Bonding and Structure",
     "question": "Contrast covalent and ionic bonds based on the valence electron interactions",
@@ -3273,7 +3426,17 @@
   },
   {
     "course_id": "IB_CHEM_HL",
-    "id": "IBHL009",
+    "id": "IBHL023",
+    "paper": "2",
+    "topic": "2 Models of Bonding and Structure",
+    "question": "Describe how coordinate bonds are formed",
+    "answers": [
+      "One atom / ion donates a pair of electrons to another atom / ion"
+    ]
+  },
+  {
+    "course_id": "IB_CHEM_HL",
+    "id": "IBHL024",
     "paper": "2",
     "topic": "2 Models of Bonding and Structure",
     "question": "State the enthalpy term that characterises the strength of the bonding between the ions in an ionic solid",
@@ -3283,18 +3446,63 @@
   },
   {
     "course_id": "IB_CHEM_HL",
-    "id": "IBHL010",
+    "id": "IBHL025",
+    "paper": "2",
+    "topic": "2 Models of Bonding and Structure",
+    "question": {
+      "text": "Outline how the Lewis structure of the BeCl2 molecule differs from most Lewis structures",
+      "segments": [
+        {
+          "text": "Outline how the Lewis structure of the BeCl"
+        },
+        {
+          "text": "2",
+          "script": "sub"
+        },
+        {
+          "text": " molecule differs from most Lewis structures"
+        }
+      ]
+    },
+    "answers": [
+      "Incomplete octet / central atom does not have complete valence shell"
+    ]
+  },
+  {
+    "course_id": "IB_CHEM_HL",
+    "id": "IBHL026",
+    "paper": "2",
+    "topic": "2 Models of Bonding and Structure",
+    "question": "Describe how σ bonds are formed",
+    "answers": [
+      "Head-on / end-to-end overlap of atomic / hybridized orbitals"
+    ]
+  },
+  {
+    "course_id": "IB_CHEM_HL",
+    "id": "IBHL027",
+    "paper": "2",
+    "topic": "2 Models of Bonding and Structure",
+    "question": "Describe how π bonds are formed",
+    "answers": [
+      "Sideways overlap of parallel p orbitals"
+    ]
+  },
+  {
+    "course_id": "IB_CHEM_HL",
+    "id": "IBHL028",
     "paper": "2",
     "topic": "2 Models of Bonding and Structure",
     "question": "Explain the molecular geometry of ...",
     "answers": [
+      "... electron domains attached to central atom",
       "... bonding pairs and ... lone pairs of electrons around the central atom",
       "Takes up the orientation where there is least electrostatic repulsion"
     ]
   },
   {
     "course_id": "IB_CHEM_HL",
-    "id": "IBHL011",
+    "id": "IBHL029",
     "paper": "2",
     "topic": "2 Models of Bonding and Structure",
     "question": "State the reason why the nitrate ion contains three identical N-O bonds",
@@ -3304,7 +3512,7 @@
   },
   {
     "course_id": "IB_CHEM_HL",
-    "id": "IBHL012",
+    "id": "IBHL030",
     "paper": "2",
     "topic": "2 Models of Bonding and Structure",
     "question": "Outline, in terms of formal charge, why Lewis formula X is preferred",
@@ -3314,7 +3522,7 @@
   },
   {
     "course_id": "IB_CHEM_HL",
-    "id": "IBHL013",
+    "id": "IBHL031",
     "paper": "2",
     "topic": "2 Models of Bonding and Structure",
     "question": "Explain why (a simple covalent compound) has low melting point",
@@ -3325,7 +3533,7 @@
   },
   {
     "course_id": "IB_CHEM_HL",
-    "id": "IBHL014",
+    "id": "IBHL032",
     "paper": "2",
     "topic": "2 Models of Bonding and Structure",
     "question": "Describe what the circle in benzene ring represents in terms of bonding",
@@ -3335,7 +3543,7 @@
   },
   {
     "course_id": "IB_CHEM_HL",
-    "id": "IBHL015",
+    "id": "IBHL033",
     "paper": "2",
     "topic": "2 Models of Bonding and Structure",
     "question": "State a physical reason delocalized structure is a better representation of benzene than Kekule structure",
@@ -3346,19 +3554,42 @@
   },
   {
     "course_id": "IB_CHEM_HL",
-    "id": "IBHL016",
+    "id": "IBHL034",
     "paper": "2",
     "topic": "2 Models of Bonding and Structure",
     "question": "State a chemical reason delocalized structure is a better representation of benzene than Kekule structure",
     "answers": [
       "Does not easily undergo addition, but will undergo substitution",
       "All C-C bond energies are the same",
-      "enthalpy of hydrogenation is less exothermic than 3x that of cyclohexene"
+      "Enthalpy of hydrogenation is less exothermic than 3x that of cyclohexene"
     ]
   },
   {
     "course_id": "IB_CHEM_HL",
-    "id": "IBHL017",
+    "id": "IBHL035",
+    "paper": "2",
+    "topic": "2 Models of Bonding and Structure",
+    "question": "Explain the polarity of X-Y bond",
+    "answers": [
+      "Significant difference in electronegativity value",
+      "(Element with higher EN) partial negative charge",
+      "(Element with lower EN) partial positive charge"
+    ]
+  },
+  {
+    "course_id": "IB_CHEM_HL",
+    "id": "IBHL036",
+    "paper": "2",
+    "topic": "2 Models of Bonding and Structure",
+    "question": "Outline, giving a reason, how the C-X bond polarity changes going down group 17",
+    "answers": [
+      "Decreased polarity down the group",
+      "Electronegativity of halogen decreases"
+    ]
+  },
+  {
+    "course_id": "IB_CHEM_HL",
+    "id": "IBHL037",
     "paper": "2",
     "topic": "2 Models of Bonding and Structure",
     "question": "Outline why ... is polar",
@@ -3369,7 +3600,7 @@
   },
   {
     "course_id": "IB_CHEM_HL",
-    "id": "IBHL018",
+    "id": "IBHL038",
     "paper": "2",
     "topic": "2 Models of Bonding and Structure",
     "question": "Outline why ... is non-polar",
@@ -3379,7 +3610,7 @@
   },
   {
     "course_id": "IB_CHEM_HL",
-    "id": "IBHL019",
+    "id": "IBHL039",
     "paper": "2",
     "topic": "2 Models of Bonding and Structure",
     "question": "Outline how a hydrogen bond is formed",
@@ -3390,7 +3621,17 @@
   },
   {
     "course_id": "IB_CHEM_HL",
-    "id": "IBHL020",
+    "id": "IBHL040",
+    "paper": "2",
+    "topic": "2 Models of Bonding and Structure",
+    "question": "Outline why ... is fully miscible with water",
+    "answers": [
+      "Can form hydrogen bonds with water molecules"
+    ]
+  },
+  {
+    "course_id": "IB_CHEM_HL",
+    "id": "IBHL041",
     "paper": "2",
     "topic": "2 Models of Bonding and Structure",
     "question": "Outline why A deviates more than B from the ideal gas model",
@@ -3401,7 +3642,136 @@
   },
   {
     "course_id": "IB_CHEM_HL",
-    "id": "IBHL021",
+    "id": "IBHL042",
+    "paper": "2",
+    "topic": "2 Models of Bonding and Structure",
+    "question": "Describe the structure of graphite and explain why graphite conducts electricity",
+    "answers": [
+      "Layers of carbon atoms in a giant structure",
+      "Delocalized electrons flow along layers"
+    ]
+  },
+  {
+    "course_id": "IB_CHEM_HL",
+    "id": "IBHL043",
+    "paper": "2",
+    "topic": "2 Models of Bonding and Structure",
+    "question": {
+      "text": "Outline the differences between the bonding of carbon atoms in C60 and diamond",
+      "segments": [
+        {
+          "text": "Outline the differences between the bonding of carbon atoms in C"
+        },
+        {
+          "text": "60",
+          "script": "sub"
+        },
+        {
+          "text": " and diamond"
+        }
+      ]
+    },
+    "answers": [
+      {
+        "text": "C60 fullerene: bonded to 3 C AND diamond: bonded to 4 C",
+        "segments": [
+          {
+            "text": "C"
+          },
+          {
+            "text": "60",
+            "script": "sub"
+          },
+          {
+            "text": " fullerene: bonded to 3 C AND diamond: bonded to 4 C"
+          }
+        ]
+      },
+      {
+        "text": "C60 fullerene: sp2 AND diamond: sp3",
+        "segments": [
+          {
+            "text": "C"
+          },
+          {
+            "text": "60",
+            "script": "sub"
+          },
+          {
+            "text": " fullerene: sp"
+          },
+          {
+            "text": "2",
+            "script": "sup"
+          },
+          {
+            "text": " AND diamond: sp"
+          },
+          {
+            "text": "3",
+            "script": "sup"
+          }
+        ]
+      },
+      {
+        "text": "C60 fullerene: bond angles between 109–120° AND diamond: 109°",
+        "segments": [
+          {
+            "text": "C"
+          },
+          {
+            "text": "60",
+            "script": "sub"
+          },
+          {
+            "text": " fullerene: bond angles between 109–120° AND diamond: 109°"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "course_id": "IB_CHEM_HL",
+    "id": "IBHL044",
+    "paper": "2",
+    "topic": "2 Models of Bonding and Structure",
+    "question": {
+      "text": "Explain why C60 and diamond sublime at different temperatures and pressures",
+      "segments": [
+        {
+          "text": "Explain why C"
+        },
+        {
+          "text": "60",
+          "script": "sub"
+        },
+        {
+          "text": " and diamond sublime at different temperatures and pressures"
+        }
+      ]
+    },
+    "answers": [
+      "Diamond: giant covalent structure AND sublimes at higher temperature",
+      {
+        "text": "C60 fullerene: intermolecular forces AND sublimes at lower temperature",
+        "segments": [
+          {
+            "text": "C"
+          },
+          {
+            "text": "60",
+            "script": "sub"
+          },
+          {
+            "text": " fullerene: intermolecular forces AND sublimes at lower temperature"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "course_id": "IB_CHEM_HL",
+    "id": "IBHL045",
     "paper": "2",
     "topic": "2 Models of Bonding and Structure",
     "question": "Describe one chemical property that makes addition polymer a useful material",
@@ -3411,7 +3781,19 @@
   },
   {
     "course_id": "IB_CHEM_HL",
-    "id": "IBHL022",
+    "id": "IBHL046",
+    "paper": "2",
+    "topic": "3 Classification of Matter",
+    "question": "Deduce pieces of information about the electron configuration of (element) from its position on the periodic table / atomic number",
+    "answers": [
+      "Group ... - number of valence electrons",
+      "Period ... - number of occupied electron shells",
+      "... block - the orbitals that are highest occupied"
+    ]
+  },
+  {
+    "course_id": "IB_CHEM_HL",
+    "id": "IBHL047",
     "paper": "2",
     "topic": "3 Classification of Matter",
     "question": "Explain why the first ionization energy decreases when going down the group",
@@ -3422,7 +3804,7 @@
   },
   {
     "course_id": "IB_CHEM_HL",
-    "id": "IBHL023",
+    "id": "IBHL048",
     "paper": "2",
     "topic": "3 Classification of Matter",
     "question": "Explain why the first ionization energy increases when going across the period",
@@ -3433,7 +3815,52 @@
   },
   {
     "course_id": "IB_CHEM_HL",
-    "id": "IBHL024",
+    "id": "IBHL049",
+    "paper": "2",
+    "topic": "3 Classification of Matter",
+    "question": "Explain why the first ionization energy increases from Li (Na) to Be (Mg), but decreases from Be (Mg) to B (Al)",
+    "answers": [
+      "Nuclear charge increases",
+      "Li and Be have same subshell / shielding",
+      "Electron in B lost from p-subshell whereas that in Be lost from s-subshell",
+      "Outer electron in p-subshell experiences greater shielding"
+    ]
+  },
+  {
+    "course_id": "IB_CHEM_HL",
+    "id": "IBHL050",
+    "paper": "2",
+    "topic": "3 Classification of Matter",
+    "question": "Identify a metal, in the same period as magnesium, that does not form a basic oxide",
+    "answers": [
+      "Aluminium"
+    ]
+  },
+  {
+    "course_id": "IB_CHEM_HL",
+    "id": "IBHL051",
+    "paper": "2",
+    "topic": "3 Classification of Matter",
+    "question": "Describe the difference between the reactions of sodium and potassium with water",
+    "answers": [
+      "Sodium reaction is slower / less vigorous",
+      "Hydrogen gas does not ignite with sodium"
+    ]
+  },
+  {
+    "course_id": "IB_CHEM_HL",
+    "id": "IBHL052",
+    "paper": "2",
+    "topic": "3 Classification of Matter",
+    "question": "Predict, giving a reason, the result of reacting aqueous sodium bromide separately with iodine and chlorine",
+    "answers": [
+      "Iodine: no reaction, because iodine is less reactive than bromine",
+      "Chlorine: produces bromine, because chlorine is more reactive than bromine"
+    ]
+  },
+  {
+    "course_id": "IB_CHEM_HL",
+    "id": "IBHL053",
     "paper": "2",
     "topic": "3 Classification of Matter",
     "question": "Outline how modern chemists have improved communication when naming chemical substances",
@@ -3444,7 +3871,32 @@
   },
   {
     "course_id": "IB_CHEM_HL",
-    "id": "IBHL025",
+    "id": "IBHL054",
+    "paper": "2",
+    "topic": "3 Classification of Matter",
+    "question": {
+      "text": "Suggest why atmospheric SO3 (g) is an environmental concern",
+      "segments": [
+        {
+          "text": "Suggest why atmospheric SO"
+        },
+        {
+          "text": "3",
+          "script": "sub"
+        },
+        {
+          "text": " (g) is an environmental concern"
+        }
+      ]
+    },
+    "answers": [
+      "Reacts with water to form sulfuric acid, acid rain",
+      "Highly corrosive"
+    ]
+  },
+  {
+    "course_id": "IB_CHEM_HL",
+    "id": "IBHL055",
     "paper": "2",
     "topic": "3 Classification of Matter",
     "question": "Outline a reason why NO is a pollutant",
@@ -3456,12 +3908,68 @@
   },
   {
     "course_id": "IB_CHEM_HL",
-    "id": "IBHL026",
+    "id": "IBHL056",
+    "paper": "2",
+    "topic": "3 Classification of Matter",
+    "question": {
+      "text": "State the environmental problem caused by sulfur dioxide, SO2",
+      "segments": [
+        {
+          "text": "State the environmental problem caused by sulfur dioxide, SO"
+        },
+        {
+          "text": "2",
+          "script": "sub"
+        }
+      ]
+    },
+    "answers": [
+      "Acid rain",
+      "Smog"
+    ]
+  },
+  {
+    "course_id": "IB_CHEM_HL",
+    "id": "IBHL057",
+    "paper": "2",
+    "topic": "3 Classification of Matter",
+    "question": "Outline, in terms of its electronic structure, what identifies a transition element",
+    "answers": [
+      "Has a partially filled d sub-shell in a common oxidation state"
+    ]
+  },
+  {
+    "course_id": "IB_CHEM_HL",
+    "id": "IBHL058",
+    "paper": "2",
+    "topic": "3 Classification of Matter",
+    "question": "Contrast transition metal and group I or II metal in terms of chemical properties",
+    "answers": [
+      "Transition metals have variable oxidation states, while group I or II metals only have +1 or +2 oxidation states",
+      "Transition metals form colored compounds, while group I or II metals only form white or colorless compounds",
+      "Transition metals can act as catalysts, while group I or II metals generally do not",
+      "Transition metals generally form complex ions, while group I or II metals generally do not"
+    ]
+  },
+  {
+    "course_id": "IB_CHEM_HL",
+    "id": "IBHL059",
+    "paper": "2",
+    "topic": "3 Classification of Matter",
+    "question": "Discuss why transition elements, but not group I or group II elements, have variable oxidation states",
+    "answers": [
+      "IE values of transition elements gradually increase, AND IE values of group I & II elements show sudden rise",
+      "Further IEs of transition elements are close to second IE, so the oxidation states can vary"
+    ]
+  },
+  {
+    "course_id": "IB_CHEM_HL",
+    "id": "IBHL060",
     "paper": "2",
     "topic": "3 Classification of Matter",
     "question": "Explain why the complex is colored",
     "answers": [
-      "Ligand causes d-orbitals to split, creating ΔE",
+      "Partially filled d-orbitals, ligand causes d-orbitals to split, creating ΔE",
       "Light is absorbed as electrons transit to a higher energy level in d-d transition",
       "ΔE corresponds to light in visible region of the spectrum",
       "Color seen is complementary to the color of light absorbed"
@@ -3469,7 +3977,72 @@
   },
   {
     "course_id": "IB_CHEM_HL",
-    "id": "IBHL027",
+    "id": "IBHL061",
+    "paper": "2",
+    "topic": "3 Classification of Matter",
+    "question": {
+      "text": "Explain why a colorimeter set at a wavelength of 500 nm is not suitable to investigate reactions of Zn2+ compounds",
+      "segments": [
+        {
+          "text": "Explain why a colorimeter set at a wavelength of 500 nm is not suitable to investigate reactions of Zn"
+        },
+        {
+          "text": "2+",
+          "script": "sup"
+        },
+        {
+          "text": " compounds"
+        }
+      ]
+    },
+    "answers": [
+      {
+        "text": "Zn2+ has a complete d subshell",
+        "segments": [
+          {
+            "text": "Zn"
+          },
+          {
+            "text": "2+",
+            "script": "sup"
+          },
+          {
+            "text": " has a complete d subshell"
+          }
+        ]
+      },
+      "500nm in visible region, no absorbance will be seen"
+    ]
+  },
+  {
+    "course_id": "IB_CHEM_HL",
+    "id": "IBHL062",
+    "paper": "2",
+    "topic": "3 Classification of Matter",
+    "question": "Outline what is meant by the term “homologous series”",
+    "answers": [
+      "Same functional group",
+      "Same general formula",
+      {
+        "text": "Successive members differ by -CH2-",
+        "segments": [
+          {
+            "text": "Successive members differ by -CH"
+          },
+          {
+            "text": "2",
+            "script": "sub"
+          },
+          {
+            "text": "-"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "course_id": "IB_CHEM_HL",
+    "id": "IBHL063",
     "paper": "2",
     "topic": "3 Classification of Matter",
     "question": "Explain, in terms of the intermolecular forces present, the trend in the boiling points of the first few alkanes / alkenes",
@@ -3480,7 +4053,17 @@
   },
   {
     "course_id": "IB_CHEM_HL",
-    "id": "IBHL028",
+    "id": "IBHL064",
+    "paper": "2",
+    "topic": "3 Classification of Matter",
+    "question": "Predict an intermolecular force which would be stronger in the next member of the homologous series",
+    "answers": [
+      "London dispersion forces"
+    ]
+  },
+  {
+    "course_id": "IB_CHEM_HL",
+    "id": "IBHL065",
     "paper": "2",
     "topic": "3 Classification of Matter",
     "question": "Outline what is meant by chiral carbon atom",
@@ -3490,7 +4073,18 @@
   },
   {
     "course_id": "IB_CHEM_HL",
-    "id": "IBHL029",
+    "id": "IBHL066",
+    "paper": "2",
+    "topic": "3 Classification of Matter",
+    "question": "Outline how two enantiomers can be distinguished",
+    "answers": [
+      "Polarimeter",
+      "Rotate plane of polarized light in opposite directions"
+    ]
+  },
+  {
+    "course_id": "IB_CHEM_HL",
+    "id": "IBHL067",
     "paper": "2",
     "topic": "3 Classification of Matter",
     "question": "Outline why there are peaks at m/z values less than that of the molecular ion",
@@ -3500,7 +4094,42 @@
   },
   {
     "course_id": "IB_CHEM_HL",
-    "id": "IBHL030",
+    "id": "IBHL068",
+    "paper": "2",
+    "topic": "3 Classification of Matter",
+    "question": "Suggest why there is a small peak with m/z of M+1",
+    "answers": [
+      "Carbon-13"
+    ]
+  },
+  {
+    "course_id": "IB_CHEM_HL",
+    "id": "IBHL069",
+    "paper": "2",
+    "topic": "3 Classification of Matter",
+    "question": {
+      "text": "Outline why tetramethylsilane, TMS, is often used as a reference standard in 1H NMR spectroscopy",
+      "segments": [
+        {
+          "text": "Outline why tetramethylsilane, TMS, is often used as a reference standard in "
+        },
+        {
+          "text": "1",
+          "script": "sup"
+        },
+        {
+          "text": "H NMR spectroscopy"
+        }
+      ]
+    },
+    "answers": [
+      "Signal outside range of common chemical shifts",
+      "All 12 H atoms in same environment, singlet with no splitting"
+    ]
+  },
+  {
+    "course_id": "IB_CHEM_HL",
+    "id": "IBHL070",
     "paper": "2",
     "topic": "4 What Drives Chemical Reactions",
     "question": {
@@ -3525,7 +4154,7 @@
   },
   {
     "course_id": "IB_CHEM_HL",
-    "id": "IBHL031",
+    "id": "IBHL071",
     "paper": "2",
     "topic": "4 What Drives Chemical Reactions",
     "question": "Outline advantages of using ethanol as a fuel instead of gasoline",
@@ -3538,7 +4167,20 @@
   },
   {
     "course_id": "IB_CHEM_HL",
-    "id": "IBHL032",
+    "id": "IBHL072",
+    "paper": "2",
+    "topic": "4 What Drives Chemical Reactions",
+    "question": "Discuss different ways to reduce the environmental impact of energy production from coal",
+    "answers": [
+      "Remove sulfur from coal",
+      "Add lime during combustion",
+      "Not allow sulfur oxides to be released into the environment",
+      "Reduce proportion of power produced by the combustion of coal"
+    ]
+  },
+  {
+    "course_id": "IB_CHEM_HL",
+    "id": "IBHL073",
     "paper": "2",
     "topic": "4 What Drives Chemical Reactions",
     "question": "Outline why the entropy change of the reaction is positive / negative",
@@ -3548,7 +4190,17 @@
   },
   {
     "course_id": "IB_CHEM_HL",
-    "id": "IBHL033",
+    "id": "IBHL074",
+    "paper": "2",
+    "topic": "4 What Drives Chemical Reactions",
+    "question": "Outline why you would expect the entropy change for this reaction to be quite small / zero",
+    "answers": [
+      "Same moles of gas on both sides of equation"
+    ]
+  },
+  {
+    "course_id": "IB_CHEM_HL",
+    "id": "IBHL075",
     "paper": "2",
     "topic": "4 What Drives Chemical Reactions",
     "question": "Explain the effect on the spontaneity of the reaction if the temperature was increased / decreased",
@@ -3560,7 +4212,28 @@
   },
   {
     "course_id": "IB_CHEM_HL",
-    "id": "IBHL034",
+    "id": "IBHL076",
+    "paper": "2",
+    "topic": "5 How Much, How Fast, and How Far",
+    "question": "Carbonates react with HCl and the rate can be determined by graphing the mass loss. Suggest why this method is less suitable for the reaction of Mg with HCl",
+    "answers": [
+      "Relative decrease in mass is too small"
+    ]
+  },
+  {
+    "course_id": "IB_CHEM_HL",
+    "id": "IBHL077",
+    "paper": "2",
+    "topic": "5 How Much, How Fast, and How Far",
+    "question": "Outline the requirements for a collision between reactants to yield products",
+    "answers": [
+      "Collision energy ≧ activation energy",
+      "Correct orientation / geometry"
+    ]
+  },
+  {
+    "course_id": "IB_CHEM_HL",
+    "id": "IBHL078",
     "paper": "2",
     "topic": "5 How Much, How Fast, and How Far",
     "question": "Outline why some collisions between reactant molecules do not result in a reaction occurring",
@@ -3571,7 +4244,7 @@
   },
   {
     "course_id": "IB_CHEM_HL",
-    "id": "IBHL035",
+    "id": "IBHL079",
     "paper": "2",
     "topic": "5 How Much, How Fast, and How Far",
     "question": "Describe observations which confirm that a solid, added to the reaction mixture, is acting as a catalyst",
@@ -3582,7 +4255,7 @@
   },
   {
     "course_id": "IB_CHEM_HL",
-    "id": "IBHL036",
+    "id": "IBHL080",
     "paper": "2",
     "topic": "5 How Much, How Fast, and How Far",
     "question": "Explain the action of a catalyst",
@@ -3594,7 +4267,7 @@
   },
   {
     "course_id": "IB_CHEM_HL",
-    "id": "IBHL037",
+    "id": "IBHL081",
     "paper": "2",
     "topic": "5 How Much, How Fast, and How Far",
     "question": "Explain why the rate of reaction increases as the temperature is increased",
@@ -3632,7 +4305,28 @@
   },
   {
     "course_id": "IB_CHEM_HL",
-    "id": "IBHL038",
+    "id": "IBHL082",
+    "paper": "2",
+    "topic": "5 How Much, How Fast, and How Far",
+    "question": "Suggest why experimental confirmation of the rate equation would not prove that the mechanism is correct",
+    "answers": [
+      "Different mechanisms could give same rate equation",
+      "Does not give information about what occurs after RDS"
+    ]
+  },
+  {
+    "course_id": "IB_CHEM_HL",
+    "id": "IBHL083",
+    "paper": "2",
+    "topic": "5 How Much, How Fast, and How Far",
+    "question": "Outline what is meant by dynamic equilibrium",
+    "answers": [
+      "In a closed system, the rate of the forward reaction equals the rate of the reverse reaction"
+    ]
+  },
+  {
+    "course_id": "IB_CHEM_HL",
+    "id": "IBHL084",
     "paper": "2",
     "topic": "5 How Much, How Fast, and How Far",
     "question": "State and explain what happens to equilibrium yield when pressure changes",
@@ -3643,7 +4337,7 @@
   },
   {
     "course_id": "IB_CHEM_HL",
-    "id": "IBHL039",
+    "id": "IBHL085",
     "paper": "2",
     "topic": "5 How Much, How Fast, and How Far",
     "question": "Explain why the position of equilibrium does not change when pressure changes",
@@ -3653,7 +4347,7 @@
   },
   {
     "course_id": "IB_CHEM_HL",
-    "id": "IBHL040",
+    "id": "IBHL086",
     "paper": "2",
     "topic": "5 How Much, How Fast, and How Far",
     "question": "State and explain what happens to equilibrium yield when temperature changes",
@@ -3664,7 +4358,119 @@
   },
   {
     "course_id": "IB_CHEM_HL",
-    "id": "IBHL041",
+    "id": "IBHL087",
+    "paper": "2",
+    "topic": "5 How Much, How Fast, and How Far",
+    "question": "Suggest why temperature has a very small effect on the value of this equilibrium constant",
+    "answers": [
+      "Enthalpy change is very small"
+    ]
+  },
+  {
+    "course_id": "IB_CHEM_HL",
+    "id": "IBHL088",
+    "paper": "2",
+    "topic": "5 How Much, How Fast, and How Far",
+    "question": "State how the use of a catalyst affects the position of the equilibrium",
+    "answers": [
+      "Unaffected"
+    ]
+  },
+  {
+    "course_id": "IB_CHEM_HL",
+    "id": "IBHL089",
+    "paper": "2",
+    "topic": "5 How Much, How Fast, and How Far",
+    "question": {
+      "text": "Outline what a <1 Kc value indicates about the\nextent of this reaction",
+      "segments": [
+        {
+          "text": "Outline what a <1 K"
+        },
+        {
+          "text": "c",
+          "script": "sub"
+        },
+        {
+          "text": " value indicates about the\nextent of this reaction"
+        }
+      ]
+    },
+    "answers": [
+      "Reaction hardly proceeds",
+      "Reverse reaction favored",
+      "[Reactants] > [Products]"
+    ]
+  },
+  {
+    "course_id": "IB_CHEM_HL",
+    "id": "IBHL090",
+    "paper": "2",
+    "topic": "5 How Much, How Fast, and How Far",
+    "question": {
+      "text": "Outline what a >1 Kc value indicates about the\nextent of this reaction",
+      "segments": [
+        {
+          "text": "Outline what a >1 K"
+        },
+        {
+          "text": "c",
+          "script": "sub"
+        },
+        {
+          "text": " value indicates about the\nextent of this reaction"
+        }
+      ]
+    },
+    "answers": [
+      "Reaction almost goes to completion",
+      "Forward reaction favored",
+      "[Reactants] < [Products]"
+    ]
+  },
+  {
+    "course_id": "IB_CHEM_HL",
+    "id": "IBHL091",
+    "paper": "2",
+    "topic": "6 What Are the Mechanisms of Chemical Change",
+    "question": "Outline how ... acts as a Brønsted–Lowry acid",
+    "answers": [
+      "Donates proton"
+    ]
+  },
+  {
+    "course_id": "IB_CHEM_HL",
+    "id": "IBHL092",
+    "paper": "2",
+    "topic": "6 What Are the Mechanisms of Chemical Change",
+    "question": "Outline how ... acts as a Brønsted–Lowry base",
+    "answers": [
+      "Accepts proton"
+    ]
+  },
+  {
+    "course_id": "IB_CHEM_HL",
+    "id": "IBHL093",
+    "paper": "2",
+    "topic": "6 What Are the Mechanisms of Chemical Change",
+    "question": "State the meaning of a strong Brønsted–Lowry acid / base",
+    "answers": [
+      "Fully ionizes"
+    ]
+  },
+  {
+    "course_id": "IB_CHEM_HL",
+    "id": "IBHL094",
+    "paper": "2",
+    "topic": "6 What Are the Mechanisms of Chemical Change",
+    "question": "State the meaning of a weak Brønsted–Lowry acid / base",
+    "answers": [
+      "Partially ionizes"
+    ]
+  },
+  {
+    "course_id": "IB_CHEM_HL",
+    "id": "IBHL095",
     "paper": "2",
     "topic": "6 What Are the Mechanisms of Chemical Change",
     "question": "Outline ways to distinguish between strong acid and weak acid",
@@ -3676,7 +4482,93 @@
   },
   {
     "course_id": "IB_CHEM_HL",
-    "id": "IBHL042",
+    "id": "IBHL096",
+    "paper": "2",
+    "topic": "6 What Are the Mechanisms of Chemical Change",
+    "question": "Outline how the conductivity meter distinguishes between strong acid and weak acid",
+    "answers": [
+      "Strong acid has higher conductivity due to higher ion concentration"
+    ]
+  },
+  {
+    "course_id": "IB_CHEM_HL",
+    "id": "IBHL097",
+    "paper": "2",
+    "topic": "6 What Are the Mechanisms of Chemical Change",
+    "question": "Explain why (salt) solutions are acidic / basic",
+    "answers": [
+      "(if acidic salt): salt of strong acid and weak base\n(if basic salt): salt of strong base and weak acid"
+    ]
+  },
+  {
+    "course_id": "IB_CHEM_HL",
+    "id": "IBHL098",
+    "paper": "2",
+    "topic": "6 What Are the Mechanisms of Chemical Change",
+    "question": "Predict, giving a reason, the strength of carboxylic acid",
+    "answers": [
+      "Weak acid",
+      "Organic acid, has -COOH"
+    ]
+  },
+  {
+    "course_id": "IB_CHEM_HL",
+    "id": "IBHL099",
+    "paper": "2",
+    "topic": "6 What Are the Mechanisms of Chemical Change",
+    "question": {
+      "text": "Suggest why the Kw value for pure water increases as temperature increases",
+      "segments": [
+        {
+          "text": "Suggest why the K"
+        },
+        {
+          "text": "w",
+          "script": "sub"
+        },
+        {
+          "text": " value for pure water increases as temperature increases"
+        }
+      ]
+    },
+    "answers": [
+      "Dissociation of water is endothermic"
+    ]
+  },
+  {
+    "course_id": "IB_CHEM_HL",
+    "id": "IBHL100",
+    "paper": "2",
+    "topic": "6 What Are the Mechanisms of Chemical Change",
+    "question": "State one assumption made when calculating pH of an acid",
+    "answers": [
+      {
+        "text": "[H+] from dissociation of H2O negligible",
+        "segments": [
+          {
+            "text": "[H"
+          },
+          {
+            "text": "+",
+            "script": "sup"
+          },
+          {
+            "text": "] from dissociation of H"
+          },
+          {
+            "text": "2",
+            "script": "sub"
+          },
+          {
+            "text": "O negligible"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "course_id": "IB_CHEM_HL",
+    "id": "IBHL101",
     "paper": "2",
     "topic": "6 What Are the Mechanisms of Chemical Change",
     "question": "Describe how a buffer solution could be made from (weak acid) and (strong alkali)",
@@ -3687,7 +4579,7 @@
   },
   {
     "course_id": "IB_CHEM_HL",
-    "id": "IBHL043",
+    "id": "IBHL102",
     "paper": "2",
     "topic": "6 What Are the Mechanisms of Chemical Change",
     "question": "Describe how a buffer solution could be made from (weak alkali) and (strong acid)",
@@ -3698,7 +4590,7 @@
   },
   {
     "course_id": "IB_CHEM_HL",
-    "id": "IBHL044",
+    "id": "IBHL103",
     "paper": "2",
     "topic": "6 What Are the Mechanisms of Chemical Change",
     "question": "Describe how the solutions can produce the most effective buffer",
@@ -3709,7 +4601,53 @@
   },
   {
     "course_id": "IB_CHEM_HL",
-    "id": "IBHL045",
+    "id": "IBHL104",
+    "paper": "2",
+    "topic": "6 What Are the Mechanisms of Chemical Change",
+    "question": "Referring to equilibrium, outline why adding a small volume of strong acid / base would leave the pH of the buffer solution almost unchanged",
+    "answers": [
+      {
+        "text": "Equilibrium shifts to left / right when H+ / OH- reacts with ...",
+        "segments": [
+          {
+            "text": "Equilibrium shifts to left / right when H"
+          },
+          {
+            "text": "+",
+            "script": "sup"
+          },
+          {
+            "text": " / OH"
+          },
+          {
+            "text": "-",
+            "script": "sup"
+          },
+          {
+            "text": " reacts with ..."
+          }
+        ]
+      },
+      {
+        "text": "As large excess ratio [A−] : [HA] and hence pH is almost unchanged",
+        "segments": [
+          {
+            "text": "As large excess ratio [A"
+          },
+          {
+            "text": "−",
+            "script": "sup"
+          },
+          {
+            "text": "] : [HA] and hence pH is almost unchanged"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "course_id": "IB_CHEM_HL",
+    "id": "IBHL105",
     "paper": "2",
     "topic": "6 What Are the Mechanisms of Chemical Change",
     "question": "Predict how adding a small quantity of water would affect the pH of the buffer",
@@ -3734,7 +4672,28 @@
   },
   {
     "course_id": "IB_CHEM_HL",
-    "id": "IBHL046",
+    "id": "IBHL106",
+    "paper": "2",
+    "topic": "6 What Are the Mechanisms of Chemical Change",
+    "question": "Outline why (indicator) is suitable for this titration",
+    "answers": [
+      "Endpoint / pKa of (indicator) is within vertical section of curve",
+      "Equivalence point falls within pH range of indicator"
+    ]
+  },
+  {
+    "course_id": "IB_CHEM_HL",
+    "id": "IBHL107",
+    "paper": "2",
+    "topic": "6 What Are the Mechanisms of Chemical Change",
+    "question": "Outline why ... can be used as an acid–base indicator",
+    "answers": [
+      "Conjugate acid and base pair have different colors"
+    ]
+  },
+  {
+    "course_id": "IB_CHEM_HL",
+    "id": "IBHL108",
     "paper": "2",
     "topic": "6 What Are the Mechanisms of Chemical Change",
     "question": "Explain how the indicator HInd, that is a weak acid, shows changes in pH using an equation",
@@ -3795,7 +4754,103 @@
   },
   {
     "course_id": "IB_CHEM_HL",
-    "id": "IBHL047",
+    "id": "IBHL109",
+    "paper": "2",
+    "topic": "6 What Are the Mechanisms of Chemical Change",
+    "question": "Suggest an experiment that shows that magnesium is more reactive than zinc, giving the observation that would confirm this",
+    "answers": [
+      "Put both metals in acid: Mg dissolves faster, bubbles evolve more rapidly",
+      {
+        "text": "Put Mg in Zn2+(aq): Zn forms on surface of Mg",
+        "segments": [
+          {
+            "text": "Put Mg in Zn"
+          },
+          {
+            "text": "2+",
+            "script": "sup"
+          },
+          {
+            "text": "(aq): Zn forms on surface of Mg"
+          }
+        ]
+      },
+      "Construct a cell with Mg and Zn electrodes: Size of Mg decreases, size of Zn increases"
+    ]
+  },
+  {
+    "course_id": "IB_CHEM_HL",
+    "id": "IBHL110",
+    "paper": "2",
+    "topic": "6 What Are the Mechanisms of Chemical Change",
+    "question": "State / label the essential features of the standard hydrogen electrode",
+    "answers": [
+      {
+        "text": "H2(g) at 100kPa",
+        "segments": [
+          {
+            "text": "H"
+          },
+          {
+            "text": "2",
+            "script": "sub"
+          },
+          {
+            "text": "(g) at 100kPa"
+          }
+        ]
+      },
+      {
+        "text": "1 mol dm-3 H+(aq)",
+        "segments": [
+          {
+            "text": "1 mol dm"
+          },
+          {
+            "text": "-3",
+            "script": "sup"
+          },
+          {
+            "text": " H"
+          },
+          {
+            "text": "+",
+            "script": "sup"
+          },
+          {
+            "text": "(aq)"
+          }
+        ]
+      },
+      "Pt electrode",
+      "Temperature 298K"
+    ]
+  },
+  {
+    "course_id": "IB_CHEM_HL",
+    "id": "IBHL111",
+    "paper": "2",
+    "topic": "6 What Are the Mechanisms of Chemical Change",
+    "question": "Outline why a salt bridge must be included to connect the two half cells",
+    "answers": [
+      "Balances charges / keeps each half-cell electrically neutral",
+      "Completes circuit / allows ion flow between cells"
+    ]
+  },
+  {
+    "course_id": "IB_CHEM_HL",
+    "id": "IBHL112",
+    "paper": "2",
+    "topic": "6 What Are the Mechanisms of Chemical Change",
+    "question": "Outline why electrons flow from zinc to copper when these half cells are connected with a wire",
+    "answers": [
+      "Zinc is more reactive than copper",
+      "Zinc loses electrons more easily"
+    ]
+  },
+  {
+    "course_id": "IB_CHEM_HL",
+    "id": "IBHL113",
     "paper": "2",
     "topic": "6 What Are the Mechanisms of Chemical Change",
     "question": {
@@ -3837,7 +4892,7 @@
   },
   {
     "course_id": "IB_CHEM_HL",
-    "id": "IBHL048",
+    "id": "IBHL114",
     "paper": "2",
     "topic": "6 What Are the Mechanisms of Chemical Change",
     "question": "Explain what homolytic fission means",
@@ -3848,7 +4903,7 @@
   },
   {
     "course_id": "IB_CHEM_HL",
-    "id": "IBHL049",
+    "id": "IBHL115",
     "paper": "2",
     "topic": "6 What Are the Mechanisms of Chemical Change",
     "question": "Explain what heterolytic fission means",
@@ -3859,7 +4914,7 @@
   },
   {
     "course_id": "IB_CHEM_HL",
-    "id": "IBHL050",
+    "id": "IBHL116",
     "paper": "2",
     "topic": "6 What Are the Mechanisms of Chemical Change",
     "question": "Outline how ... acts as a Lewis acid",
@@ -3869,7 +4924,7 @@
   },
   {
     "course_id": "IB_CHEM_HL",
-    "id": "IBHL051",
+    "id": "IBHL117",
     "paper": "2",
     "topic": "6 What Are the Mechanisms of Chemical Change",
     "question": "Outline how ... acts as a Lewis base",
@@ -3879,7 +4934,7 @@
   },
   {
     "course_id": "IB_CHEM_HL",
-    "id": "IBHL052",
+    "id": "IBHL118",
     "paper": "2",
     "topic": "6 What Are the Mechanisms of Chemical Change",
     "question": "Outline why alkene is susceptible to attack by molecules such as HBr",
@@ -3889,7 +4944,98 @@
   },
   {
     "course_id": "IB_CHEM_HL",
-    "id": "IBHL053",
+    "id": "IBHL119",
+    "paper": "2",
+    "topic": "6 What Are the Mechanisms of Chemical Change",
+    "question": "Describe the change when alkene is reacted with bromine",
+    "answers": [
+      "Bromine water from orange to colorless"
+    ]
+  },
+  {
+    "course_id": "IB_CHEM_HL",
+    "id": "IBHL120",
+    "paper": "2",
+    "topic": "6 What Are the Mechanisms of Chemical Change",
+    "question": "Explain which structural isomer is the major product when but-1-ene reacts with HBr",
+    "answers": [
+      "Major product: 2-bromobutane",
+      "Secondary carbocation is more stable than primary carbocation",
+      "Alkyl groups are more electron donating / have greater inductive effect"
+    ]
+  },
+  {
+    "course_id": "IB_CHEM_HL",
+    "id": "IBHL121",
+    "paper": "2",
+    "topic": "6 What Are the Mechanisms of Chemical Change",
+    "question": "State the reagent and conditions necessary to convert ethene to ethanol",
+    "answers": [
+      "Reagent: steam",
+      {
+        "text": "Condition: high temperature, high pressure, conc. H2SO4",
+        "segments": [
+          {
+            "text": "Condition: high temperature, high pressure, conc. H"
+          },
+          {
+            "text": "2",
+            "script": "sub"
+          },
+          {
+            "text": "SO"
+          },
+          {
+            "text": "4",
+            "script": "sub"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "course_id": "IB_CHEM_HL",
+    "id": "IBHL122",
+    "paper": "2",
+    "topic": "6 What Are the Mechanisms of Chemical Change",
+    "question": "State the reagent and conditions necessary to carry out esterification",
+    "answers": [
+      "Reagent: (named carboxylic acid) (named alcohol)",
+      {
+        "text": "Condition: heat under reflux, conc. H2SO4",
+        "segments": [
+          {
+            "text": "Condition: heat under reflux, conc. H"
+          },
+          {
+            "text": "2",
+            "script": "sub"
+          },
+          {
+            "text": "SO"
+          },
+          {
+            "text": "4",
+            "script": "sub"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "course_id": "IB_CHEM_HL",
+    "id": "IBHL123",
+    "paper": "2",
+    "topic": "6 What Are the Mechanisms of Chemical Change",
+    "question": "Chloroethane can be converted to ethanol. Identify the reagent and conditions necessary for this reaction to occur",
+    "answers": [
+      "Reagent: NaOH",
+      "Condition: aqueous, heat under reflux"
+    ]
+  },
+  {
+    "course_id": "IB_CHEM_HL",
+    "id": "IBHL124",
     "paper": "2",
     "topic": "6 What Are the Mechanisms of Chemical Change",
     "question": {
@@ -3913,7 +5059,7 @@
   },
   {
     "course_id": "IB_CHEM_HL",
-    "id": "IBHL054",
+    "id": "IBHL125",
     "paper": "2",
     "topic": "6 What Are the Mechanisms of Chemical Change",
     "question": {
@@ -3937,7 +5083,7 @@
   },
   {
     "course_id": "IB_CHEM_HL",
-    "id": "IBHL055",
+    "id": "IBHL126",
     "paper": "2",
     "topic": "6 What Are the Mechanisms of Chemical Change",
     "question": {
@@ -3998,7 +5144,7 @@
   },
   {
     "course_id": "IB_CHEM_HL",
-    "id": "IBHL056",
+    "id": "IBHL127",
     "paper": "2",
     "topic": "6 What Are the Mechanisms of Chemical Change",
     "question": "Predict, with a reason, a halogenoethane that would react more quickly than bromoethane",
@@ -4009,7 +5155,7 @@
   },
   {
     "course_id": "IB_CHEM_HL",
-    "id": "IBHL057",
+    "id": "IBHL128",
     "paper": "2",
     "topic": "6 What Are the Mechanisms of Chemical Change",
     "question": "Explain why iodoalkanes react faster than bromoalkanes / chloroalkanes",
@@ -4020,7 +5166,7 @@
   },
   {
     "course_id": "IB_CHEM_HL",
-    "id": "IBHL058",
+    "id": "IBHL129",
     "paper": "1B",
     "topic": "1 General Terms",
     "question": "Outline common health and safety risks in lab experiments",
@@ -4033,7 +5179,7 @@
   },
   {
     "course_id": "IB_CHEM_HL",
-    "id": "IBHL059",
+    "id": "IBHL130",
     "paper": "1B",
     "topic": "1 General Terms",
     "question": "Outline common safety precautions in labs",
@@ -4046,7 +5192,7 @@
   },
   {
     "course_id": "IB_CHEM_HL",
-    "id": "IBHL060",
+    "id": "IBHL131",
     "paper": "1B",
     "topic": "1 General Terms",
     "question": "Outline common green chemistry perspectives in labs",
@@ -4058,7 +5204,17 @@
   },
   {
     "course_id": "IB_CHEM_HL",
-    "id": "IBHL061",
+    "id": "IBHL132",
+    "paper": "1B",
+    "topic": "1 General Terms",
+    "question": "Suggest a way to reduce the random uncertainty of the answer",
+    "answers": [
+      "Repeat experiment AND take average"
+    ]
+  },
+  {
+    "course_id": "IB_CHEM_HL",
+    "id": "IBHL133",
     "paper": "1B",
     "topic": "2 Lab Apparatus",
     "question": "Suggest how the constant temperature could be easily maintained in a school laboratory",
@@ -4070,7 +5226,7 @@
   },
   {
     "course_id": "IB_CHEM_HL",
-    "id": "IBHL062",
+    "id": "IBHL134",
     "paper": "1B",
     "topic": "2 Lab Apparatus",
     "question": "State the advantage of using a burette rather than a measuring cylinder",
@@ -4080,7 +5236,7 @@
   },
   {
     "course_id": "IB_CHEM_HL",
-    "id": "IBHL063",
+    "id": "IBHL135",
     "paper": "1B",
     "topic": "2 Lab Apparatus",
     "question": "State the disadvantage of using a volumetric pipette rather than a measuring cylinder",
@@ -4090,7 +5246,7 @@
   },
   {
     "course_id": "IB_CHEM_HL",
-    "id": "IBHL064",
+    "id": "IBHL136",
     "paper": "1B",
     "topic": "2 Lab Apparatus",
     "question": "State the advantage of using a burette rather than a volumetric pipette",
@@ -4101,7 +5257,7 @@
   },
   {
     "course_id": "IB_CHEM_HL",
-    "id": "IBHL065",
+    "id": "IBHL137",
     "paper": "1B",
     "topic": "3 Separating Mixtures",
     "question": "Describe how recrystallization is carried out",
@@ -4115,7 +5271,7 @@
   },
   {
     "course_id": "IB_CHEM_HL",
-    "id": "IBHL066",
+    "id": "IBHL138",
     "paper": "1B",
     "topic": "3 Separating Mixtures",
     "question": "State the most important factor to be considered when choosing a solvent for recrystallization",
@@ -4125,7 +5281,7 @@
   },
   {
     "course_id": "IB_CHEM_HL",
-    "id": "IBHL067",
+    "id": "IBHL139",
     "paper": "1B",
     "topic": "3 Separating Mixtures",
     "question": "Outline how impurities with differing solubilities are separated from the desired product",
@@ -4136,7 +5292,7 @@
   },
   {
     "course_id": "IB_CHEM_HL",
-    "id": "IBHL068",
+    "id": "IBHL140",
     "paper": "1B",
     "topic": "3 Separating Mixtures",
     "question": "Deduce how using too much solvent would affect the product of recrystallization",
@@ -4146,7 +5302,7 @@
   },
   {
     "course_id": "IB_CHEM_HL",
-    "id": "IBHL069",
+    "id": "IBHL141",
     "paper": "1B",
     "topic": "3 Separating Mixtures",
     "question": "Deduce how using too little solvent would affect the product of recrystallization",
@@ -4156,7 +5312,7 @@
   },
   {
     "course_id": "IB_CHEM_HL",
-    "id": "IBHL070",
+    "id": "IBHL142",
     "paper": "1B",
     "topic": "3 Separating Mixtures",
     "question": "Describe how you would separate iron from other substances",
@@ -4166,7 +5322,7 @@
   },
   {
     "course_id": "IB_CHEM_HL",
-    "id": "IBHL071",
+    "id": "IBHL143",
     "paper": "1B",
     "topic": "3 Separating Mixtures",
     "question": "Describe how you would separate sand and sodium chloride",
@@ -4179,7 +5335,7 @@
   },
   {
     "course_id": "IB_CHEM_HL",
-    "id": "IBHL072",
+    "id": "IBHL144",
     "paper": "1B",
     "topic": "3 Separating Mixtures",
     "question": "Describe, with reason, how you would separate methanol and butan-1-ol",
@@ -4190,7 +5346,7 @@
   },
   {
     "course_id": "IB_CHEM_HL",
-    "id": "IBHL073",
+    "id": "IBHL145",
     "paper": "1B",
     "topic": "3 Separating Mixtures",
     "question": "Explain why it is important to seal the chamber for chromatography",
@@ -4201,7 +5357,7 @@
   },
   {
     "course_id": "IB_CHEM_HL",
-    "id": "IBHL074",
+    "id": "IBHL146",
     "paper": "1B",
     "topic": "3 Separating Mixtures",
     "question": "Explain why it is important to keep the start line horizontal when running the chromatograph",
@@ -4212,7 +5368,7 @@
   },
   {
     "course_id": "IB_CHEM_HL",
-    "id": "IBHL075",
+    "id": "IBHL147",
     "paper": "1B",
     "topic": "3 Separating Mixtures",
     "question": "Explain why it is important to keep the start line above the solvent level when running the chromatograph",
@@ -4222,7 +5378,7 @@
   },
   {
     "course_id": "IB_CHEM_HL",
-    "id": "IBHL076",
+    "id": "IBHL148",
     "paper": "1B",
     "topic": "3 Separating Mixtures",
     "question": "Explain how the separation of inks is achieved using paper chromatography",
@@ -4235,7 +5391,7 @@
   },
   {
     "course_id": "IB_CHEM_HL",
-    "id": "IBHL077",
+    "id": "IBHL149",
     "paper": "1B",
     "topic": "3 Separating Mixtures",
     "question": "The student hypothesized there were more than four coloured inks in the mixture. Suggest how the student could modify this chromatography experiment to evaluate the hypothesis",
@@ -4247,7 +5403,7 @@
   },
   {
     "course_id": "IB_CHEM_HL",
-    "id": "IBHL078",
+    "id": "IBHL150",
     "paper": "1B",
     "topic": "4 Key Experiments",
     "question": "State assumptions that are made to calculate the enthalpy of neutralization",
@@ -4258,7 +5414,7 @@
   },
   {
     "course_id": "IB_CHEM_HL",
-    "id": "IBHL079",
+    "id": "IBHL151",
     "paper": "1B",
     "topic": "4 Key Experiments",
     "question": "Suggest a change to the apparatus that would reduce heat loss for calorimetry",
@@ -4269,7 +5425,7 @@
   },
   {
     "course_id": "IB_CHEM_HL",
-    "id": "IBHL080",
+    "id": "IBHL152",
     "paper": "1B",
     "topic": "4 Key Experiments",
     "question": "Deduce sources of systematic errors for calorimetry experiments",
@@ -4281,7 +5437,7 @@
   },
   {
     "course_id": "IB_CHEM_HL",
-    "id": "IBHL081",
+    "id": "IBHL153",
     "paper": "1B",
     "topic": "4 Key Experiments",
     "question": "Suggest advantages of replacing glass cup with a polystyrene cup for calorimetry experiments",
@@ -4292,7 +5448,20 @@
   },
   {
     "course_id": "IB_CHEM_HL",
-    "id": "IBHL082",
+    "id": "IBHL154",
+    "paper": "1B",
+    "topic": "4 Key Experiments",
+    "question": "Suggest ways of reducing the percentage uncertainty in calorimetry experiment",
+    "answers": [
+      "More divisions per degree on thermometer",
+      "More precise balance",
+      "Larger temperature change",
+      "Larger quantities of water"
+    ]
+  },
+  {
+    "course_id": "IB_CHEM_HL",
+    "id": "IBHL155",
     "paper": "1B",
     "topic": "4 Key Experiments",
     "question": "For colorimetry experiment, a student started the experiment and recorded the absorbance value immediately. Suggest why this may not give a reliable result",
@@ -4302,7 +5471,7 @@
   },
   {
     "course_id": "IB_CHEM_HL",
-    "id": "IBHL083",
+    "id": "IBHL156",
     "paper": "1B",
     "topic": "4 Key Experiments",
     "question": "For colorimetry experiment, describe how the solution can be used to construct a calibration curve",
@@ -4314,7 +5483,7 @@
   },
   {
     "course_id": "IB_CHEM_HL",
-    "id": "IBHL084",
+    "id": "IBHL157",
     "paper": "1B",
     "topic": "4 Key Experiments",
     "question": "For colorimetry experiment, explain how calibration curve can be used to determine the unknown concentration",
@@ -4325,7 +5494,7 @@
   },
   {
     "course_id": "IB_CHEM_HL",
-    "id": "IBHL085",
+    "id": "IBHL158",
     "paper": "1B",
     "topic": "4 Key Experiments",
     "question": "Describe the process of preparing a standard solution from a solid using a volumetric flask",
@@ -4338,7 +5507,7 @@
   },
   {
     "course_id": "IB_CHEM_HL",
-    "id": "IBHL086",
+    "id": "IBHL159",
     "paper": "1B",
     "topic": "4 Key Experiments",
     "question": "Suggest how to make a (known c & v solution) from the original (known c & v solution)",
@@ -4372,7 +5541,7 @@
   },
   {
     "course_id": "IB_CHEM_HL",
-    "id": "IBHL087",
+    "id": "IBHL160",
     "paper": "1B",
     "topic": "4 Key Experiments",
     "question": "Evaluate the use of an indicator versus a pH probe to determine the end point of the titration",
@@ -4386,7 +5555,7 @@
   },
   {
     "course_id": "IB_CHEM_HL",
-    "id": "IBHL088",
+    "id": "IBHL161",
     "paper": "1B",
     "topic": "4 Key Experiments",
     "question": "Suggest a reason why trial 1 should not be included when finding the mean volume for titration",
